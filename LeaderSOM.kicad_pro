@@ -398,7 +398,7 @@
   "net_settings": {
     "classes": [
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -412,11 +412,11 @@
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0
+        "wire_width": 6
       }
     ],
     "meta": {
-      "version": 2
+      "version": 3
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -467,6 +467,43 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "192d0c36-944e-4927-949b-263b8c85a7ca",
+      ""
+    ],
+    [
+      "3c3cb7b2-3464-4424-b8df-3064a68eb04d",
+      "InternalCAN"
+    ],
+    [
+      "fa2783bd-2a74-4366-90d0-efc036e3ce36",
+      "UART"
+    ],
+    [
+      "48d44a6a-93f2-4d40-b0ae-ce24d0554ae2",
+      "Display"
+    ],
+    [
+      "5bc03b31-fe77-4b0c-be7c-10fb7ad1c047",
+      "USB"
+    ],
+    [
+      "8f4dac5b-9bb8-4793-8ce7-913e39731a3f",
+      "CarCAN"
+    ],
+    [
+      "54eecd34-7b2b-4895-a003-33708e7ad7e6",
+      "SDCard"
+    ],
+    [
+      "694a2ffd-1ec4-4c05-ba9b-70c92beb1660",
+      "GPIO"
+    ],
+    [
+      "07cef2e6-f2f4-4f04-bcaf-7b98b53ab0fe",
+      "Power_Distribution"
+    ]
+  ],
   "text_variables": {}
 }
