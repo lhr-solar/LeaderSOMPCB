@@ -5,4 +5,5 @@
   (lib (name "utsvt-misc")(type "Legacy")(uri "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt-misc.lib")(options "")(descr ""))
   (lib (name "utsvt-connectors")(type "Legacy")(uri "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt-connectors.lib")(options "")(descr ""))
   (lib (name "utsvt-chips")(type "Legacy")(uri "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt-chips.lib")(options "")(descr ""))
+  (lib (name "UTSVT_LeaderSOM")(type "KiCad")(uri "${KIPRJMOD}/UTSVT_LeaderSOM.kicad_sym")(options "")(descr ""))
 )

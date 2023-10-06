@@ -318,7 +318,7 @@
     (uuid fedb5357-68cc-498b-8128-cd38a7df537e)
   )
 
-  (text "From telemtry primary PCB" (at 130.175 53.975 0)
+  (text "From telemetry primary PCB" (at 137.795 56.515 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 853b29ed-f97f-4542-88f8-3b7069944e6a)
   )
