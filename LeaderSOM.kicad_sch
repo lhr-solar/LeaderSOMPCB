@@ -2587,8 +2587,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 30b9fdb8-4cda-4335-b79d-ed1781074a88)
   )
-  (text "USART3_Rx and PC9 can be used as I2C2.\n\nUSART3_Rx->I2C2SCL\n\nPC9->I2C2SDA\n\nPC8 connected to SD Card DET, It is broken out still so if you\nwant to use the DET pin just make sure"
-    (at 309.88 97.155 0)
+  (text "USART3_Rx and PC9 can be used as I2C2.\n\nUSART3_Rx->I2C2SCL\n\nPC9->I2C2SDA\n\nPC8 connected to SD Card DET, It is broken out still so if you\nwant to use the DET pin just make sure you are aware\n"
+    (at 117.475 -3.175 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3a3052f8-0527-46c8-b724-6f20e363fac1)
   )
@@ -4970,7 +4970,7 @@
     (property "Reference" "C17" (at 120.4468 112.4966 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "0.1u" (at 120.4468 114.808 0)
+    (property "Value" "4.7u" (at 120.4468 114.808 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 118.11 113.665 0)
