@@ -422,6 +422,7 @@
     )
   )
 
+
   (junction (at 134.62 74.295) (diameter 0) (color 0 0 0 0)
     (uuid 0c153191-ed54-412b-ae26-f716f2a2547e)
   )
@@ -722,10 +723,10 @@
     (property "Value" "CAN_1" (at 106.045 108.585 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "" (at 109.855 108.585 0)
+    (property "Footprint" "UTSVT_Connectors:Molex_MicroFit3.0_1x4xP3.00mm_PolarizingPeg_Vertical" (at 109.855 108.585 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 109.855 108.585 0)
+    (property "Datasheet" "https://www.mouser.com/ProductDetail/Molex/43650-0244?qs=XoD1gVtqLQuEe6RJ38AzJQ%3D%3D" (at 109.855 108.585 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (pin "1" (uuid 7f1b21a7-5f79-4d8e-84bc-f9c3565697f0))
