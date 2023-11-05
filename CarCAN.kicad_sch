@@ -520,7 +520,7 @@
       )
     )
     (symbol "utsvt-chips:ISO1044BD" (in_bom yes) (on_board yes)
-      (property "Reference" "U8" (at 0 9.525 0)
+      (property "Reference" "U4" (at 0 9.525 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Value" "ISO1044BD" (at 0 6.985 0)
