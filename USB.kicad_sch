@@ -894,11 +894,11 @@
     (uuid f8cc8abc-c59f-46d3-8712-961e0fea7a38)
   )
 
-  (hierarchical_label "UART_TX" (shape output) (at 181.61 88.265 0) (fields_autoplaced)
+  (hierarchical_label "UART_TX" (shape input) (at 181.61 88.265 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 1a1b6c89-fddb-4a48-b0c0-2360675e6027)
   )
-  (hierarchical_label "UART_RX" (shape input) (at 181.61 90.805 0) (fields_autoplaced)
+  (hierarchical_label "UART_RX" (shape output) (at 181.61 90.805 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 35e7fd9b-778f-4e7c-9513-00c5a9e5970b)
   )
@@ -1134,41 +1134,6 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 152.4 69.215 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 32007969-c38a-4a78-b15e-c4a45b516401)
-    (property "Reference" "#PWR030" (at 152.4 73.025 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 152.781 64.8208 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 152.4 69.215 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 152.4 69.215 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f640c77b-077b-4737-afd1-363c265cfa06))
-    (instances
-      (project "LeaderSOM"
-        (path "/192d0c36-944e-4927-949b-263b8c85a7ca/5bc03b31-fe77-4b0c-be7c-10fb7ad1c047"
-          (reference "#PWR030") (unit 1)
-        )
-      )
-      (project "Dashboard"
-        (path "/66218487-e316-4467-9eba-79d4626ab24e/00000000-0000-0000-0000-00005f7a9238"
-          (reference "#PWR0105") (unit 1)
-        )
-      )
-      (project "BPS-PeripheralSOM"
-        (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/94125b35-79a1-41d0-8b6c-f77e699b83b8"
-          (reference "#PWR08") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 177.8 76.835 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 37697129-b267-46e9-a697-02e183378d7f)
@@ -1301,6 +1266,42 @@
     )
   )
 
+  (symbol (lib_id "power:+3.3V") (at 134.62 93.345 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 472405f9-fd58-4542-b661-8f5009914e76)
+    (property "Reference" "#PWR025" (at 134.62 97.155 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 134.62 89.535 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 134.62 93.345 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 134.62 93.345 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4e0cb6d7-42ee-423c-8a6c-b55f63cd7e3f))
+    (instances
+      (project "LeaderSOM"
+        (path "/192d0c36-944e-4927-949b-263b8c85a7ca"
+          (reference "#PWR025") (unit 1)
+        )
+        (path "/192d0c36-944e-4927-949b-263b8c85a7ca/07cef2e6-f2f4-4f04-bcaf-7b98b53ab0fe"
+          (reference "#PWR025") (unit 1)
+        )
+        (path "/192d0c36-944e-4927-949b-263b8c85a7ca/5bc03b31-fe77-4b0c-be7c-10fb7ad1c047"
+          (reference "#PWR014") (unit 1)
+        )
+      )
+      (project "BPS-PeripheralSOM"
+        (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 154.94 121.285 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 54dea7d4-ff21-43e1-9a14-690e2786ce0d)
@@ -1378,36 +1379,37 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 134.62 93.345 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 7f1d11a2-bc35-49f8-953b-4c16b119a8ec)
-    (property "Reference" "#PWR014" (at 134.62 97.155 0)
+  (symbol (lib_id "power:+3.3V") (at 152.4 69.215 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 70168801-d354-4e0f-b8f5-debb4ee56dd9)
+    (property "Reference" "#PWR025" (at 152.4 73.025 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3.3V" (at 135.001 88.9508 0)
+    (property "Value" "+3.3V" (at 152.4 65.405 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 134.62 93.345 0)
+    (property "Footprint" "" (at 152.4 69.215 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 134.62 93.345 0)
+    (property "Datasheet" "" (at 152.4 69.215 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7d648581-fe32-4985-a9ce-21f153fcf900))
+    (pin "1" (uuid f00a5b35-323b-4364-8db6-a560da9a113d))
     (instances
       (project "LeaderSOM"
-        (path "/192d0c36-944e-4927-949b-263b8c85a7ca/5bc03b31-fe77-4b0c-be7c-10fb7ad1c047"
-          (reference "#PWR014") (unit 1)
+        (path "/192d0c36-944e-4927-949b-263b8c85a7ca"
+          (reference "#PWR025") (unit 1)
         )
-      )
-      (project "Dashboard"
-        (path "/66218487-e316-4467-9eba-79d4626ab24e/00000000-0000-0000-0000-00005f7a9238"
-          (reference "#PWR0103") (unit 1)
+        (path "/192d0c36-944e-4927-949b-263b8c85a7ca/07cef2e6-f2f4-4f04-bcaf-7b98b53ab0fe"
+          (reference "#PWR025") (unit 1)
+        )
+        (path "/192d0c36-944e-4927-949b-263b8c85a7ca/5bc03b31-fe77-4b0c-be7c-10fb7ad1c047"
+          (reference "#PWR030") (unit 1)
         )
       )
       (project "BPS-PeripheralSOM"
-        (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/94125b35-79a1-41d0-8b6c-f77e699b83b8"
-          (reference "#PWR06") (unit 1)
+        (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
+          (reference "#PWR02") (unit 1)
         )
       )
     )

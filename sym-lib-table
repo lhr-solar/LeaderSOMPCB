@@ -5,5 +5,4 @@
   (lib (name "utsvt-misc")(type "KiCad")(uri "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt-misc.kicad_sym")(options "")(descr ""))
   (lib (name "utsvt-connectors")(type "KiCad")(uri "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt-connectors.kicad_sym")(options "")(descr ""))
   (lib (name "utsvt-chips")(type "KiCad")(uri "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt-chips.kicad_sym")(options "")(descr ""))
-  (lib (name "UTSVT_LeaderSOM")(type "KiCad")(uri "${KIPRJMOD}/UTSVT_LeaderSOM.kicad_sym")(options "")(descr ""))
 )
