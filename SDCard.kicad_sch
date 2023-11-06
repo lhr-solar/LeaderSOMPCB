@@ -1023,7 +1023,7 @@
   )
   (wire (pts (xy 131.445 96.52) (xy 143.51 96.52))
     (stroke (width 0) (type default))
-    (uuid d4bf3e92-8cef-4e40-aef1-9af463c3a952)
+    (uuid ec30f60c-bdf7-4247-a57e-9a43dd850e60)
   )
   (wire (pts (xy 163.195 103.505) (xy 166.37 103.505))
     (stroke (width 0) (type default))
