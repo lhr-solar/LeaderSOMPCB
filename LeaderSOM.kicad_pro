@@ -178,8 +178,7 @@
   },
   "erc": {
     "erc_exclusions": [
-      "simulation_model_issue|1485900|965200|d7813e4b-bed1-41e7-bd25-f5b5b01629e8|00000000-0000-0000-0000-000000000000|||",
-      "simulation_model_issue|2184400|730250|8943f892-5719-4745-bf59-b09de4f1a094|00000000-0000-0000-0000-000000000000|||"
+      "simulation_model_issue|1485900|965200|d7813e4b-bed1-41e7-bd25-f5b5b01629e8|00000000-0000-0000-0000-000000000000|||"
     ],
     "meta": {
       "version": 0
@@ -490,16 +489,16 @@
       "InternalCAN"
     ],
     [
-      "48d44a6a-93f2-4d40-b0ae-ce24d0554ae2",
-      "Display"
-    ],
-    [
       "5bc03b31-fe77-4b0c-be7c-10fb7ad1c047",
       "USB"
     ],
     [
       "8f4dac5b-9bb8-4793-8ce7-913e39731a3f",
       "CarCAN"
+    ],
+    [
+      "8c1921d3-7d8b-4937-baba-7ed9d4d1349f",
+      "Display"
     ],
     [
       "54eecd34-7b2b-4895-a003-33708e7ad7e6",
