@@ -1,6 +1,8 @@
 # LeaderSOM
 Author: Pratyush Patra and Jacob Pustilnik
 
+This board is the Leader System-On-Module (SOM), a multifunction board with an STM32 MCU that is adaptible to the applications of each subsystem. The hardware and software on this board are responsible
+for the processing, communication, and data collection tasks required for the car's subsystems.
 
 
 ## BOM
