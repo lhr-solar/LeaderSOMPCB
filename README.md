@@ -33,6 +33,9 @@ for the processing, communication, and data collection tasks required for the ca
 Below is a link to the pinout document for the board.
 https://utexas.sharepoint.com/:x:/r/sites/ENGR-LonghornRacing/_layouts/15/Doc.aspx?sourcedoc=%7B1ce08b10-b376-4beb-83e4-bc72f106b36f%7D&action=edit&wdPreviousSession=fb9a9e6e-1c87-4462-82e8-13c90a4a025d
 
+CAN Power Distribution Notes-
+https://utexas.sharepoint.com/sites/ENGR-LonghornRacing/_layouts/15/Doc.aspx?sourcedoc={eecd0eaf-8548-469a-8a85-a697763538be}&action=edit&wd=target%28Power%20Systems.one%7Ca8fe7a0e-1efe-448f-99f4-a73d3ece124b%2FCAN%20Power%20Distribution%20Decisions%7C2f16c7d1-6e30-43a6-9fd0-a8fcac87f4cb%2F%29&wdorigin=NavigationUrl
+
 ## Power Distribution
 12V_In(from Car power connector) -> Power protection -> 12V+
 12V+ -> DCDC Converter(Unisolated) -> 5V+

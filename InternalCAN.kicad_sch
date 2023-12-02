@@ -965,7 +965,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3e35d8df-ef36-48be-8276-218adfd2e635)
   )
-  (text "Power Delivery for Periphery Boards 1.2A Max" (at 85.725 118.11 0)
+  (text "Power Delivery for Periphery Boards 1.2A Max (Isolated)"
+    (at 85.725 118.11 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 585d55ec-9ef6-4c82-a15d-d8a9c239ac00)
   )
