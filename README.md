@@ -11,6 +11,7 @@ for the processing, communication, and data collection tasks required for the ca
 
 ## Connectors
 | # | Name | Type | Ideal Voltage | Notes |
+| -  | - | - | - | - |
 | J1 | SWD | PinHeader_1x04_P2.54mm_Vertical | - | - |
 | J2 | USB_B_Micro | USB_Micro-B_Molex-105017-0001 | - | - |
 | J4 | Micro_SD_Card_Det | microSD_HC_Hirose_DM3AT-SF-PEJM5 | - | - |
@@ -23,10 +24,10 @@ for the processing, communication, and data collection tasks required for the ca
 
 
 ## PCB
-![LeaderSOM-Schem](LeaderSOM-Schem.png)
+![LeaderSOM-Layout](LeaderSOM-Layout.png)
 
 ## Schematic
-![LeaderSOM-Layout](LeaderSOM-Layout.png)
+![LeaderSOM-Schem](LeaderSOM-Schem.png)
 
 ## Additional Notes
 Below is a link to the pinout document for the board.
