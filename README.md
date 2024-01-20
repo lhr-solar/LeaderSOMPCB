@@ -9,6 +9,7 @@ for the processing, communication, and data collection tasks required for the ca
 [**Interactive BOM (Must download and open in browser)**](bom/ibom.html)
 
 [**Mouser Cart**]
+https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=f049c28c03
 
 ## Connectors
 | # | Name | Type | Ideal Voltage | Notes |
