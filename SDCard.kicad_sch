@@ -1905,14 +1905,22 @@
 		)
 	)
 	(junction
+		(at 167.64 111.125)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "266b7e5f-13fd-4bcb-8909-09f2222bf43a")
+	)
+	(junction
 		(at 200.025 117.475)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44301e9c-e436-436e-a791-880e02c7c78a")
 	)
-	(no_connect
-		(at 178.435 108.585)
-		(uuid "1f3dc24c-eade-426a-96bd-92ef77ee4f39")
+	(junction
+		(at 174.625 86.995)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fba79f72-1c6e-4a6b-80fd-381deac90652")
 	)
 	(no_connect
 		(at 178.435 88.265)
@@ -1924,7 +1932,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.195 111.125) (xy 178.435 111.125)
+			(xy 162.56 111.125) (xy 167.64 111.125)
 		)
 		(stroke
 			(width 0)
@@ -1941,6 +1949,26 @@
 			(type default)
 		)
 		(uuid "0e76dd12-605b-437d-a80e-4c5777898089")
+	)
+	(wire
+		(pts
+			(xy 173.355 86.995) (xy 174.625 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "125e0e2e-abed-4cff-96ce-f6106028bdfd")
+	)
+	(wire
+		(pts
+			(xy 173.355 86.995) (xy 173.355 108.585)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d14f390-d4b3-4c0d-b47b-f4bf37016352")
 	)
 	(wire
 		(pts
@@ -1964,23 +1992,13 @@
 	)
 	(wire
 		(pts
-			(xy 174.625 91.44) (xy 174.625 93.345)
+			(xy 175.895 86.995) (xy 175.895 95.885)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3585861d-e9a2-4478-b749-db9e98b23ee9")
-	)
-	(wire
-		(pts
-			(xy 178.435 90.805) (xy 175.26 90.805)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cb91905-5a7d-4223-b319-f5bfd7325438")
+		(uuid "4c90e03d-0dff-4ba3-83fc-eab8ac23238a")
 	)
 	(wire
 		(pts
@@ -2004,23 +2022,33 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 90.805) (xy 175.26 85.09)
+			(xy 178.435 108.585) (xy 173.355 108.585)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "638218f0-f896-4612-abcf-d618ba42b3f0")
+		(uuid "5e0d89e7-f8e9-4784-94bf-7b2cff30dc00")
 	)
 	(wire
 		(pts
-			(xy 175.895 81.915) (xy 175.895 95.885)
+			(xy 167.64 111.125) (xy 178.435 111.125)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7024f597-590e-46b9-953f-6f8e069e6a9e")
+		(uuid "79eeb186-c3bd-45b8-bd43-92d75f670673")
+	)
+	(wire
+		(pts
+			(xy 174.625 86.995) (xy 175.895 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8acc6f3c-5e65-4530-b99b-ab524ece446c")
 	)
 	(wire
 		(pts
@@ -2044,13 +2072,13 @@
 	)
 	(wire
 		(pts
-			(xy 174.625 93.345) (xy 178.435 93.345)
+			(xy 174.625 85.725) (xy 174.625 86.995)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9d2596bb-a657-4817-97a0-48b5033b81d2")
+		(uuid "97007fa4-01fc-42e5-8626-ff16ada706df")
 	)
 	(wire
 		(pts
@@ -2084,7 +2112,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.195 91.44) (xy 174.625 91.44)
+			(xy 162.56 93.345) (xy 178.435 93.345)
 		)
 		(stroke
 			(width 0)
@@ -2094,7 +2122,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 103.505) (xy 178.435 103.505)
+			(xy 172.72 103.505) (xy 178.435 103.505)
 		)
 		(stroke
 			(width 0)
@@ -2114,7 +2142,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.195 103.505) (xy 166.37 103.505)
+			(xy 162.56 103.505) (xy 165.1 103.505)
 		)
 		(stroke
 			(width 0)
@@ -2144,7 +2172,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 85.09) (xy 163.83 85.09)
+			(xy 162.56 90.805) (xy 178.435 90.805)
 		)
 		(stroke
 			(width 0)
@@ -2152,20 +2180,9 @@
 		)
 		(uuid "ff34305b-47fd-4f58-90d9-c239e3dc2baf")
 	)
-	(text "From telemetry primary PCB"
-		(exclude_from_sim no)
-		(at 134.62 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "853b29ed-f97f-4542-88f8-3b7069944e6a")
-	)
 	(hierarchical_label "SPI_MOSI"
 		(shape input)
-		(at 163.195 91.44 180)
+		(at 162.56 93.345 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2177,7 +2194,7 @@
 	)
 	(hierarchical_label "SPI_MISO"
 		(shape output)
-		(at 163.195 103.505 180)
+		(at 162.56 103.505 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2249,7 +2266,7 @@
 	)
 	(hierarchical_label "DET"
 		(shape output)
-		(at 163.195 111.125 180)
+		(at 162.56 111.125 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2261,7 +2278,7 @@
 	)
 	(hierarchical_label "SPI_CS"
 		(shape input)
-		(at 163.83 85.09 180)
+		(at 162.56 90.805 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2270,6 +2287,71 @@
 			(justify right)
 		)
 		(uuid "ec5d8d43-aa07-4966-92cf-98c08896c094")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 118.745 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b2b3a2e-3e4f-4314-8eee-d87aa56aba7d")
+		(property "Reference" "#PWR014"
+			(at 167.64 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.767 123.1392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3c9a84b-1fef-4293-8f4c-49197b366ca6")
+		)
+		(instances
+			(project "LeaderSOM"
+				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/54eecd34-7b2b-4895-a003-33708e7ad7e6"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -2345,7 +2427,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 170.18 103.505 90)
+		(at 168.91 103.505 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2353,7 +2435,7 @@
 		(dnp no)
 		(uuid "4418cc97-a528-41d6-951a-341669464996")
 		(property "Reference" "R12"
-			(at 172.085 99.06 90)
+			(at 170.815 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2362,7 +2444,7 @@
 			)
 		)
 		(property "Value" "49.9"
-			(at 171.323 101.092 90)
+			(at 170.053 101.092 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2371,7 +2453,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 170.18 105.283 90)
+			(at 168.91 105.283 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2380,7 +2462,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 103.505 0)
+			(at 168.91 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2389,7 +2471,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 103.505 0)
+			(at 168.91 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2398,7 +2480,7 @@
 			)
 		)
 		(property "P/N" "CRCW08054K70FKEA"
-			(at 170.18 103.505 0)
+			(at 168.91 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2583,7 +2665,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 175.895 81.915 0)
+		(at 174.625 85.725 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2592,7 +2674,7 @@
 		(fields_autoplaced yes)
 		(uuid "761c59fd-74e0-425a-bbb9-29e0927db125")
 		(property "Reference" "#PWR018"
-			(at 175.895 85.725 0)
+			(at 174.625 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2601,7 +2683,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 175.895 78.105 0)
+			(at 174.625 81.915 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2609,7 +2691,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.895 81.915 0)
+			(at 174.625 85.725 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2618,7 +2700,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.895 81.915 0)
+			(at 174.625 85.725 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2627,7 +2709,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.895 81.915 0)
+			(at 174.625 85.725 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2845,6 +2927,84 @@
 			(project "Telemetry-Primary"
 				(path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f71644d"
 					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 167.64 114.935 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7f4647a-ab62-404a-b8a5-914499db7dfd")
+		(property "Reference" "R5"
+			(at 170.18 113.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "49.9"
+			(at 169.418 115.824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 165.862 114.935 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW08054K70FKEA"
+			(at 167.64 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb3e7177-4b9a-439a-b6f6-5916953093d4")
+		)
+		(pin "2"
+			(uuid "444ecc2c-2e34-48ae-b866-c3c3f52f05ff")
+		)
+		(instances
+			(project "LeaderSOM"
+				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/54eecd34-7b2b-4895-a003-33708e7ad7e6"
+					(reference "R5")
 					(unit 1)
 				)
 			)
