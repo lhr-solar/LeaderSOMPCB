@@ -1819,28 +1819,6 @@
 		)
 		(uuid "c4566332-8c45-455d-9227-448cc5e6d072")
 	)
-	(label "+V_CAN2"
-		(at 208.915 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5a6e29f7-67ab-4537-8bee-c8f78c4f32b9")
-	)
-	(label "-V_CAN2"
-		(at 208.915 109.855 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "60ae0604-dfc5-49d8-8562-613208deddcb")
-	)
 	(label "-V_CAN2"
 		(at 170.815 108.585 0)
 		(fields_autoplaced yes)
@@ -1862,6 +1840,18 @@
 			(justify left bottom)
 		)
 		(uuid "b6524da6-b187-4066-a393-a8262522353b")
+	)
+	(hierarchical_label "+V_CarCAN"
+		(shape input)
+		(at 208.915 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0c625738-3721-455f-b2b6-76cb5b7a4ffd")
 	)
 	(hierarchical_label "CAN_TX"
 		(shape input)
@@ -1922,6 +1912,18 @@
 			(justify left)
 		)
 		(uuid "d71277a6-c330-4969-bd58-1d8fd1c83550")
+	)
+	(hierarchical_label "-V_CarCAN"
+		(shape input)
+		(at 208.915 109.855 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e422b982-4171-4a06-bda4-38a8305cc4e8")
 	)
 	(hierarchical_label "CAN_RX"
 		(shape output)
@@ -2052,7 +2054,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "V_CAN2"
+		(property "Value" "V_CarCAN"
 			(at 211.9122 102.9462 90)
 			(effects
 				(font
