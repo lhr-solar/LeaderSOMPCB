@@ -129,9 +129,9 @@
 		)
 		(symbol "power:+3.3V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -229,8 +229,8 @@
 			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3.3V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2217,7 +2217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 177.8 102.235 0)
 			(effects
 				(font
@@ -2295,7 +2295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/157121S12800.pdf"
+		(property "Datasheet" "157121S12800"
 			(at 182.245 81.915 0)
 			(effects
 				(font
@@ -2305,7 +2305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "7 Segment Display, Blue, Common Anode"
 			(at 182.245 81.915 0)
 			(effects
 				(font
@@ -2407,7 +2407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 227.33 97.155 0)
 			(effects
 				(font
@@ -2477,7 +2477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 102.235 87.63 0)
 			(effects
 				(font
@@ -2562,7 +2562,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 102.235 97.79 0)
 			(effects
 				(font
@@ -2647,7 +2647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 102.235 92.71 0)
 			(effects
 				(font
@@ -2732,7 +2732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 102.235 107.95 0)
 			(effects
 				(font
@@ -2817,7 +2817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 102.235 82.55 0)
 			(effects
 				(font
@@ -2902,7 +2902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 177.8 107.315 0)
 			(effects
 				(font
@@ -2989,7 +2989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 151.765 97.79 0)
 			(effects
 				(font
@@ -3052,7 +3052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/157121S12800.pdf"
+		(property "Datasheet" "157121S12800"
 			(at 106.68 82.55 0)
 			(effects
 				(font
@@ -3062,7 +3062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "7 Segment Display, Blue, Common Anode"
 			(at 106.68 82.55 0)
 			(effects
 				(font
@@ -3165,7 +3165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 179.705 117.475 0)
 			(effects
 				(font
@@ -3235,7 +3235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 177.8 86.995 0)
 			(effects
 				(font
@@ -3320,7 +3320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 177.8 92.075 0)
 			(effects
 				(font
@@ -3405,7 +3405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 177.8 112.395 0)
 			(effects
 				(font
@@ -3490,7 +3490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 177.8 97.155 0)
 			(effects
 				(font
@@ -3575,7 +3575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 102.235 102.87 0)
 			(effects
 				(font
@@ -3660,7 +3660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 102.235 113.03 0)
 			(effects
 				(font
@@ -3745,7 +3745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 177.8 81.915 0)
 			(effects
 				(font
@@ -3833,7 +3833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 104.14 118.11 0)
 			(effects
 				(font

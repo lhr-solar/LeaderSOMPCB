@@ -715,6 +715,127 @@
 				)
 			)
 		)
+		(symbol "Device:NetTie_2"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -995,9 +1116,9 @@
 		)
 		(symbol "power:+12V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1095,8 +1216,8 @@
 			(symbol "+12V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+12V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1115,9 +1236,9 @@
 		)
 		(symbol "power:+3.3V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1215,8 +1336,8 @@
 			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3.3V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1235,9 +1356,9 @@
 		)
 		(symbol "power:+3.3VA"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1335,8 +1456,8 @@
 			(symbol "+3.3VA_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3.3VA"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1355,9 +1476,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1431,8 +1552,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1451,9 +1572,9 @@
 		)
 		(symbol "power:GNDA"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1527,8 +1648,8 @@
 			(symbol "GNDA_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GNDA"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1610,7 +1731,7 @@
 				(pin power_out line
 					(at 0 0 90)
 					(length 0)
-					(name "pwr"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2251,12 +2372,6 @@
 		(uuid "325ac249-f832-47f7-a58e-dee31c146432")
 	)
 	(junction
-		(at 154.305 111.125)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "330a30d9-fbc9-43c6-bb0a-07f2e7bdcbc4")
-	)
-	(junction
 		(at 95.25 98.425)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2315,6 +2430,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b24a0f25-2bf9-4887-9faa-4de1ce1cb2fd")
+	)
+	(junction
+		(at 154.305 111.125)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8361907-30cd-426a-ac47-cfbae41dd4a6")
 	)
 	(junction
 		(at 154.305 102.87)
@@ -2389,6 +2510,16 @@
 			(type default)
 		)
 		(uuid "1102159e-92a1-4487-aaa3-129f16829c60")
+	)
+	(wire
+		(pts
+			(xy 147.955 111.125) (xy 154.305 111.125)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1265ee40-bbbe-4a42-8c60-bfeff8a8c652")
 	)
 	(wire
 		(pts
@@ -2549,16 +2680,6 @@
 			(type default)
 		)
 		(uuid "48c32dfb-408a-4f19-be6a-b25debe5c98d")
-	)
-	(wire
-		(pts
-			(xy 154.305 112.395) (xy 154.305 111.125)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49e092be-e607-477d-bbaa-0cd7608b6955")
 	)
 	(wire
 		(pts
@@ -3042,7 +3163,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.305 111.125) (xy 154.305 110.49)
+			(xy 154.305 110.49) (xy 154.305 111.125)
 		)
 		(stroke
 			(width 0)
@@ -3102,6 +3223,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.305 111.125) (xy 154.305 112.395)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0e6eb73-90fe-4f4b-b850-07a0780b2066")
+	)
+	(wire
+		(pts
 			(xy 60.96 38.735) (xy 60.96 40.005)
 		)
 		(stroke
@@ -3132,16 +3263,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.305 111.125) (xy 137.16 111.125)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f411b9ac-74c6-4c29-946e-fe858992facb")
-	)
-	(wire
-		(pts
 			(xy 114.3 42.545) (xy 121.92 42.545)
 		)
 		(stroke
@@ -3159,6 +3280,16 @@
 			(type default)
 		)
 		(uuid "f9277d05-082d-46af-8c1c-5a745d38b6d1")
+	)
+	(wire
+		(pts
+			(xy 137.16 111.125) (xy 142.875 111.125)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb6ad36e-b463-45f6-b4b2-9c4e552efb0b")
 	)
 	(wire
 		(pts
@@ -4208,7 +4339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 159.385 102.87 0)
 			(effects
 				(font
@@ -4361,7 +4492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 137.16 112.395 0)
 			(effects
 				(font
@@ -4531,7 +4662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 154.305 112.395 0)
 			(effects
 				(font
@@ -4732,7 +4863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 114.3 48.895 0)
 			(effects
 				(font
@@ -4861,7 +4992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 40.64 103.505 0)
 			(effects
 				(font
@@ -5013,7 +5144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ferrite bead"
 			(at 149.225 102.87 0)
 			(effects
 				(font
@@ -5105,7 +5236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 71.12 36.195 0)
 			(effects
 				(font
@@ -5237,7 +5368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 137.16 95.25 0)
 			(effects
 				(font
@@ -5308,7 +5439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 135.89 33.655 0)
 			(effects
 				(font
@@ -5373,7 +5504,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 54.61 38.735 0)
 			(effects
 				(font
@@ -5439,7 +5570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
 			(at 159.385 99.695 0)
 			(effects
 				(font
@@ -6053,7 +6184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 154.305 106.68 0)
 			(effects
 				(font
@@ -6145,7 +6276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 95.25 117.475 0)
 			(effects
 				(font
@@ -6211,7 +6342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 205.105 45.085 0)
 			(effects
 				(font
@@ -6515,7 +6646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 222.885 53.34 0)
 			(effects
 				(font
@@ -6757,7 +6888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 107.95 93.345 0)
 			(effects
 				(font
@@ -6888,7 +7019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 107.95 109.855 0)
 			(effects
 				(font
@@ -7330,6 +7461,74 @@
 			(project "LeaderSOM"
 				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/07cef2e6-f2f4-4f04-bcaf-7b98b53ab0fe"
 					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 145.415 111.125 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5fc1eaa-44fd-4f74-9853-a929aa1cb323")
+		(property "Reference" "NT1"
+			(at 145.415 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 145.415 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 145.415 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 145.415 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 145.415 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e812e784-9efe-471a-8696-1c6c3f2c0e1f")
+		)
+		(pin "2"
+			(uuid "b89af1b4-6694-4167-8975-a6454b8d6c99")
+		)
+		(instances
+			(project "LeaderSOM"
+				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/07cef2e6-f2f4-4f04-bcaf-7b98b53ab0fe"
+					(reference "NT1")
 					(unit 1)
 				)
 			)
