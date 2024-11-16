@@ -180,9 +180,14 @@
       ],
       "track_widths": [
         0.0,
+        0.0,
         0.2,
+        0.3,
         0.4,
-        1.0
+        1.0,
+        1.2,
+        1.6,
+        2.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -627,6 +632,18 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "p/n",
+          "name": "p/n",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PN",
+          "name": "PN",
           "show": false
         }
       ],

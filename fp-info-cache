@@ -1,4 +1,4 @@
-23306209851767336
+23304495123944799
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -93968,6 +93968,13 @@ Connector
 2
 2
 UTSVT_Connectors
+524652470
+52465-2470-1
+Connector
+0
+24
+24
+UTSVT_Connectors
 2039550203
 203955-0203-1
 Connector
@@ -94001,27 +94008,6 @@ Molex2x10_horizontal
 
 0
 22
-20
-UTSVT_Connectors
-Molex_52465-1071
-52465-1071
-Connector
-0
-10
-10
-UTSVT_Connectors
-Molex_52465-2070
-52465-2070
-Connector
-0
-20
-20
-UTSVT_Connectors
-Molex_53307-2071
-53307-2071-2
-Connector
-0
-20
 20
 UTSVT_Connectors
 Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical
@@ -94317,6 +94303,13 @@ D5V0P4UR6SO-7
 0
 6
 6
+UTSVT_ICs
+SOT65P280X145-8N
+DCN (R-PDSO-G8)
+Integrated Circuit
+0
+8
+8
 UTSVT_Mechanical
 CJS-1200B_NDC
 

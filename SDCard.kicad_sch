@@ -2218,13 +2218,13 @@
 	)
 	(hierarchical_label "SPI_CLK"
 		(shape input)
-		(at 90.805 93.98 180)
+		(at 131.445 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "447e2530-9ad2-4243-aae2-ee9fba642bc7")
 	)
@@ -2254,13 +2254,13 @@
 	)
 	(hierarchical_label "SPI_CS"
 		(shape input)
-		(at 131.445 99.06 0)
+		(at 90.805 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "ae787174-f774-43f4-add5-cb425fd637f8")
 	)

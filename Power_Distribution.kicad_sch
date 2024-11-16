@@ -4909,7 +4909,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "UTSVT_Special:TestPoint_HEX_3mmID"
 			(at 203.2 41.91 0)
 			(effects
 				(font
@@ -6563,7 +6563,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "UTSVT_Special:TestPoint_HEX_3mmID"
 			(at 222.885 45.72 0)
 			(effects
 				(font
@@ -7152,7 +7152,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "UTSVT_Special:TestPoint_HEX_3mmID"
 			(at 222.25 39.37 0)
 			(effects
 				(font
@@ -7492,7 +7492,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 145.415 111.125 0)
 			(effects
 				(font

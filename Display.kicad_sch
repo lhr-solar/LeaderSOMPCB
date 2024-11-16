@@ -2295,7 +2295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "157121S12800"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/157121S12800.pdf"
 			(at 182.245 81.915 0)
 			(effects
 				(font
@@ -3052,7 +3052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "157121S12800"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/157121S12800.pdf"
 			(at 106.68 82.55 0)
 			(effects
 				(font
