@@ -8579,7 +8579,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12p"
+		(property "Value" "26p"
 			(at 82.931 66.548 0)
 			(effects
 				(font
@@ -9733,7 +9733,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12p"
+		(property "Value" "26p"
 			(at 72.771 66.548 0)
 			(effects
 				(font
