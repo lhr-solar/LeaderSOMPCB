@@ -10789,8 +10789,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "923312e9-ccab-4495-bfd4-461b8cbcf853")
-		(property "Reference" "J1"
-			(at 260.35 146.05 0)
+		(property "Reference" "SWD1"
+			(at 260.35 145.4149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10799,7 +10799,7 @@
 			)
 		)
 		(property "Value" "SWD"
-			(at 260.35 148.59 0)
+			(at 260.35 147.9549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10849,7 +10849,7 @@
 		(instances
 			(project "LeaderSOM"
 				(path "/192d0c36-944e-4927-949b-263b8c85a7ca"
-					(reference "J1")
+					(reference "SWD1")
 					(unit 1)
 				)
 			)
@@ -12106,7 +12106,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d321e02d-7d8b-4458-a2a3-b143651bed0e")
-		(property "Reference" "SW1"
+		(property "Reference" "Reset1"
 			(at 231.0892 144.8816 90)
 			(effects
 				(font
@@ -12178,7 +12178,7 @@
 		(instances
 			(project "LeaderSOM"
 				(path "/192d0c36-944e-4927-949b-263b8c85a7ca"
-					(reference "SW1")
+					(reference "Reset1")
 					(unit 1)
 				)
 			)
@@ -12295,7 +12295,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d601ed5c-6358-498a-a74a-8a4c9b671d8d")
-		(property "Reference" "SW2"
+		(property "Reference" "BTN1"
 			(at 203.1492 145.5166 90)
 			(effects
 				(font
@@ -12367,7 +12367,7 @@
 		(instances
 			(project "LeaderSOM"
 				(path "/192d0c36-944e-4927-949b-263b8c85a7ca"
-					(reference "SW2")
+					(reference "BTN1")
 					(unit 1)
 				)
 			)

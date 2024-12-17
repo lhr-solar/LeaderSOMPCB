@@ -2663,6 +2663,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.685 70.485) (xy 146.685 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46d43a1e-ea34-46db-826d-dd0c3336a16b")
+	)
+	(wire
+		(pts
 			(xy 239.395 52.07) (xy 239.395 50.8)
 		)
 		(stroke
@@ -3358,6 +3368,17 @@
 		)
 		(uuid "8ae6d940-de0e-4748-a004-335b967fe0de")
 	)
+	(text "Set to circuit breaker\nAuto-retry"
+		(exclude_from_sim no)
+		(at 156.464 66.802 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "992eb5d8-d4d1-4eb1-b6be-c32737a2e1fe")
+	)
 	(text "Vin protection"
 		(exclude_from_sim no)
 		(at 20.32 16.256 0)
@@ -3446,17 +3467,6 @@
 		)
 		(uuid "505358a5-c59f-4e27-855a-4dd1c2791623")
 	)
-	(label "RTN"
-		(at 78.74 42.545 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5496b037-2ffa-45ef-87af-d990dd796a43")
-	)
 	(label "BST"
 		(at 55.88 107.315 0)
 		(fields_autoplaced yes)
@@ -3501,6 +3511,17 @@
 		)
 		(uuid "9d85f975-9f4a-44e1-8259-21e7bc97915f")
 	)
+	(label "Mode"
+		(at 146.685 62.865 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b42657b4-9349-454a-81ac-78ee1e53a534")
+	)
 	(label "SW"
 		(at 54.61 114.935 0)
 		(fields_autoplaced yes)
@@ -3534,6 +3555,17 @@
 		)
 		(uuid "ce4f3c02-5beb-42c1-8734-aa61ffb51881")
 	)
+	(label "RTN"
+		(at 146.685 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd582c47-0534-4eba-ab6c-5214d024148a")
+	)
 	(label "Fault"
 		(at 125.73 34.925 0)
 		(fields_autoplaced yes)
@@ -3566,6 +3598,17 @@
 			(justify left bottom)
 		)
 		(uuid "f176dca7-6caa-46af-bf23-e778e7dec057")
+	)
+	(label "Mode"
+		(at 78.74 42.545 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f48d53b7-9665-4fb6-ad80-92e623a99031")
 	)
 	(hierarchical_label "12V_In"
 		(shape input)
@@ -4118,7 +4161,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "10k"
 			(at 241.173 48.133 0)
 			(effects
 				(font
@@ -4755,6 +4798,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 146.685 66.675 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "527363df-4424-462c-bfd7-0d222b6d90eb")
+		(property "Reference" "R45"
+			(at 149.225 65.4049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "402k"
+			(at 149.225 67.9449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 144.907 66.675 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.685 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 146.685 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 146.685 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 146.685 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 146.685 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55c26d5e-9e72-472a-8f34-e683fc725f12")
+		)
+		(pin "2"
+			(uuid "1f0c8032-7f60-4655-a5ba-f0bd4393d50b")
+		)
+		(instances
+			(project "LeaderSOM"
+				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/07cef2e6-f2f4-4f04-bcaf-7b98b53ab0fe"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 239.395 60.96 0)
 		(unit 1)
@@ -4893,7 +5033,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f10b56c-7496-424f-a7ed-4cbbd3fc3660")
-		(property "Reference" "TP2"
+		(property "Reference" "3.3V1"
 			(at 194.056 45.466 90)
 			(effects
 				(font
@@ -4942,7 +5082,7 @@
 		(instances
 			(project "LeaderSOM"
 				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/07cef2e6-f2f4-4f04-bcaf-7b98b53ab0fe"
-					(reference "TP2")
+					(reference "3.3V1")
 					(unit 1)
 				)
 			)
@@ -6547,7 +6687,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b772449e-3bcf-47d4-8926-1558d85006d4")
-		(property "Reference" "TP1"
+		(property "Reference" "GND1"
 			(at 213.741 49.276 90)
 			(effects
 				(font
@@ -6596,7 +6736,7 @@
 		(instances
 			(project "LeaderSOM"
 				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/07cef2e6-f2f4-4f04-bcaf-7b98b53ab0fe"
-					(reference "TP1")
+					(reference "GND1")
 					(unit 1)
 				)
 			)
@@ -7136,7 +7276,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da12a9f8-261c-4e39-8138-02c5fc5d3a7e")
-		(property "Reference" "TP3"
+		(property "Reference" "12V1"
 			(at 213.36 43.18 90)
 			(effects
 				(font
@@ -7185,7 +7325,7 @@
 		(instances
 			(project "LeaderSOM"
 				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/07cef2e6-f2f4-4f04-bcaf-7b98b53ab0fe"
-					(reference "TP3")
+					(reference "12V1")
 					(unit 1)
 				)
 			)
@@ -7552,7 +7692,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "10k"
 			(at 264.668 47.498 0)
 			(effects
 				(font
