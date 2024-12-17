@@ -1,4 +1,4 @@
-23304495123944799
+23307963951473419
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -93996,6 +93996,13 @@ Connector
 5
 5
 UTSVT_Connectors
+CON_533072471
+
+533072471 
+0
+24
+24
+UTSVT_Connectors
 Cal_Test_Banana_Jack_1_Pin_4mm
 
 
@@ -94576,6 +94583,13 @@ Hallock_Image_Tiny
 0
 0
 0
+UTSVT_Special
+LeaderSOM
+
+
+0
+48
+48
 UTSVT_Special
 M2024SS1W03BC
 M2024SS1W03-BC-2
