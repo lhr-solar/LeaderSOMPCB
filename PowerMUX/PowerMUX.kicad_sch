@@ -3646,16 +3646,8 @@
 		(uuid "3acf8782-ad39-4e4d-a9d2-af0867fe3f8f")
 	)
 	(no_connect
-		(at 55.88 121.92)
-		(uuid "552274b8-a4d4-4f98-93c8-743414f8f2b1")
-	)
-	(no_connect
 		(at 55.88 68.58)
 		(uuid "63898da1-ab4b-4ab3-bb89-6ea932d7ce3a")
-	)
-	(no_connect
-		(at 55.88 104.14)
-		(uuid "6610bd0a-25df-497e-9cb7-064eec619d2f")
 	)
 	(no_connect
 		(at 55.88 88.9)
@@ -4043,6 +4035,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 104.14) (xy 71.12 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53272212-eb60-4cb2-aedc-adcdfb1fe772")
+	)
+	(wire
+		(pts
 			(xy 27.94 40.64) (xy 35.56 40.64)
 		)
 		(stroke
@@ -4313,6 +4315,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 121.92) (xy 71.12 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81e05e16-a027-4793-81da-3b87819fb93b")
+	)
+	(wire
+		(pts
 			(xy 187.96 41.91) (xy 187.96 48.26)
 		)
 		(stroke
@@ -4340,6 +4352,16 @@
 			(type default)
 		)
 		(uuid "86529a2a-3f5e-4a38-b3f2-54a2de08333a")
+	)
+	(wire
+		(pts
+			(xy 55.88 121.92) (xy 60.96 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "873ac69d-2d18-4747-a181-d2cca24abce1")
 	)
 	(wire
 		(pts
@@ -4593,6 +4615,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 104.14) (xy 60.96 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b88a1fc2-a4f6-46b6-a916-7f4d867a755a")
+	)
+	(wire
+		(pts
 			(xy 103.505 118.745) (xy 116.205 118.745)
 		)
 		(stroke
@@ -4650,6 +4682,16 @@
 			(type default)
 		)
 		(uuid "c5d50569-3fd6-49b6-aa9e-3e47cfb4b59b")
+	)
+	(wire
+		(pts
+			(xy 68.58 104.14) (xy 71.12 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbb4673f-cf80-45da-a328-dd60f9a85879")
 	)
 	(wire
 		(pts
@@ -4750,6 +4792,16 @@
 			(type default)
 		)
 		(uuid "e1a7be63-c80f-45df-bcfb-ccfe7faa91b6")
+	)
+	(wire
+		(pts
+			(xy 71.12 121.92) (xy 71.12 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e34893ef-742a-4a40-8c88-a39a9de170c1")
 	)
 	(wire
 		(pts
@@ -5467,6 +5519,72 @@
 			(project ""
 				(path "/414a0d6f-9e4a-40a2-b715-233308c3aed8"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 71.12 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22f37d5c-8030-42bb-948f-16bf47826e40")
+		(property "Reference" "#PWR016"
+			(at 71.12 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30caa5bc-635e-41f7-8f92-688c0394a3f0")
+		)
+		(instances
+			(project "PowerMUX"
+				(path "/414a0d6f-9e4a-40a2-b715-233308c3aed8"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -6384,6 +6502,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 71.12 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c349d64-5ab3-408e-8e59-3f36f5ed4e74")
+		(property "Reference" "#PWR015"
+			(at 71.12 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5e876a6-c01d-4bbe-a264-580fbeb3b3a6")
+		)
+		(instances
+			(project ""
+				(path "/414a0d6f-9e4a-40a2-b715-233308c3aed8"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 64.77 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6984,6 +7168,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 64.77 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a34b6ddf-a329-4611-bc2c-8ba5f1de78df")
+		(property "Reference" "R6"
+			(at 64.77 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 64.77 101.854 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 64.77 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2adba04-5e1e-4a32-9431-4c21bdf1cddb")
+		)
+		(pin "2"
+			(uuid "ee2bdf3d-e4c0-4a16-aa12-1dda536dc477")
+		)
+		(instances
+			(project ""
+				(path "/414a0d6f-9e4a-40a2-b715-233308c3aed8"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "utsvt-chips:FT230XS-R")
 		(at 209.55 113.03 0)
 		(unit 1)
@@ -7099,6 +7350,73 @@
 			(project "PowerMUX"
 				(path "/414a0d6f-9e4a-40a2-b715-233308c3aed8"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 64.77 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad9e0a13-6136-432f-86f5-b4847cac991c")
+		(property "Reference" "R7"
+			(at 64.77 117.856 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 64.77 119.634 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 123.698 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 64.77 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cddfd149-14d6-4cd0-8249-c7014c8f8341")
+		)
+		(pin "2"
+			(uuid "1d6f68cc-e6d3-41d5-b326-b347c33442a9")
+		)
+		(instances
+			(project "PowerMUX"
+				(path "/414a0d6f-9e4a-40a2-b715-233308c3aed8"
+					(reference "R7")
 					(unit 1)
 				)
 			)
