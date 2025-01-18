@@ -3,4 +3,5 @@
   (lib (name "UJ31-CH-G2-SMT-TR")(type "KiCad")(uri "D:/Longhorn racing/electrical/LeaderSOMPCB/UTSVT-KiCadLibraries/UTSVT_Connectors.pretty/UJ31_CH_G2_SMT_TR/UJ31-CH-G2-SMT-TR.kicad_sym")(options "")(descr ""))
   (lib (name "TPS2115A")(type "KiCad")(uri "D:/Longhorn racing/electrical/LeaderSOMPCB/UTSVT-KiCadLibraries/UTSVT_Power.pretty/ul_TPS2115APW/KiCADv6/2024-12-07_20-57-50.kicad_sym")(options "")(descr ""))
   (lib (name "LM3940")(type "KiCad")(uri "D:/Longhorn racing/electrical/LeaderSOMPCB/UTSVT-KiCadLibraries/UTSVT_Power.pretty/ul_LM3940IMP-3-3/KiCADv6/2024-12-07_22-55-37.kicad_sym")(options "")(descr ""))
+  (lib (name "2025-01-18_20-51-31")(type "KiCad")(uri "D:/Longhorn racing/electrical/LeaderSOMPCB/UTSVT-KiCadLibraries/UTSVT_Power.pretty/ul_TLV70130DBVR/KiCADv6/2025-01-18_20-51-31.kicad_sym")(options "")(descr ""))
 )
