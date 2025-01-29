@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "UTSVT_Connectors")(type "KiCad")(uri "D:/Longhorn racing/electrical/LeaderSOMPCB/UTSVT-KiCadLibraries/UTSVT_Connectors.pretty")(options "")(descr ""))
+)
