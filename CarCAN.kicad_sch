@@ -1307,6 +1307,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 137.795) (xy 133.35 137.795)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56e09ecb-48a7-45d9-93a8-bad7a46b4b38")
+	)
+	(wire
+		(pts
 			(xy 190.5 106.045) (xy 190.5 107.315)
 		)
 		(stroke
@@ -1347,6 +1357,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 152.4) (xy 132.08 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f0084fd-007b-4042-83fb-c16ada5a457e")
+	)
+	(wire
+		(pts
 			(xy 230.505 106.045) (xy 230.505 105.41)
 		)
 		(stroke
@@ -1364,6 +1384,16 @@
 			(type default)
 		)
 		(uuid "809c44e2-6a20-4755-b1ef-fc8a49ac17fe")
+	)
+	(wire
+		(pts
+			(xy 133.35 149.86) (xy 133.35 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a80b9d6-7298-4865-a3c2-a5ea854dced3")
 	)
 	(wire
 		(pts
@@ -1404,6 +1434,16 @@
 			(type default)
 		)
 		(uuid "a770e47f-c477-45f2-be04-23f46473db52")
+	)
+	(wire
+		(pts
+			(xy 133.35 137.795) (xy 133.35 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0875a40-89b7-484b-947f-3ec87666cb2c")
 	)
 	(wire
 		(pts
@@ -1569,6 +1609,18 @@
 		)
 		(uuid "f08a5225-da91-41c7-a13c-cccfed58fef8")
 	)
+	(hierarchical_label "CAN_RX"
+		(shape output)
+		(at 132.08 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "32f7590e-6b9a-4b42-9408-73af76716833")
+	)
 	(hierarchical_label "CarCAN_H"
 		(shape input)
 		(at 152.4 103.505 0)
@@ -1580,6 +1632,18 @@
 			(justify left)
 		)
 		(uuid "486a2afc-0c44-4069-98fd-33c24e6c80ee")
+	)
+	(hierarchical_label "CAN_TX"
+		(shape input)
+		(at 132.08 137.795 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "63a1f51f-b71b-478d-b60b-b59974bcb1ef")
 	)
 	(hierarchical_label "CAN_RX"
 		(shape output)
@@ -1742,6 +1806,91 @@
 			(project "LeaderSOM"
 				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/8f4dac5b-9bb8-4793-8ce7-913e39731a3f"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 133.35 144.78 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "582eceb1-f3ff-450b-b139-65909d02b6bb")
+		(property "Reference" "JP2"
+			(at 135.382 144.907 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 137.922 144.907 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 133.35 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 133.35 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 133.35 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 133.35 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4e2af249-d60b-40bc-bafc-0d0407bf4d0f")
+		)
+		(pin "1"
+			(uuid "22e34bd8-8672-4a07-8e7e-87452bc050b3")
+		)
+		(instances
+			(project "LeaderSOM"
+				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/8f4dac5b-9bb8-4793-8ce7-913e39731a3f"
+					(reference "JP2")
 					(unit 1)
 				)
 			)
