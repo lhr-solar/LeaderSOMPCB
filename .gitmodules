@@ -2,3 +2,6 @@
 	path = UTSVT-KiCadLibraries
 	url = git@github.com:lhr-solar/UTSVT-KiCadLibraries.git
 	branch = LeaderSOM
+[submodule "KiCAD-Sharepoint"]
+	path = KiCAD-Sharepoint
+	url = https://github.com/lhr-solar/KiCAD-Sharepoint.git
