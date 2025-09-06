@@ -2,6 +2,3 @@
 	path = UTSVT-KiCadLibraries
 	url = git@github.com:lhr-solar/UTSVT-KiCadLibraries.git
 	branch = LeaderSOM
-[submodule "KiCAD-Bild"]
-	path = KiCAD-Bild
-	url = git@github.com:lhr-solar/KiCAD-Bild.git
