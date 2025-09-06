@@ -6309,7 +6309,7 @@
 				)
 			)
 		)
-		(property "Footprint" "D0008A-IPC_A"
+		(property "Footprint" "UTSVT_Power:D0008A-IPC_A"
 			(at 55.88 99.06 0)
 			(effects
 				(font
@@ -8372,7 +8372,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9901203e-6807-4210-a915-de5e90f604fb")
-		(property "Reference" "5V"
+		(property "Reference" "5V1"
 			(at 194.056 54.991 90)
 			(effects
 				(font
@@ -8421,7 +8421,7 @@
 		(instances
 			(project "LeaderSOM"
 				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/07cef2e6-f2f4-4f04-bcaf-7b98b53ab0fe"
-					(reference "5V")
+					(reference "5V1")
 					(unit 1)
 				)
 			)
