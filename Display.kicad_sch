@@ -3322,7 +3322,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 27.6352 104.775 0)
 			(effects
 				(font
@@ -3685,6 +3685,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 106.045 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52da7258-e428-4a97-a651-5e73c48009cd")
+		(property "Reference" "#PWR0130"
+			(at 106.045 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 106.426 85.7758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.045 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.045 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 106.045 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "858a0e7b-604b-4c32-a50a-2d0e87e90a76")
+		)
+		(instances
+			(project "LeaderSOM"
+				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/8c1921d3-7d8b-4937-baba-7ed9d4d1349f"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 109.855 109.855 0)
 		(unit 1)
@@ -3712,7 +3777,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 109.855 109.855 0)
 			(effects
 				(font
@@ -3926,16 +3991,15 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 118.745 105.41 0)
+		(at 218.44 116.205 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "79528c40-b221-4ee6-a12a-594f91ab00bd")
-		(property "Reference" "#PWR0104"
-			(at 118.745 109.22 0)
+		(uuid "7b69b3e6-8a5b-4bf4-85f5-dd8da73b4a06")
+		(property "Reference" "#PWR0132"
+			(at 222.25 116.205 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3943,8 +4007,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 118.745 100.33 0)
+		(property "Value" "+3V3"
+			(at 214.0458 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3952,7 +4016,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.745 105.41 0)
+			(at 218.44 116.205 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3961,7 +4025,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.745 105.41 0)
+			(at 218.44 116.205 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3970,7 +4034,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 118.745 105.41 0)
+			(at 218.44 116.205 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3979,12 +4043,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "3d02d73a-917a-4341-b961-0e974965df60")
+			(uuid "21c37366-1516-4120-bd7e-794ca58e0baa")
 		)
 		(instances
 			(project "LeaderSOM"
 				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/8c1921d3-7d8b-4937-baba-7ed9d4d1349f"
-					(reference "#PWR0104")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -4160,16 +4224,15 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 218.44 116.205 90)
+		(at 142.875 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9997bfe8-4553-40ac-a027-f64c79c0d177")
-		(property "Reference" "#PWR05"
-			(at 222.25 116.205 0)
+		(uuid "9db56de1-5262-4e9a-ac3b-b43d76d1f14b")
+		(property "Reference" "#PWR0131"
+			(at 146.685 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4177,17 +4240,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 214.63 116.205 90)
+		(property "Value" "+3V3"
+			(at 138.4808 116.459 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 116.205 0)
+			(at 142.875 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4196,7 +4258,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 116.205 0)
+			(at 142.875 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4205,7 +4267,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 218.44 116.205 0)
+			(at 142.875 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4214,18 +4276,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c501aa99-9861-4485-b6e0-e5bc96f3a2ac")
+			(uuid "20761a5c-3817-4eeb-a52c-bc43aacfc308")
 		)
 		(instances
 			(project "LeaderSOM"
 				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/8c1921d3-7d8b-4937-baba-7ed9d4d1349f"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-			(project "BPS-PeripheralSOM"
-				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
-					(reference "#PWR02")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -4492,7 +4548,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 115.57 97.79 0)
 			(effects
 				(font
@@ -4645,7 +4701,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT_95DYYR_TEX"
+		(property "Footprint" "SN74HC595:SOT_95DYYR_TEX"
 			(at 55.88 90.17 0)
 			(effects
 				(font
@@ -4811,6 +4867,71 @@
 			(project "LeaderSOM"
 				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/8c1921d3-7d8b-4937-baba-7ed9d4d1349f"
 					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 118.745 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9ec43ef-5c31-4c73-8923-ae7c5abd71db")
+		(property "Reference" "#PWR0104"
+			(at 118.745 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 119.126 101.0158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.745 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.745 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 118.745 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c259a468-b265-4983-beb5-0f34d58b1daa")
+		)
+		(instances
+			(project "LeaderSOM"
+				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/8c1921d3-7d8b-4937-baba-7ed9d4d1349f"
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -4994,8 +5115,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d73c6bca-7592-49e5-8d0a-9d0a6979ec91")
+		(uuid "e640106b-1385-4376-b8f3-be44dee12721")
 		(property "Reference" "#PWR0111"
 			(at 26.67 96.52 0)
 			(effects
@@ -5005,8 +5125,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 26.67 87.63 0)
+		(property "Value" "+3V3"
+			(at 27.051 88.3158 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5041,7 +5161,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "bb8c8fe7-41a0-480b-b2ac-8c2327754b64")
+			(uuid "868cae9a-d985-4cbe-8fa8-91b8a8bd8940")
 		)
 		(instances
 			(project "LeaderSOM"
@@ -5228,7 +5348,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 113.665 105.41 0)
 			(effects
 				(font
@@ -5265,145 +5385,6 @@
 			(project ""
 				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/8c1921d3-7d8b-4937-baba-7ed9d4d1349f"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 106.045 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f7bba429-98a9-478d-86ef-b1c526e85e49")
-		(property "Reference" "#PWR0100"
-			(at 106.045 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 106.045 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.045 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.045 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 106.045 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf8da0b3-4c5a-4158-9bd0-c1c01b54ec3d")
-		)
-		(instances
-			(project "LeaderSOM"
-				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/8c1921d3-7d8b-4937-baba-7ed9d4d1349f"
-					(reference "#PWR0100")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 142.875 116.84 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f8263ada-1fb8-4f6f-9f90-9abcc7861ee6")
-		(property "Reference" "#PWR040"
-			(at 146.685 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 139.7 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.875 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.875 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 142.875 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9251e309-dee0-40cf-ab61-1e158fc3492a")
-		)
-		(instances
-			(project "LeaderSOM"
-				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/8c1921d3-7d8b-4937-baba-7ed9d4d1349f"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-			(project "BPS-PeripheralSOM"
-				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)

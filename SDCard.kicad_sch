@@ -2361,16 +2361,15 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 143.51 87.63 0)
+		(at 174.625 85.725 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1da9154a-9d02-42c7-91c2-e827ca10577c")
-		(property "Reference" "#PWR028"
-			(at 143.51 91.44 0)
+		(uuid "2c4e5201-9186-4886-83fb-189b419aa5c1")
+		(property "Reference" "#PWR0129"
+			(at 174.625 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2378,8 +2377,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 143.51 83.82 0)
+		(property "Value" "+3V3"
+			(at 175.006 81.3308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2387,7 +2386,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 87.63 0)
+			(at 174.625 85.725 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2396,7 +2395,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 87.63 0)
+			(at 174.625 85.725 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2405,7 +2404,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 143.51 87.63 0)
+			(at 174.625 85.725 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2414,18 +2413,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2c06aecd-a8f8-4701-9fae-ff7ea9b496c7")
+			(uuid "74bfe055-1055-4fa8-a579-80f768d25b4a")
 		)
 		(instances
 			(project "LeaderSOM"
 				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/54eecd34-7b2b-4895-a003-33708e7ad7e6"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-			(project "BPS-PeripheralSOM"
-				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
-					(reference "#PWR02")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -2670,78 +2663,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 174.625 85.725 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "761c59fd-74e0-425a-bbb9-29e0927db125")
-		(property "Reference" "#PWR018"
-			(at 174.625 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 174.625 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 174.625 85.725 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 174.625 85.725 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 174.625 85.725 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "56f832af-5819-4303-ae6b-f87ba974fedb")
-		)
-		(instances
-			(project "LeaderSOM"
-				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/54eecd34-7b2b-4895-a003-33708e7ad7e6"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-			(project "BPS-PeripheralSOM"
-				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "utsvt-chips:D5V0P4UR6SO-7")
 		(at 90.805 93.98 0)
 		(unit 1)
@@ -2824,6 +2745,71 @@
 			(project "BPS-PeripheralSOM"
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
 					(reference "CR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 143.51 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa3ffff5-e96b-458a-a72b-208edd779c02")
+		(property "Reference" "#PWR0128"
+			(at 143.51 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 143.891 83.2358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 143.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ebf675c-bfdf-480b-8ac2-2519ae0aee30")
+		)
+		(instances
+			(project "LeaderSOM"
+				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/54eecd34-7b2b-4895-a003-33708e7ad7e6"
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
