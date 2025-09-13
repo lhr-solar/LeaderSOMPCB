@@ -6070,7 +6070,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UTSVT_ICs:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+		(property "Footprint" "UTSVT_Connectors:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 44.45 50.8 0)
 			(effects
 				(font

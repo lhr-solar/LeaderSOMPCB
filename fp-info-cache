@@ -1,4 +1,11 @@
-25823746952280149
+25742195271582633
+7-segment
+SMT_1S12800_WRE
+
+157121S12800 
+0
+10
+10
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -68599,6 +68606,13 @@ net tie
 0
 4
 4
+OR_Gate
+SOT95P280X145-5N
+DBV
+Integrated Circuit
+0
+5
+5
 OptoDevice
 ADNS-9800
 Laser Gaming Sensor ADNS-9800
@@ -94765,6 +94779,41 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SD_CARD
+microSD_HC_Hirose_DM3AT-SF-PEJM5
+Micro SD, SMD, right-angle, push-pull (https://www.hirose.com/product/en/download_file/key_name/DM3AT-SF-PEJM5/category/Drawing%20(2D)/doc_file_id/44099/?file_category_id=6&item_id=06090031000&is_series=)
+Micro SD
+0
+14
+11
+SN74HC595
+SOT_95DYYR_TEX
+
+SN74HCS595DYYR 
+0
+16
+16
+SN74HC595
+SOT_95DYYR_TEX-L
+
+SN74HCS595DYYR 
+0
+16
+16
+SN74HC595
+SOT_95DYYR_TEX-M
+
+SN74HCS595DYYR 
+0
+16
+16
+STM32G473RET6
+LQFP64-10x10mm
+
+STM32G473RET6 
+0
+64
+64
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -96438,6 +96487,13 @@ Logo WEEE
 0
 0
 0
+TPS2115ABDR
+SON65P300X300X100-9N
+
+
+0
+9
+9
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -102298,16 +102354,9 @@ igbt diode module
 25
 25
 UTSVT_Connectors
-01x02_Horizontal_Female_Socket
-M20-7910242R-3
-Connector
-0
-2
-2
-UTSVT_Connectors
-01x02_Horizontal_Male_Pin
-M20-7910242R-3
-Connector
+105313-2102
+Molex Nano-Fit Power Connectors, 105313-xx02, 2 Pins per row (http://www.molex.com/pdm_docs/sd/1053131208_sd.pdf), generated with kicad-footprint-generator
+connector Molex Nano-Fit top entry
 0
 2
 2
@@ -102319,12 +102368,12 @@ Connector
 24
 24
 UTSVT_Connectors
-2039550203
-203955-0203-1
-Connector
+AMASS_XT30PW-M_1x02_P2.50mm_Horizontal
+Connector XT30 Horizontal PCB Male, https://www.tme.eu/en/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf
+RC Connector XT30
 0
-24
-24
+4
+2
 UTSVT_Connectors
 Banana_Jack_1_Pin_4mm
 
@@ -102333,26 +102382,19 @@ Banana_Jack_1_Pin_4mm
 1
 1
 UTSVT_Connectors
-Banana_Jack_Horizontal
-73099-0-1
-Connector
+CONN_SFH11-xxxC-D05-ST-XX_SUL
+
+SFH11-PBPC-D05-ST-BK 
 0
-5
-5
+10
+10
 UTSVT_Connectors
-CON_533072471
-
-533072471 
-0
-24
-24
-UTSVT_Connectors
-Cal_Test_Banana_Jack_1_Pin_4mm
+CUI_UJ31-CH-G2-SMT-TR
 
 
 0
-1
-1
+28
+28
 UTSVT_Connectors
 Molex2x10_horizontal
 
@@ -102360,6 +102402,13 @@ Molex2x10_horizontal
 0
 22
 20
+UTSVT_Connectors
+Molex_Micro-Fit_3.0_43045-1800_2x09_P3.00mm_Horizontal
+Molex Micro-Fit 3.0 Connector System, 43045-1800 (alternative finishes: 43045-180x), 9 Pins per row (https://www.molex.com/pdm_docs/sd/430450201_sd.pdf), generated with kicad-footprint-generator
+connector Molex Micro-Fit_3.0 horizontal
+0
+18
+18
 UTSVT_Connectors
 Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical
 
@@ -102410,310 +102459,170 @@ Molex_MicroFit_01x07_Horizontal
 9
 7
 UTSVT_Connectors
-Molex_Microfit+_01x07_Horizontal
-215760-YY07
-Connector
-0
-7
-7
-UTSVT_Connectors
-PADP-24V-1-S
+Molex_Microfit3.0_02x03_6-Pin-Vertical-PCB-Receptacle_447690601
 
-
-0
-24
-24
-UTSVT_Connectors
-PhoenixContact_PowerCombicon5_GF_2x7.62mm
-
-
+447690601 
 0
 6
+6
+UTSVT_Connectors
+Molex_Microfit3.0_02x07_14-Pin-Horizontal-PCB-Receptacle_447641401
+
+447641401 
+0
+14
+14
+UTSVT_Connectors
+Molex_Microfit3.0_02x07_14-Pin-Vertical-PCB-Receptacle_447691401
+
+447691401 
+0
+14
+14
+UTSVT_Connectors
+Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical
+Molex Nano-Fit Power Connectors, 105309-xx02, 2 Pins per row (http://www.molex.com/pdm_docs/sd/1053091203_sd.pdf), generated with kicad-footprint-generator
+connector Molex Nano-Fit side entry
+0
+2
 2
 UTSVT_Connectors
-PhoenixContact_PowerCombicon5_GF_3x7.62mm
+Molex_Nano-Fit_105309-xx04_1x04_P2.50mm_Vertical
 
 
 0
-9
+4
+4
+UTSVT_Connectors
+Molex_Nano-Fit_105313-xx07_1x07_P2.50mm_Horizontal
+Molex Nano-Fit Power Connectors, 105313-xx07, 7 Pins per row (http://www.molex.com/pdm_docs/sd/1053131208_sd.pdf), generated with kicad-footprint-generator
+connector Molex Nano-Fit top entry
+0
+7
+7
+UTSVT_Connectors
+PeripheralSOM
+
+
+0
+36
+28
+UTSVT_Connectors
+USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal
+USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A: https://gct.co/files/drawings/usb4105.pdf
+USB C Type-C Receptacle SMD USB 2.0 16P 16C USB4105-15-A USB4105-15-A-060 USB4105-15-A-120 USB4105-GF-A USB4105-GF-A-060 USB4105-GF-A-120
+0
+20
+17
+UTSVT_ICs
+CDSOT23-T24CAN
+SOT-23W http://www.allegromicro.com/~/media/Files/Datasheets/A112x-Datasheet.ashx?la=en&hash=7BC461E058CC246E0BAB62433B2F1ECA104CA9D3
+SOT-23W
+0
 3
-UTSVT_Connectors
-Power_Metal_Strip_Battery_Shunt_Resistor_4_Pin_Connector
-
-
-0
-4
-4
-UTSVT_Connectors
-RJ45_Abracon_ARJP11A-MA_Horizontal
-Shielded RJ45 ethernet connector with transformer and POE (https://abracon.com/Magnetics/lan/ARJP11A.PDF)
-ethernet 8p8c transformer poe rj45
-0
-15
-14
-UTSVT_Connectors
-SMA_Amphenol_132203-12_Horizontal
-https://www.amphenolrf.com/media/downloads/1769/132203-12.pdf
-SMA THT Female Jack Horizontal
-0
-5
-2
-UTSVT_Connectors
-TE_4-2172079-2
-
-
-0
-6
-6
-UTSVT_Connectors
-USB_Micro-B_Molex-105017-0001
-http://www.molex.com/pdm_docs/sd/1050170001_sd.pdf
-Micro-USB SMD Typ-B
-0
-13
-6
-UTSVT_Connectors
-microSD_HC_Hirose_DM3AT-SF-PEJM5
-Micro SD, SMD, right-angle, push-pull (https://www.hirose.com/product/en/download_file/key_name/DM3AT-SF-PEJM5/category/Drawing%20(2D)/doc_file_id/44099/?file_category_id=6&item_id=06090031000&is_series=)
-Micro SD
-0
-14
-11
-UTSVT_Connectors
-ribbon_cable_right_2x10
-
-
-0
-20
-20
+3
 UTSVT_ICs
-21-0061L_MXM
-
-MAX16914AUB/V+T 
-0
-10
-10
-UTSVT_ICs
-21-0061L_MXM-L
-
-MAX16914AUB/V+T 
-0
-10
-10
-UTSVT_ICs
-21-0061L_MXM-M
-
-MAX16914AUB/V+T 
-0
-10
-10
-UTSVT_ICs
-AS8510
-SSOP-20_1
+CP2102N-A02-GQFN24
+QFN24 *
 Integrated Circuit
-0
-20
-20
-UTSVT_ICs
-BLUENRGM2SA
-BLUENRG-M2SA-3
-Integrated Circuit
-0
-23
-23
-UTSVT_ICs
-CUI_PQMC3-S
-
-
-0
-7
-7
-UTSVT_ICs
-LAN8742AI-CZ-TR
-
-
 0
 25
 25
 UTSVT_ICs
-LTC1380CS-PBF
-
-
-0
-16
-16
-UTSVT_ICs
-LTC6255CS6-TRMPBF
-
-
+D5V0P4UR6SO-7
+D5V0P4UR6SO-7
+TVS Diode (Uni-directional)
 0
 6
 6
 UTSVT_ICs
-LTC6256CTS8-TRMPBF
-
-
-0
-8
-8
-UTSVT_ICs
-LTC6811HG-1-PBF
-
-
-0
-48
-48
-UTSVT_ICs
-PDSx-M
-
-
-0
-5
-5
-UTSVT_ICs
-PDSx-S
-
-
+EL3H7
+SOP, 4 Pin (http://www.vishay.com/docs/83510/tcmt1100.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOP SO
 0
 4
 4
 UTSVT_ICs
-POWERPAKSO-8
-PowerPAK SO-8
-MOSFET (P-Channel)
-0
-8
-8
-UTSVT_ICs
-RI3_DC_Converter
-
-
-0
-4
-4
-UTSVT_ICs
-SOIC-6_1.40x2.15mm_Pitch0.65mm
-
-
-0
-6
-6
-UTSVT_ICs
-SOIC-8_4.00x5.00mm_Pitch1.27mm
+LM74501QDDFRQ1
 
 
 0
 8
 8
 UTSVT_ICs
-SOIC-16_9.9x6.0mm_P1.27mm
-
-
-0
-16
-16
-UTSVT_ICs
-SOIC-20W_7.5x15.4mm_Pitch1.27mm
-20-Lead Plastic Small Outline (SO) - Wide, 7.50 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
-SOIC 1.27
-0
-20
-20
-UTSVT_ICs
-SOIC-48
-
-
-0
-48
-48
-UTSVT_ICs
-SOIC127P600X175-8N
-D0008A  SOIC
-Integrated Circuit
-0
-8
-8
-UTSVT_ICs
-SOP65P640X120-16N
-ADC128S052CIMTX/NOPB-1
-Integrated Circuit
-0
-16
-16
-UTSVT_ICs
-SOP65P640X120-17N
+LM76202QPWPRQ1
 HTSSOP16
 Integrated Circuit
 0
 17
 17
 UTSVT_ICs
-SOT26_DIO
+SON65P300X300X100-9N
 
-D5V0P4UR6SO-7 
+
 0
-6
-6
+9
+9
 UTSVT_ICs
-SOT65P280X145-8N
+TCAN337DCNR
 DCN (R-PDSO-G8)
 Integrated Circuit
 0
 8
 8
-UTSVT_Mechanical
-CJS-1200B_NDC
+UTSVT_ICs
+TPS1120DR
+D0008A  SOIC
+Integrated Circuit
+0
+8
+8
+UTSVT_ICs
+TPS2115APW
 
-CJS-1200B 
+TPS2115APW 
 0
-3
-3
-UTSVT_Mechanical
-MountingHole_4-40_PanHead
+8
+8
+UTSVT_Logos
+Hallock_Image
 
 
 0
 0
 0
-UTSVT_Mechanical
-MountingHole_4-40_Washer
+UTSVT_Logos
+Hallock_Image_Small
+
+
+0
+0
+0
+UTSVT_Logos
+Hallock_Image_Tiny
+
+
+0
+0
+0
+UTSVT_Logos
+LHRs_LOGO
+
+
+0
+0
+0
+UTSVT_Logos
+UTSVT_Logo_Symbol
 
 
 0
 0
 0
 UTSVT_Passive
-CP_Radial_D31mm_P9mm
-
-
-0
-2
-2
-UTSVT_Passive
-C_2220_5750Metric
-Capacitor SMD 2220In_5750Metrix
-Capacitor, 5750
-0
-2
-2
-UTSVT_Passive
-FUSE_05200101Z_LTF
-
-05200101Z 
-0
-2
-2
-UTSVT_Passive
-HXXXX
-<b>Pulse Engineering</b><p>H110X, H1121, H1183, H1199, HX1188FNL, HX1198, H1302
-
-0
-16
-16
-UTSVT_Passive
-LittelFuse_OMNIBLOK_520Series_PCB
-
-
+BZT52B12QX
+BZT52-B12-QX-2
+Zener Diode
 0
 2
 2
@@ -102725,152 +102634,61 @@ Schottky Diode
 2
 2
 UTSVT_Passive
-MSF 250 Fuse
-
-
-0
-2
-2
-UTSVT_Passive
-NX8045GB-8.000M-STD-CSJ-1
-
-
-0
-2
-2
-UTSVT_Passive
-SRF0905A
-SRF0905A
-Inductor
+PRTR5V0U2X
+SOT143B
+Diode
 0
 4
 4
 UTSVT_Passive
-SW_PVA1EEH1
-
-
-0
-4
-4
-UTSVT_Passive
-V2F22HM
-
-
+SODFL4724X108N
+3-4E1S
+Diode
 0
 2
 2
 UTSVT_Passive
-Vishay_100u_Shunt
-
-
+SODFL5026X125N
+DO-221AC(SMA-FL)
+Zener Diode
 0
 2
 2
 UTSVT_Power
-1122
-1122-3
-Connector
-0
-2
-2
-UTSVT_Power
-1122_with_cutout
-1122-3
-Connector
-0
-2
-2
-UTSVT_Power
-1769405141
- 8-SMD Module, 5 Leads
-Power Supply
+1769205241
+1769205241-2
+Integrated Circuit
 0
 5
 5
 UTSVT_Power
-CME0303S3C
-
-CME0303S3C 
-0
-4
-4
-UTSVT_Power
-D0008A-IPC_A
-
-TPS5405DR 
-0
-8
-8
-UTSVT_Power
-D0008A-IPC_B
-
-TPS5405DR 
-0
-8
-8
-UTSVT_Power
-D0008A-IPC_C
-
-TPS5405DR 
-0
-8
-8
-UTSVT_Power
-D0008A-MFG
-
-TPS5405DR 
-0
-8
-8
-UTSVT_Power
-IE1224S-H
-IE1224S-H
-Power Supply
-0
-4
-4
-UTSVT_Power
-MYLSM00502ERPL
-MYLSM00502ERPL-2
-Power Supply
-0
-9
-9
-UTSVT_Power
-Mean_Well_12V
-
-
-0
-4
-4
-UTSVT_Power
-RFM0505S
-RFM Series
-Power Supply
-0
-4
-4
-UTSVT_Power
-RS60505S
-RS6
-Power Supply
-0
-7
-7
-UTSVT_Power
-SON65P200X200X80-7N
-DRV (S-PWSON-N6)
+LM76202QPWPRQ1
+HTSSOP16
 Integrated Circuit
 0
-7
-7
+17
+17
 UTSVT_Power
-SON80P400X400X80-9N
-NGU0008B
+PSMN8R5-40MSDX
+LFPAK33 (SOT1210)
+MOSFET (N-Channel)
+0
+11
+11
+UTSVT_Power
+SOT65P280X110-8N
+DDF0008A
 Integrated Circuit
 0
-9
-9
+8
+8
+UTSVT_Power
+SOTFL50P160X60-8N
+DRL0008A
+Integrated Circuit
+0
+8
+8
 UTSVT_Power
 TLV70130DBVR
 DBV0005A
@@ -102879,103 +102697,19 @@ Integrated Circuit
 5
 5
 UTSVT_Power
-transformer_wuerth_750318463
-
-
+TPS5405DR
+D0008A-
+Integrated Circuit
 0
 8
 8
 UTSVT_Special
-2M1-SP1-T1-B1-M2QE
-
-
+ESP32-C6-MINI-1
+ESP32-C6-MINI-1: https://www.espressif.com/sites/default/files/documentation/esp32-c6-mini-1_datasheet_en.pdf
+ESP32-C6
 0
-3
-3
-UTSVT_Special
-2MS6T1B3M2QES
-2MS6T1B3M2QES-3
-Switch
-0
-2
-2
-UTSVT_Special
-7switch_module_DS04254207BKSMT
-DS04-254-2-07BK-SMT-3
-Switch
-0
-14
-14
-UTSVT_Special
-ABM3
-ABM3
-Crystal or Oscillator
-0
-2
-2
-UTSVT_Special
-B3FS1012P
-B3FS-1012P-2
-Switch
-0
-4
-4
-UTSVT_Special
-CK1035_resized
-
-
-0
-14
-14
-UTSVT_Special
-Crystal_SMD_2012-2Pin_2.0x1.2mm
-SMD Crystal 2012/2 http://txccrystal.com/images/pdf/9ht11.pdf, 2.0x1.2mm^2 package
-SMD SMT crystal
-0
-2
-2
-UTSVT_Special
-Crystal_SMD_TXC_7A-2Pin_5x3.2mm
-SMD Crystal TXC 7A http://txccrystal.com/images/pdf/7a.pdf
-SMD SMT crystal
-0
-2
-2
-UTSVT_Special
-Diode_Symbol_Small
-
-
-0
-0
-0
-UTSVT_Special
-FGPMMOPA6H
-
-
-0
-21
-20
-UTSVT_Special
-Hallock_Image
-
-
-0
-0
-0
-UTSVT_Special
-Hallock_Image_Small
-
-
-0
-0
-0
-UTSVT_Special
-Hallock_Image_Tiny
-
-
-0
-0
-0
+61
+53
 UTSVT_Special
 LeaderSOM
 
@@ -102984,13 +102718,6 @@ LeaderSOM
 48
 48
 UTSVT_Special
-M2024SS1W03BC
-M2024SS1W03-BC-2
-Switch
-0
-6
-6
-UTSVT_Special
 NucleoL432KC
 
 
@@ -102998,54 +102725,19 @@ NucleoL432KC
 30
 30
 UTSVT_Special
-PeripheralSOM
+SW_CJS-1200TA
 
 
 0
-20
-20
-UTSVT_Special
-RCD-24
-
-
-0
-6
-6
-UTSVT_Special
-SDDJE32700
-
-
-0
-4
-4
-UTSVT_Special
-SMT_1S12800_WRE
-
-157121S12800 
-0
-10
-10
-UTSVT_Special
-SMT_1S12800_WRE-L
-
-157121S12800 
-0
-10
-10
-UTSVT_Special
-SMT_1S12800_WRE-M
-
-157121S12800 
-0
-10
-10
+3
+3
 UTSVT_Special
 SW_SPST_B3SL-1002P
 Middle Stroke Tactile Switch, B3SL
 Middle Stroke Tactile Switch
 0
 4
-2
+4
 UTSVT_Special
 Symbol_HighVoltage_Small
 Symbol, Highvoltage, Type 1, Copper Top, Small,
@@ -103054,12 +102746,12 @@ Symbol, Highvoltage, Type 1, Copper Top, Small,
 0
 0
 UTSVT_Special
-TS01CQE
+THERM_ERT-J1VR104FM
 
 
 0
-3
-3
+2
+2
 UTSVT_Special
 TestPoint_HEX_3mmID
 
@@ -103067,27 +102759,6 @@ TestPoint_HEX_3mmID
 0
 1
 1
-UTSVT_Special
-UTSVT_Logo_Symbol
-
-
-0
-0
-0
-UTSVT_Special
-current_board_dcdc_converter
-
-
-0
-5
-5
-UTSVT_Special
-ptc_fuse_FUSC1607X75N
-0ZCM0010FF2G-1
-Fuse
-0
-2
-2
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins

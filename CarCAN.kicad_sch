@@ -198,6 +198,15 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(effects
@@ -582,6 +591,133 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "UTSVT-ICs:CDSOT23-T24CAN"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U3"
+				(at 0 6.985 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "CDSOT23-T24CAN"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "UTSVT_ICs:CDSOT23-T24CAN"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.com/ProductDetail/652-CDSOT23-T24CAN"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAN Bus Protector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "P/N" "CDSOT23-T24CAN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CDSOT23-T24CAN_0_1"
+				(rectangle
+					(start 6.35 2.54)
+					(end -6.35 -2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "CDSOT23-T24CAN_1_1"
+				(pin passive line
+					(at -8.89 1.27 0)
+					(length 2.54)
+					(name "CAN_H"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 -1.27 0)
+					(length 2.54)
+					(name "CAN_L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1056,124 +1192,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "utsvt-chips:CDSOT23-T24CAN"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "CDSOT23-T24CAN"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23W"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.com/ProductDetail/652-CDSOT23-T24CAN"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "CAN Bus Protector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CDSOT23-T24CAN_0_1"
-				(rectangle
-					(start 6.35 2.54)
-					(end -6.35 -2.54)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "CDSOT23-T24CAN_1_1"
-				(pin passive line
-					(at -8.89 1.27 0)
-					(length 2.54)
-					(name "CAN_H"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -8.89 -1.27 0)
-					(length 2.54)
-					(name "CAN_L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 8.89 0 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
 		(start 106.68 106.045)
@@ -1281,10 +1299,6 @@
 	(no_connect
 		(at 84.455 78.105)
 		(uuid "29ee1919-8f34-43a3-906c-3ac7e754e940")
-	)
-	(no_connect
-		(at 95.885 78.74)
-		(uuid "9fe9e562-3447-461d-8f25-781ad7527342")
 	)
 	(wire
 		(pts
@@ -1536,8 +1550,8 @@
 		)
 		(uuid "ff905dca-0d1e-46b3-a962-e6f0d00c0372")
 	)
-	(label "Fault"
-		(at 76.2 75.565 0)
+	(label "CARCAN_Fault"
+		(at 71.755 75.565 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1546,7 +1560,7 @@
 		)
 		(uuid "50081d00-0399-47b0-a879-ddec8537b9c8")
 	)
-	(label "Fault"
+	(label "CARCAN_Fault"
 		(at 158.115 61.595 0)
 		(effects
 			(font
@@ -2080,6 +2094,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 158.115 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "95034f2c-6427-4595-ae16-92289994d2e9")
 		)
@@ -2096,7 +2119,7 @@
 		)
 	)
 	(symbol
-		(lib_id "utsvt-chips:CDSOT23-T24CAN")
+		(lib_id "UTSVT-ICs:CDSOT23-T24CAN")
 		(at 136.525 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2106,7 +2129,7 @@
 		(fields_autoplaced yes)
 		(uuid "5fe762ab-be78-4624-8e3d-0201ffcc2e76")
 		(property "Reference" "U3"
-			(at 136.525 78.105 0)
+			(at 136.525 77.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2114,14 +2137,14 @@
 			)
 		)
 		(property "Value" "CDSOT23-T24CAN"
-			(at 136.525 80.645 0)
+			(at 136.525 80.01 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23W"
+		(property "Footprint" "UTSVT_ICs:CDSOT23-T24CAN"
 			(at 136.525 93.98 0)
 			(effects
 				(font
@@ -2140,6 +2163,15 @@
 			)
 		)
 		(property "Description" "CAN Bus Protector"
+			(at 136.525 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CDSOT23-T24CAN"
 			(at 136.525 85.09 0)
 			(effects
 				(font

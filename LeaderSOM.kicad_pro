@@ -774,6 +774,10 @@
     [
       "07cef2e6-f2f4-4f04-bcaf-7b98b53ab0fe",
       "Power_Distribution"
+    ],
+    [
+      "4a7189ca-6f29-418f-88ee-cfefc930b205",
+      "LEDS & Buttons"
     ]
   ],
   "text_variables": {}
