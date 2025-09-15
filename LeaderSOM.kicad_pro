@@ -473,6 +473,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -778,6 +779,10 @@
     [
       "4a7189ca-6f29-418f-88ee-cfefc930b205",
       "LEDS & Buttons"
+    ],
+    [
+      "97cc3b6d-03de-444a-9e7b-201a12c14f47",
+      "MCU"
     ]
   ],
   "text_variables": {}
