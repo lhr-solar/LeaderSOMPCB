@@ -1863,6 +1863,16 @@
 				(justify left top)
 			)
 		)
+		(pin "ADC" bidirectional
+			(at 119.38 46.99 180)
+			(uuid "cf2ecedd-bc14-4015-bbda-67fc35b26353")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "LeaderSOM"
 				(path "/192d0c36-944e-4927-949b-263b8c85a7ca"

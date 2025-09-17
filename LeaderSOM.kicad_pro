@@ -783,6 +783,10 @@
     [
       "97cc3b6d-03de-444a-9e7b-201a12c14f47",
       "MCU"
+    ],
+    [
+      "946bbe46-df40-4185-8911-e57ae65d4879",
+      "Power Protection"
     ]
   ],
   "text_variables": {}
