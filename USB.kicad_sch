@@ -3449,16 +3449,6 @@
 		)
 		(uuid "fa88f9f2-4720-469b-bff5-e499e37021a1")
 	)
-	(label "D-"
-		(at 130.81 57.785 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1c34cb92-1381-4cba-b0f0-99ab8362bcee")
-	)
 	(label "CC2"
 		(at 67.31 72.39 0)
 		(effects
@@ -3468,6 +3458,16 @@
 			(justify left bottom)
 		)
 		(uuid "390bebd9-40c7-4092-a1a3-c8233a146a43")
+	)
+	(label "D-"
+		(at 130.81 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "475d3102-0565-434f-ab16-096c1fd5fdff")
 	)
 	(label "CC2"
 		(at 60.96 43.18 180)
@@ -3520,14 +3520,14 @@
 		(uuid "6ab5f97b-ebea-4850-860d-42ec5968fb14")
 	)
 	(label "D+"
-		(at 131.445 55.245 0)
+		(at 130.81 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "79b93763-5053-4a6d-8879-e53e7ee8eb34")
+		(uuid "6b0447f5-c5d0-4c53-92ee-d1eacf100799")
 	)
 	(label "VBUS_IN"
 		(at 56.515 35.56 0)

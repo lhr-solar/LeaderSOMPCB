@@ -6253,6 +6253,16 @@
 		)
 		(uuid "2b48c73f-b8f3-488d-9dfb-775944d1800a")
 	)
+	(polyline
+		(pts
+			(xy 26.67 97.282) (xy 26.67 101.6)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "2bb21804-6092-4cf9-8fbf-30ddb0dbbbee")
+	)
 	(wire
 		(pts
 			(xy 244.475 116.205) (xy 242.57 116.205)
@@ -7045,7 +7055,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.955 101.6) (xy 50.8 101.6)
+			(xy 27.94 101.6) (xy 50.8 101.6)
 		)
 		(stroke
 			(width 0)
@@ -7135,7 +7145,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.955 99.06) (xy 50.8 99.06)
+			(xy 27.94 99.06) (xy 50.8 99.06)
 		)
 		(stroke
 			(width 0)
@@ -7245,7 +7255,7 @@
 	)
 	(wire
 		(pts
-			(xy 28.575 106.68) (xy 50.8 106.68)
+			(xy 27.94 106.68) (xy 50.8 106.68)
 		)
 		(stroke
 			(width 0)
@@ -7944,7 +7954,7 @@
 		(uuid "2c2dee11-1fc7-435c-8376-feab834da75f")
 	)
 	(label "SDC_DET"
-		(at 28.575 106.68 0)
+		(at 27.94 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8044,7 +8054,7 @@
 		(uuid "4de449ce-5a80-4bab-821d-054c475d38e8")
 	)
 	(label "FDCAN2_RX"
-		(at 20.955 99.06 0)
+		(at 27.94 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8434,7 +8444,7 @@
 		(uuid "9fdf0e75-4e80-403b-a482-4dea19a9598a")
 	)
 	(label "FDCAN2_TX"
-		(at 20.955 101.6 0)
+		(at 27.94 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)

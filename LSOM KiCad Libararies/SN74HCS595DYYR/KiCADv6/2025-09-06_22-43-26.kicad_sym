@@ -80,11 +80,22 @@
 				(hide yes)
 			)
 		)
-		(symbol "SN74HCS595DYYR_0_1"
+		(symbol "SN74HCS595DYYR_1_1"
+			(rectangle
+				(start 7.62 5.08)
+				(end 33.02 -22.86)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin unspecified line
 				(at 0 0 0)
 				(length 7.62)
-				(name "1"
+				(name "B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -102,7 +113,7 @@
 			(pin unspecified line
 				(at 0 -2.54 0)
 				(length 7.62)
-				(name "2"
+				(name "C"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -120,7 +131,7 @@
 			(pin unspecified line
 				(at 0 -5.08 0)
 				(length 7.62)
-				(name "3"
+				(name "D"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -138,7 +149,7 @@
 			(pin unspecified line
 				(at 0 -7.62 0)
 				(length 7.62)
-				(name "4"
+				(name "E"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -156,7 +167,7 @@
 			(pin unspecified line
 				(at 0 -10.16 0)
 				(length 7.62)
-				(name "5"
+				(name "F"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -174,7 +185,7 @@
 			(pin unspecified line
 				(at 0 -12.7 0)
 				(length 7.62)
-				(name "6"
+				(name "G"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -192,7 +203,7 @@
 			(pin unspecified line
 				(at 0 -15.24 0)
 				(length 7.62)
-				(name "7"
+				(name "H"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -210,7 +221,7 @@
 			(pin unspecified line
 				(at 0 -17.78 0)
 				(length 7.62)
-				(name "8"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -228,7 +239,7 @@
 			(pin unspecified line
 				(at 40.64 0 180)
 				(length 7.62)
-				(name "16"
+				(name "VCC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -246,7 +257,7 @@
 			(pin unspecified line
 				(at 40.64 -2.54 180)
 				(length 7.62)
-				(name "15"
+				(name "A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -264,7 +275,7 @@
 			(pin unspecified line
 				(at 40.64 -5.08 180)
 				(length 7.62)
-				(name "14"
+				(name "Serial_Input"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -282,7 +293,7 @@
 			(pin unspecified line
 				(at 40.64 -7.62 180)
 				(length 7.62)
-				(name "13"
+				(name "Output_Enable"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -300,7 +311,7 @@
 			(pin unspecified line
 				(at 40.64 -10.16 180)
 				(length 7.62)
-				(name "12"
+				(name "Output_Register_CLK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -318,7 +329,7 @@
 			(pin unspecified line
 				(at 40.64 -12.7 180)
 				(length 7.62)
-				(name "11"
+				(name "Shift_Register_CLK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -336,7 +347,7 @@
 			(pin unspecified line
 				(at 40.64 -15.24 180)
 				(length 7.62)
-				(name "10"
+				(name "Shift_Register_CLR"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -354,7 +365,7 @@
 			(pin unspecified line
 				(at 40.64 -17.78 180)
 				(length 7.62)
-				(name "9"
+				(name "H'"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -367,19 +378,6 @@
 							(size 1.27 1.27)
 						)
 					)
-				)
-			)
-		)
-		(symbol "SN74HCS595DYYR_1_1"
-			(rectangle
-				(start 7.62 5.08)
-				(end 33.02 -22.86)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
 				)
 			)
 		)
