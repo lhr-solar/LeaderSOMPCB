@@ -3191,7 +3191,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 57.785) (xy 134.62 57.785)
+			(xy 131.445 57.785) (xy 134.62 57.785)
 		)
 		(stroke
 			(width 0)
@@ -3459,16 +3459,6 @@
 		)
 		(uuid "390bebd9-40c7-4092-a1a3-c8233a146a43")
 	)
-	(label "D-"
-		(at 130.81 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "475d3102-0565-434f-ab16-096c1fd5fdff")
-	)
 	(label "CC2"
 		(at 60.96 43.18 180)
 		(effects
@@ -3520,7 +3510,7 @@
 		(uuid "6ab5f97b-ebea-4850-860d-42ec5968fb14")
 	)
 	(label "D+"
-		(at 130.81 50.8 0)
+		(at 131.445 57.785 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3548,6 +3538,16 @@
 			(justify right bottom)
 		)
 		(uuid "9c365fc5-b4cc-476b-85d2-86048f54fbc5")
+	)
+	(label "D-"
+		(at 131.445 55.245 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b48cc4c0-2d18-47e1-8130-cc1aa37a8b0a")
 	)
 	(label "CC1"
 		(at 60.96 40.64 180)
