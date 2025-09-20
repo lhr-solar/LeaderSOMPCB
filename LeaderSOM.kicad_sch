@@ -5,6 +5,1182 @@
 	(uuid "192d0c36-944e-4927-949b-263b8c85a7ca")
 	(paper "A4")
 	(lib_symbols
+		(symbol "LSOM_DaughterConn_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/533072471"
+				(at 0.254 4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Symbol for both board-to-board connectors from the LeaderSOM"
+				(at 0.254 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LSOM_DaughterConn_1_1_1"
+				(rectangle
+					(start -14.478 -10.16)
+					(end 14.478 -63.5)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -20.066) (xy 0 -14.732)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -33.274) (xy 0 -23.368)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -46.482) (xy 0 -36.83)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -59.944) (xy 0 -49.784)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "UART"
+					(at -1.524 -27.686 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "I2C"
+					(at -1.524 -41.402 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "SPI"
+					(at -1.524 -54.864 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "ADC"
+					(at -1.27 -17.272 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "Part A"
+					(at 0 -11.43 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin output line
+					(at -19.812 -38.862 0)
+					(length 5.08)
+					(name "+3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -19.812 -41.402 0)
+					(length 5.08)
+					(name "+3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -19.812 -43.942 0)
+					(length 5.08)
+					(name "+3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -19.812 -46.482 0)
+					(length 5.08)
+					(name "+3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.558 -17.526 0)
+					(length 5.08)
+					(name "24VExt"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.558 -20.066 0)
+					(length 5.08)
+					(name "24VExt"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.558 -22.606 0)
+					(length 5.08)
+					(name "24VExt"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.558 -25.146 0)
+					(length 5.08)
+					(name "24VExt"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.558 -30.734 0)
+					(length 5.08)
+					(name "IntCAN_L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.558 -33.274 0)
+					(length 5.08)
+					(name "IntCAN_H"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -19.558 -51.816 0)
+					(length 5.08)
+					(name "MNT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -19.558 -54.356 0)
+					(length 5.08)
+					(name "MNT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -19.558 -56.642 0)
+					(length 5.08)
+					(name "MNT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -19.558 -58.928 0)
+					(length 5.08)
+					(name "MNT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 19.558 -16.256 180)
+					(length 5.08)
+					(name "ADC1_IN7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 19.558 -18.796 180)
+					(length 5.08)
+					(name "ADC1_IN6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 19.558 -24.384 180)
+					(length 5.08)
+					(name "UART4_TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 19.558 -26.924 180)
+					(length 5.08)
+					(name "UART4_RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 19.558 -29.464 180)
+					(length 5.08)
+					(name "UART5_TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 19.558 -32.004 180)
+					(length 5.08)
+					(name "UART5_RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 19.558 -37.846 180)
+					(length 5.08)
+					(name "I2C4_SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 19.558 -40.386 180)
+					(length 5.08)
+					(name "I2C4_SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 19.558 -42.926 180)
+					(length 5.08)
+					(name "I2C3_SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 19.558 -45.466 180)
+					(length 5.08)
+					(name "I2C3_SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 19.558 -51.054 180)
+					(length 5.08)
+					(name "SPI3_MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.558 -53.594 180)
+					(length 5.08)
+					(name "SPI3_NSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.558 -56.134 180)
+					(length 5.08)
+					(name "SPI3_MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.558 -58.166 180)
+					(length 5.08)
+					(name "SPI3_SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LSOM_DaughterConn_1_2_1"
+				(rectangle
+					(start -14.478 -10.16)
+					(end 14.478 -63.246)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -36.576) (xy 0 -13.716)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -45.974) (xy 0 -40.132)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -59.436) (xy 0 -49.784)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "ADC"
+					(at -1.27 -25.908 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "USART"
+					(at -1.27 -43.18 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "SPI"
+					(at -1.27 -54.61 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "Part B"
+					(at 0 -11.938 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin output line
+					(at -19.558 -16.51 0)
+					(length 5.08)
+					(name "+3.3VA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.558 -22.86 0)
+					(length 5.08)
+					(name "CarCAN_L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.558 -25.4 0)
+					(length 5.08)
+					(name "CarCAN_H"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.558 -38.1 0)
+					(length 5.08)
+					(name "GNDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.558 -44.45 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.558 -46.99 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.558 -49.53 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.558 -52.07 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.558 -54.61 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 19.558 -15.24 180)
+					(length 5.08)
+					(name "OPAMP5_VINM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.558 -17.78 180)
+					(length 5.08)
+					(name "ADC1_IN3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.558 -20.32 180)
+					(length 5.08)
+					(name "ADC1_IN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.558 -22.86 180)
+					(length 5.08)
+					(name "ADC1_IN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 19.558 -25.4 180)
+					(length 5.08)
+					(name "ADC1_IN11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 19.558 -27.94 180)
+					(length 5.08)
+					(name "ADC1_IN8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 19.558 -30.48 180)
+					(length 5.08)
+					(name "ADC1_IN15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.558 -33.02 180)
+					(length 5.08)
+					(name "ADC1_IN12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.558 -35.56 180)
+					(length 5.08)
+					(name "ADC2_IN12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.558 -41.91 180)
+					(length 5.08)
+					(name "USART3_RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.558 -44.45 180)
+					(length 5.08)
+					(name "USART3_TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.558 -50.8 180)
+					(length 5.08)
+					(name "SPI2_MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 19.558 -53.34 180)
+					(length 5.08)
+					(name "SPI2_MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.558 -55.88 180)
+					(length 5.08)
+					(name "SPI2_SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.558 -58.42 180)
+					(length 5.08)
+					(name "SPI2_NSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -636,6 +1812,1110 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "UTSVT-Connectors:LSOM_DaughterConn"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/533072471"
+				(at 0.254 4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Symbol for both board-to-board connectors from the LeaderSOM"
+				(at 0.254 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LSOM_DaughterConn_1_1"
+				(rectangle
+					(start -14.478 -10.16)
+					(end 14.478 -63.5)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -20.066) (xy 0 -14.732)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -33.274) (xy 0 -23.368)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -46.482) (xy 0 -36.83)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -59.944) (xy 0 -49.784)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "UART"
+					(at -1.524 -27.686 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "I2C"
+					(at -1.524 -41.402 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "SPI"
+					(at -1.524 -54.864 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "ADC"
+					(at -1.27 -17.272 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "Part A"
+					(at 0 -11.43 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin input line
+					(at -19.558 -17.526 0)
+					(length 5.08)
+					(name "24VExt"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.558 -20.066 0)
+					(length 5.08)
+					(name "24VExt"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.558 -22.606 0)
+					(length 5.08)
+					(name "24VExt"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.558 -25.146 0)
+					(length 5.08)
+					(name "24VExt"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.558 -34.036 0)
+					(length 5.08)
+					(name "IntCAN_L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.558 -36.576 0)
+					(length 5.08)
+					(name "IntCAN_H"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -19.558 -48.006 0)
+					(length 5.08)
+					(name "+3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -19.558 -50.546 0)
+					(length 5.08)
+					(name "+3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -19.558 -53.086 0)
+					(length 5.08)
+					(name "+3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -19.558 -55.626 0)
+					(length 5.08)
+					(name "+3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 19.558 -16.256 180)
+					(length 5.08)
+					(name "ADC1_IN7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 19.558 -18.796 180)
+					(length 5.08)
+					(name "ADC1_IN6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 19.558 -24.384 180)
+					(length 5.08)
+					(name "UART4_TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 19.558 -26.924 180)
+					(length 5.08)
+					(name "UART4_RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 19.558 -29.464 180)
+					(length 5.08)
+					(name "UART5_TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 19.558 -32.004 180)
+					(length 5.08)
+					(name "UART5_RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 19.558 -37.846 180)
+					(length 5.08)
+					(name "I2C4_SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 19.558 -40.386 180)
+					(length 5.08)
+					(name "I2C4_SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 19.558 -42.926 180)
+					(length 5.08)
+					(name "I2C3_SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 19.558 -45.466 180)
+					(length 5.08)
+					(name "I2C3_SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 19.558 -51.054 180)
+					(length 5.08)
+					(name "SPI3_MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.558 -53.594 180)
+					(length 5.08)
+					(name "SPI3_NSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.558 -56.134 180)
+					(length 5.08)
+					(name "SPI3_MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.558 -58.166 180)
+					(length 5.08)
+					(name "SPI3_SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LSOM_DaughterConn_2_1"
+				(rectangle
+					(start -14.478 -10.16)
+					(end 14.478 -63.246)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -36.576) (xy 0 -13.716)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -45.974) (xy 0 -40.132)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -59.436) (xy 0 -49.784)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "ADC"
+					(at -1.27 -25.908 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "USART"
+					(at -1.27 -43.18 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "SPI"
+					(at -1.27 -54.61 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "Part B"
+					(at 0 -11.938 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin output line
+					(at -19.558 -16.51 0)
+					(length 5.08)
+					(name "+3.3VA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.558 -22.86 0)
+					(length 5.08)
+					(name "CarCAN_L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.558 -25.4 0)
+					(length 5.08)
+					(name "CarCAN_H"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.558 -38.1 0)
+					(length 5.08)
+					(name "GNDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.558 -44.45 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.558 -46.99 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.558 -49.53 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.558 -52.07 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.558 -54.61 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 19.558 -15.24 180)
+					(length 5.08)
+					(name "OPAMP5_VINM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.558 -17.78 180)
+					(length 5.08)
+					(name "ADC1_IN3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.558 -20.32 180)
+					(length 5.08)
+					(name "ADC1_IN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.558 -22.86 180)
+					(length 5.08)
+					(name "ADC1_IN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 19.558 -25.4 180)
+					(length 5.08)
+					(name "ADC1_IN11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 19.558 -27.94 180)
+					(length 5.08)
+					(name "ADC1_IN8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 19.558 -30.48 180)
+					(length 5.08)
+					(name "ADC1_IN15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.558 -33.02 180)
+					(length 5.08)
+					(name "ADC1_IN12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.558 -35.56 180)
+					(length 5.08)
+					(name "ADC2_IN12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.558 -41.91 180)
+					(length 5.08)
+					(name "USART3_RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.558 -44.45 180)
+					(length 5.08)
+					(name "USART3_TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.558 -50.8 180)
+					(length 5.08)
+					(name "SPI2_MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 19.558 -53.34 180)
+					(length 5.08)
+					(name "SPI2_MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.558 -55.88 180)
+					(length 5.08)
+					(name "SPI2_SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.558 -58.42 180)
+					(length 5.08)
+					(name "SPI2_NSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "UTSVT-Misc:Logo_Placeholder"
 			(pin_names
 				(offset 1.016)
@@ -1231,9 +3511,9 @@
 		)
 		(uuid 060b3c6e-bf37-4692-8dd8-9486f44a6f9c)
 	)
-	(text "Changelog:\n- Changed MCU to STM32G473RET6\n- Changed most SOM connector pins slightly\n	- Replaced redunant GND/GNDA pins with more data pins\n	- Added extra functionality to some pins\n- Change pp values to be 24V\n- Swap out power stuff to match PSOM\n	- 24v - 5v buck\n	- 5v power mux\n	- overvoltage/current values\n	- 5v - 3v LDO\n	- Connect IMON to MCU\n- Changed a couple circuits to look better\n- Added additional leds (addressable and heartbeat)\n- Added shift register to reduce GPIO pins needed for seven segment\n- Working on updating ICs to KiCad-Sharepoint from UTSVIT-Kicadlibaries\n- Removed extra general purpose button\n- Bootloader switch\n\n\nTODO: \nmake mounting holes plated\nadd spi2 by swapping can1"
+	(text "Changelog:\n- Changed MCU to STM32G473RET6\n- Changed most SOM connector pins slightly\n	- Replaced redunant GND/GNDA pins with more data pins\n	- Added extra functionality to some pins\n- Change pp values to be 24V\n- Swap out power stuff to match PSOM\n	- 24v - 5v buck\n	- 5v power mux\n	- overvoltage/current values\n	- 5v - 3v LDO\n	- Connect IMON to MCU\n- Changed a couple circuits to look better\n- Replaced seven segment with addressable leds (easier, less space)\n- Working on updating ICs to KiCad-Sharepoint from UTSVIT-Kicadlibaries\n- Removed extra general purpose button\n- Bootloader switch and OR gate\n\n\nTODO: \nmake mounting holes plated\nadd spi2 by swapping can1"
 		(exclude_from_sim no)
-		(at 15.24 156.21 0)
+		(at 15.24 149.225 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3280,6 +5560,226 @@
 		)
 	)
 	(symbol
+		(lib_name "LSOM_DaughterConn_1")
+		(lib_id "UTSVT-Connectors:LSOM_DaughterConn")
+		(at 317.5 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93dd2cc0-9212-414c-9b3b-a30360a22f5c")
+		(property "Reference" "J?"
+			(at 317.5 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 317.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 317.5 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/533072471"
+			(at 317.754 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Symbol for both board-to-board connectors from the LeaderSOM"
+			(at 317.754 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "23"
+			(uuid "d7def1bf-5847-4452-8889-f2a3776bbf51")
+		)
+		(pin "22"
+			(uuid "57248459-47fe-4bb4-9b37-3add85deda72")
+		)
+		(pin "8"
+			(uuid "b68949be-ea39-45eb-9580-baab1727f7ab")
+		)
+		(pin "6"
+			(uuid "2404d250-c39d-448b-bbdd-c6542df5b3fe")
+		)
+		(pin "1"
+			(uuid "670ef6e5-5ac7-4c4a-9bb0-28ea656a4098")
+		)
+		(pin "2"
+			(uuid "019e497e-69f9-4c55-907c-7d0f198b7520")
+		)
+		(pin "3"
+			(uuid "135a9335-8abe-4afa-9cd5-a016df2a97b9")
+		)
+		(pin "4"
+			(uuid "f2f2e5e6-b0ef-4d5c-939b-fb3481674439")
+		)
+		(pin "21"
+			(uuid "0f703633-9e04-4e69-8c5a-6af66afac694")
+		)
+		(pin "24"
+			(uuid "0f2b538e-fab5-4aa3-a7a9-fe4dac2e8e2a")
+		)
+		(pin "10"
+			(uuid "3b7de745-90f0-4720-8d4e-986e8f9d9db8")
+		)
+		(pin "12"
+			(uuid "2c7faff8-18d4-4025-8eca-356c4676edca")
+		)
+		(pin "13"
+			(uuid "6ae27e46-af01-4d5e-bed1-231ae868d7fe")
+		)
+		(pin "15"
+			(uuid "9f1262a4-7277-4e77-b2ac-cb83dc170895")
+		)
+		(pin "38"
+			(uuid "69133688-0035-44a6-9e0c-bc65cea670cc")
+		)
+		(pin "9"
+			(uuid "4c31d6e9-6722-4ab8-bf2b-6415f56236ce")
+		)
+		(pin "17"
+			(uuid "72790868-06fe-4ed2-a7c6-df30706b43cf")
+		)
+		(pin "11"
+			(uuid "c26c2221-991b-4b08-8374-238454ff3b14")
+		)
+		(pin "14"
+			(uuid "8d80d513-0be7-4e06-9ebc-d22b3f96bcc1")
+		)
+		(pin "29"
+			(uuid "ed6af868-9d8b-44b7-af19-7c94aec75095")
+		)
+		(pin "16"
+			(uuid "62edee32-1a20-450c-9d66-496a74b1fd21")
+		)
+		(pin "26"
+			(uuid "75bc93a9-0010-4a15-a980-e0991ecf63d0")
+		)
+		(pin "31"
+			(uuid "53bafdc0-66d6-4b16-985d-fd73f00cdbd1")
+		)
+		(pin "7"
+			(uuid "15ebbb1b-e24d-40aa-b092-e250336c5dcf")
+		)
+		(pin "18"
+			(uuid "2c77a401-fcaf-4d08-9576-ff3beb990cf8")
+		)
+		(pin "33"
+			(uuid "6928ac09-17cd-4832-9562-28f441daed1e")
+		)
+		(pin "25"
+			(uuid "50f47ade-5434-4a6c-b2ca-82a7edb1e442")
+		)
+		(pin "37"
+			(uuid "3c312aa2-3ef6-4dd3-9de7-041a505c45a3")
+		)
+		(pin "5"
+			(uuid "63119d29-983d-4946-b4b1-8007242a02b0")
+		)
+		(pin "32"
+			(uuid "c49b8382-daf2-441b-a3d4-f957dd4b6cc5")
+		)
+		(pin "27"
+			(uuid "19119e90-983b-4fae-ad64-b253f8bd34aa")
+		)
+		(pin "28"
+			(uuid "1846bbc3-adef-4d2a-a875-44dfb911267f")
+		)
+		(pin "19"
+			(uuid "37ad545f-324c-498b-856d-6d15ea1b55b3")
+		)
+		(pin "20"
+			(uuid "bb71e12a-1944-41e9-9da2-f505d0e9a202")
+		)
+		(pin "30"
+			(uuid "3a590e70-70c7-4de2-9bea-f076e6217225")
+		)
+		(pin "41"
+			(uuid "bd17d644-7445-466b-80a9-1a5f56f6b124")
+		)
+		(pin "39"
+			(uuid "32d0a2ce-9d62-4247-a72b-4a13c07e7e11")
+		)
+		(pin "42"
+			(uuid "b7ab26db-6ca0-4b7c-b8c6-3a8ae2ec265e")
+		)
+		(pin "43"
+			(uuid "c0baa497-b216-47aa-8c97-397e11a65566")
+		)
+		(pin "46"
+			(uuid "1b1608c3-95a4-4d18-8058-50549241cab5")
+		)
+		(pin "34"
+			(uuid "7f3cec89-3a65-481d-acbc-d4b12e7be73e")
+		)
+		(pin "36"
+			(uuid "caa3c7b8-412a-4e26-bf5c-67ac2e8b0251")
+		)
+		(pin "40"
+			(uuid "c73b5d3b-37c7-412c-a291-fbefe437c132")
+		)
+		(pin "45"
+			(uuid "4ff44286-7e28-4a87-b232-7b3a37bb7ce2")
+		)
+		(pin "47"
+			(uuid "815fa49b-f6df-4b87-978c-fa797e7129f9")
+		)
+		(pin "44"
+			(uuid "9f6edb82-1f93-4048-a846-e12f3af02aab")
+		)
+		(pin "48"
+			(uuid "ba6b83cd-3f3e-4c33-a350-5e9ac0560eb1")
+		)
+		(pin "35"
+			(uuid "03b24a7a-7f38-40a2-b66f-bd0646454f6c")
+		)
+		(pin "52"
+			(uuid "fae0b65b-ec7d-4754-b72c-a8be713e966f")
+		)
+		(pin "51"
+			(uuid "8cabe101-ea53-4e27-86f6-9b343e9171f2")
+		)
+		(pin "49"
+			(uuid "0121c377-c3a9-4112-85b6-b29e83b876d6")
+		)
+		(pin "50"
+			(uuid "537e05a1-5a9b-41f9-b239-c7bfbf16f9f9")
+		)
+		(instances
+			(project ""
+				(path "/192d0c36-944e-4927-949b-263b8c85a7ca"
+					(reference "J?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 247.015 170.18 0)
 		(unit 1)
@@ -3725,8 +6225,215 @@
 		)
 	)
 	(symbol
+		(lib_id "UTSVT-Connectors:LSOM_DaughterConn")
+		(at 365.76 95.25 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e58d0a6f-8f2e-4d19-acd6-8f1c6afe1677")
+		(property "Reference" "J?"
+			(at 365.76 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 365.76 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 365.76 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/533072471"
+			(at 366.014 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Symbol for both board-to-board connectors from the LeaderSOM"
+			(at 366.014 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "23"
+			(uuid "d7def1bf-5847-4452-8889-f2a3776bbf51")
+		)
+		(pin "22"
+			(uuid "57248459-47fe-4bb4-9b37-3add85deda72")
+		)
+		(pin "8"
+			(uuid "b68949be-ea39-45eb-9580-baab1727f7ab")
+		)
+		(pin "6"
+			(uuid "2404d250-c39d-448b-bbdd-c6542df5b3fe")
+		)
+		(pin "1"
+			(uuid "670ef6e5-5ac7-4c4a-9bb0-28ea656a4098")
+		)
+		(pin "2"
+			(uuid "019e497e-69f9-4c55-907c-7d0f198b7520")
+		)
+		(pin "3"
+			(uuid "135a9335-8abe-4afa-9cd5-a016df2a97b9")
+		)
+		(pin "4"
+			(uuid "f2f2e5e6-b0ef-4d5c-939b-fb3481674439")
+		)
+		(pin "21"
+			(uuid "0f703633-9e04-4e69-8c5a-6af66afac694")
+		)
+		(pin "24"
+			(uuid "0f2b538e-fab5-4aa3-a7a9-fe4dac2e8e2a")
+		)
+		(pin "10"
+			(uuid "3b7de745-90f0-4720-8d4e-986e8f9d9db8")
+		)
+		(pin "12"
+			(uuid "2c7faff8-18d4-4025-8eca-356c4676edca")
+		)
+		(pin "13"
+			(uuid "6ae27e46-af01-4d5e-bed1-231ae868d7fe")
+		)
+		(pin "15"
+			(uuid "9f1262a4-7277-4e77-b2ac-cb83dc170895")
+		)
+		(pin "38"
+			(uuid "69133688-0035-44a6-9e0c-bc65cea670cc")
+		)
+		(pin "9"
+			(uuid "4c31d6e9-6722-4ab8-bf2b-6415f56236ce")
+		)
+		(pin "17"
+			(uuid "72790868-06fe-4ed2-a7c6-df30706b43cf")
+		)
+		(pin "11"
+			(uuid "c26c2221-991b-4b08-8374-238454ff3b14")
+		)
+		(pin "14"
+			(uuid "8d80d513-0be7-4e06-9ebc-d22b3f96bcc1")
+		)
+		(pin "29"
+			(uuid "ed6af868-9d8b-44b7-af19-7c94aec75095")
+		)
+		(pin "16"
+			(uuid "62edee32-1a20-450c-9d66-496a74b1fd21")
+		)
+		(pin "26"
+			(uuid "75bc93a9-0010-4a15-a980-e0991ecf63d0")
+		)
+		(pin "31"
+			(uuid "53bafdc0-66d6-4b16-985d-fd73f00cdbd1")
+		)
+		(pin "7"
+			(uuid "15ebbb1b-e24d-40aa-b092-e250336c5dcf")
+		)
+		(pin "18"
+			(uuid "2c77a401-fcaf-4d08-9576-ff3beb990cf8")
+		)
+		(pin "33"
+			(uuid "6928ac09-17cd-4832-9562-28f441daed1e")
+		)
+		(pin "25"
+			(uuid "50f47ade-5434-4a6c-b2ca-82a7edb1e442")
+		)
+		(pin "37"
+			(uuid "3c312aa2-3ef6-4dd3-9de7-041a505c45a3")
+		)
+		(pin "5"
+			(uuid "63119d29-983d-4946-b4b1-8007242a02b0")
+		)
+		(pin "32"
+			(uuid "c49b8382-daf2-441b-a3d4-f957dd4b6cc5")
+		)
+		(pin "27"
+			(uuid "19119e90-983b-4fae-ad64-b253f8bd34aa")
+		)
+		(pin "28"
+			(uuid "1846bbc3-adef-4d2a-a875-44dfb911267f")
+		)
+		(pin "19"
+			(uuid "37ad545f-324c-498b-856d-6d15ea1b55b3")
+		)
+		(pin "20"
+			(uuid "bb71e12a-1944-41e9-9da2-f505d0e9a202")
+		)
+		(pin "30"
+			(uuid "3a590e70-70c7-4de2-9bea-f076e6217225")
+		)
+		(pin "41"
+			(uuid "bd17d644-7445-466b-80a9-1a5f56f6b124")
+		)
+		(pin "39"
+			(uuid "32d0a2ce-9d62-4247-a72b-4a13c07e7e11")
+		)
+		(pin "42"
+			(uuid "b7ab26db-6ca0-4b7c-b8c6-3a8ae2ec265e")
+		)
+		(pin "43"
+			(uuid "c0baa497-b216-47aa-8c97-397e11a65566")
+		)
+		(pin "46"
+			(uuid "1b1608c3-95a4-4d18-8058-50549241cab5")
+		)
+		(pin "34"
+			(uuid "7f3cec89-3a65-481d-acbc-d4b12e7be73e")
+		)
+		(pin "36"
+			(uuid "caa3c7b8-412a-4e26-bf5c-67ac2e8b0251")
+		)
+		(pin "40"
+			(uuid "c73b5d3b-37c7-412c-a291-fbefe437c132")
+		)
+		(pin "45"
+			(uuid "4ff44286-7e28-4a87-b232-7b3a37bb7ce2")
+		)
+		(pin "47"
+			(uuid "815fa49b-f6df-4b87-978c-fa797e7129f9")
+		)
+		(pin "44"
+			(uuid "9f6edb82-1f93-4048-a846-e12f3af02aab")
+		)
+		(pin "48"
+			(uuid "ba6b83cd-3f3e-4c33-a350-5e9ac0560eb1")
+		)
+		(pin "35"
+			(uuid "03b24a7a-7f38-40a2-b66f-bd0646454f6c")
+		)
+		(instances
+			(project ""
+				(path "/192d0c36-944e-4927-949b-263b8c85a7ca"
+					(reference "J?")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "UTSVT-Misc:Logo_Placeholder")
-		(at 200.66 169.545 0)
+		(at 200.66 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3735,7 +6442,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee750f13-4df8-4850-b023-650474054cd5")
 		(property "Reference" "LOGO2"
-			(at 200.66 165.735 0)
+			(at 200.66 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3744,7 +6451,7 @@
 			)
 		)
 		(property "Value" "LHRs"
-			(at 204.47 169.5449 0)
+			(at 204.47 170.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3753,7 +6460,7 @@
 			)
 		)
 		(property "Footprint" "UTSVT_Logos:LHRs_LOGO"
-			(at 200.66 167.64 0)
+			(at 200.66 168.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3762,7 +6469,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 167.64 0)
+			(at 200.66 168.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3771,7 +6478,7 @@
 			)
 		)
 		(property "Description" "Graph footprint placeholder"
-			(at 200.66 169.545 0)
+			(at 200.66 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3780,7 +6487,7 @@
 			)
 		)
 		(property "PN" ""
-			(at 200.66 169.545 0)
+			(at 200.66 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3789,7 +6496,7 @@
 			)
 		)
 		(property "p/n" ""
-			(at 200.66 169.545 0)
+			(at 200.66 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
