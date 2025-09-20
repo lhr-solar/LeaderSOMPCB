@@ -236,6 +236,10 @@
           "drill": 0.3
         },
         {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
           "diameter": 0.8,
           "drill": 0.4
         }
@@ -763,10 +767,6 @@
     [
       "8f4dac5b-9bb8-4793-8ce7-913e39731a3f",
       "CarCAN"
-    ],
-    [
-      "8c1921d3-7d8b-4937-baba-7ed9d4d1349f",
-      "Display"
     ],
     [
       "54eecd34-7b2b-4895-a003-33708e7ad7e6",

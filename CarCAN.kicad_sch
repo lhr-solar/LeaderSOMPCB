@@ -1605,7 +1605,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0107d809-644b-463c-a732-20052f992a0f")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR029"
 			(at 68.58 71.755 0)
 			(effects
 				(font
@@ -1655,7 +1655,7 @@
 		(instances
 			(project "LeaderSOM"
 				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/8f4dac5b-9bb8-4793-8ce7-913e39731a3f"
-					(reference "#PWR0133")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -1800,7 +1800,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2faa1c2c-7f1a-4136-b438-cfd0ede5f1e3")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR034"
 			(at 173.99 76.835 0)
 			(effects
 				(font
@@ -1850,7 +1850,7 @@
 		(instances
 			(project "LeaderSOM"
 				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/8f4dac5b-9bb8-4793-8ce7-913e39731a3f"
-					(reference "#PWR0135")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -1884,7 +1884,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 158.115 77.47 0)
 			(effects
 				(font
@@ -2060,7 +2060,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6be30668-70b8-4cbd-a860-2017eee760b6")
-		(property "Reference" "CC_Term1"
+		(property "Reference" "CC_Term2"
 			(at 134.493 116.332 0)
 			(effects
 				(font
@@ -2130,7 +2130,7 @@
 		(instances
 			(project "LeaderSOM"
 				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/8f4dac5b-9bb8-4793-8ce7-913e39731a3f"
-					(reference "CC_Term1")
+					(reference "CC_Term2")
 					(unit 1)
 				)
 			)
@@ -2145,7 +2145,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a0d3a22f-5963-4f3a-ac7b-dc8abfd32f86")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR035"
 			(at 186.055 88.9 0)
 			(effects
 				(font
@@ -2195,7 +2195,7 @@
 		(instances
 			(project "LeaderSOM"
 				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/8f4dac5b-9bb8-4793-8ce7-913e39731a3f"
-					(reference "#PWR056")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -2210,7 +2210,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b82c6e1b-29a3-4ba9-87d8-895e8f125cbd")
-		(property "Reference" "R37"
+		(property "Reference" "R10"
 			(at 124.46 116.332 90)
 			(effects
 				(font
@@ -2226,7 +2226,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 124.46 112.522 90)
 			(effects
 				(font
@@ -2280,7 +2280,7 @@
 		(instances
 			(project "LeaderSOM"
 				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/8f4dac5b-9bb8-4793-8ce7-913e39731a3f"
-					(reference "R37")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -2295,7 +2295,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bdef9ca0-661c-47b2-a454-1e81567fcecc")
-		(property "Reference" "R13"
+		(property "Reference" "R9"
 			(at 70.358 70.5866 0)
 			(effects
 				(font
@@ -2313,7 +2313,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 66.802 71.755 90)
 			(effects
 				(font
@@ -2358,7 +2358,7 @@
 		(instances
 			(project "LeaderSOM"
 				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/8f4dac5b-9bb8-4793-8ce7-913e39731a3f"
-					(reference "R13")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -2457,7 +2457,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 174.9552 81.915 0)
 			(effects
 				(font
@@ -2526,7 +2526,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d539e3b9-3578-415c-b59b-d00a8370496b")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR030"
 			(at 97.155 66.675 0)
 			(effects
 				(font
@@ -2576,7 +2576,7 @@
 		(instances
 			(project "LeaderSOM"
 				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/8f4dac5b-9bb8-4793-8ce7-913e39731a3f"
-					(reference "#PWR0134")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -2610,7 +2610,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 187.0202 81.915 0)
 			(effects
 				(font
@@ -2680,7 +2680,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3dfc94a-443c-44ab-b666-30f4490ec34f")
-		(property "Reference" "IC1"
+		(property "Reference" "IC2"
 			(at 99.2983 60.96 0)
 			(effects
 				(font
@@ -2812,7 +2812,7 @@
 		(instances
 			(project "LeaderSOM"
 				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/8f4dac5b-9bb8-4793-8ce7-913e39731a3f"
-					(reference "IC1")
+					(reference "IC2")
 					(unit 1)
 				)
 			)
@@ -2827,7 +2827,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e9d35733-b3b3-4ab6-a192-a4dc33374fab")
-		(property "Reference" "R8"
+		(property "Reference" "R11"
 			(at 159.893 67.4116 0)
 			(effects
 				(font
@@ -2845,7 +2845,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 156.337 68.58 90)
 			(effects
 				(font
@@ -2917,7 +2917,7 @@
 		(instances
 			(project "LeaderSOM"
 				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/8f4dac5b-9bb8-4793-8ce7-913e39731a3f"
-					(reference "R8")
+					(reference "R11")
 					(unit 1)
 				)
 			)

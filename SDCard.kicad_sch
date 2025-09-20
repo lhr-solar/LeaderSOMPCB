@@ -2339,7 +2339,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b2b3a2e-3e4f-4314-8eee-d87aa56aba7d")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR038"
 			(at 167.64 125.095 0)
 			(effects
 				(font
@@ -2389,7 +2389,7 @@
 		(instances
 			(project "LeaderSOM"
 				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/54eecd34-7b2b-4895-a003-33708e7ad7e6"
-					(reference "#PWR014")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -2404,7 +2404,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c4e5201-9186-4886-83fb-189b419aa5c1")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR039"
 			(at 174.625 89.535 0)
 			(effects
 				(font
@@ -2454,7 +2454,7 @@
 		(instances
 			(project "LeaderSOM"
 				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/54eecd34-7b2b-4895-a003-33708e7ad7e6"
-					(reference "#PWR0129")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -2469,7 +2469,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4418cc97-a528-41d6-951a-341669464996")
-		(property "Reference" "R12"
+		(property "Reference" "R13"
 			(at 170.815 99.06 90)
 			(effects
 				(font
@@ -2487,7 +2487,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 168.91 105.283 90)
 			(effects
 				(font
@@ -2532,7 +2532,7 @@
 		(instances
 			(project "LeaderSOM"
 				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/54eecd34-7b2b-4895-a003-33708e7ad7e6"
-					(reference "R12")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -2557,7 +2557,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f2f38c6-57c1-420f-8cda-1f5a99a8db2d")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR040"
 			(at 200.025 126.365 0)
 			(effects
 				(font
@@ -2607,7 +2607,7 @@
 		(instances
 			(project "LeaderSOM"
 				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/54eecd34-7b2b-4895-a003-33708e7ad7e6"
-					(reference "#PWR019")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -2632,7 +2632,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "760e40d6-0a06-4a5e-bba1-304882282157")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR036"
 			(at 77.47 109.22 0)
 			(effects
 				(font
@@ -2682,7 +2682,7 @@
 		(instances
 			(project "LeaderSOM"
 				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/54eecd34-7b2b-4895-a003-33708e7ad7e6"
-					(reference "#PWR016")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -2708,7 +2708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c1bb0d2-9670-4543-a0cc-1a0d20b1e5b3")
-		(property "Reference" "CR2"
+		(property "Reference" "CR1"
 			(at 111.125 83.82 0)
 			(effects
 				(font
@@ -2810,7 +2810,7 @@
 		(instances
 			(project "LeaderSOM"
 				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/54eecd34-7b2b-4895-a003-33708e7ad7e6"
-					(reference "CR2")
+					(reference "CR1")
 					(unit 1)
 				)
 			)
@@ -2831,7 +2831,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa3ffff5-e96b-458a-a72b-208edd779c02")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR037"
 			(at 143.51 91.44 0)
 			(effects
 				(font
@@ -2881,7 +2881,7 @@
 		(instances
 			(project "LeaderSOM"
 				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/54eecd34-7b2b-4895-a003-33708e7ad7e6"
-					(reference "#PWR0128")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -3005,7 +3005,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f7f4647a-ab62-404a-b8a5-914499db7dfd")
-		(property "Reference" "R5"
+		(property "Reference" "R12"
 			(at 170.18 113.792 0)
 			(effects
 				(font
@@ -3023,7 +3023,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 165.862 114.935 90)
 			(effects
 				(font
@@ -3068,7 +3068,7 @@
 		(instances
 			(project "LeaderSOM"
 				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/54eecd34-7b2b-4895-a003-33708e7ad7e6"
-					(reference "R5")
+					(reference "R12")
 					(unit 1)
 				)
 			)
