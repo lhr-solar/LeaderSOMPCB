@@ -12,4 +12,5 @@
   (lib (name "SD_CARD")(type "KiCad")(uri "${KIPRJMOD}/LSOM KiCad Libararies/microSD.pretty")(options "")(descr ""))
   (lib (name "7-segment")(type "KiCad")(uri "${KIPRJMOD}/LSOM KiCad Libararies/7-segment/Seven-Segment.pretty")(options "")(descr ""))
   (lib (name "OR_Gate")(type "KiCad")(uri "${KIPRJMOD}/LSOM KiCad Libararies/SN74AHC1G32DBVR/SN74AHC1G32DBVR.pretty")(options "")(descr ""))
+  (lib (name "TL3365AF180QG")(type "KiCad")(uri "${KIPRJMOD}/LSOM KiCad Libararies/TL3365AF180QG.pretty")(options "")(descr ""))
 )
