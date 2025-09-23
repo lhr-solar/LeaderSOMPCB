@@ -6222,7 +6222,7 @@
 		)
 	)
 	(table
-		(column_count 1)
+		(column_count 4)
 		(border
 			(external yes)
 			(header yes)
@@ -6239,12 +6239,12 @@
 				(type solid)
 			)
 		)
-		(column_widths 8.89)
+		(column_widths 8.89 12.065 12.065 12.065)
 		(row_heights 2.54)
 		(cells
-			(table_cell "OVP"
+			(table_cell "UVLO"
 				(exclude_from_sim no)
-				(at 43.815 100.965 0)
+				(at 43.815 98.425 0)
 				(size 8.89 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -6259,7 +6259,58 @@
 					)
 					(justify left top)
 				)
-				(uuid "0de38192-e5cf-4d6d-a4f2-3865e910e5f9")
+				(uuid "fc312294-fd70-45c5-b5d7-cb2fb4e02a34")
+			)
+			(table_cell "20v"
+				(exclude_from_sim no)
+				(at 52.705 98.425 0)
+				(size 12.065 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "4c89a3bb-7eaa-4c2b-a5b4-15f012f32565")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 64.77 98.425 0)
+				(size 12.065 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "d6a9104d-e20f-4868-a957-a1d6fd475050")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 76.835 98.425 0)
+				(size 12.065 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "62b4215c-73ab-4ca9-889a-2a63c70a626b")
 			)
 		)
 	)
@@ -6353,99 +6404,6 @@
 					(justify left top)
 				)
 				(uuid "5baa680d-ad8e-42cd-b1e4-a72b8df3a1ff")
-			)
-		)
-	)
-	(table
-		(column_count 4)
-		(border
-			(external yes)
-			(header yes)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-		)
-		(separators
-			(rows yes)
-			(cols yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(column_widths 8.89 12.065 12.065 12.065)
-		(row_heights 2.54)
-		(cells
-			(table_cell "UVLO"
-				(exclude_from_sim no)
-				(at 43.815 98.425 0)
-				(size 8.89 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.254)
-						(bold yes)
-					)
-					(justify left top)
-				)
-				(uuid "fc312294-fd70-45c5-b5d7-cb2fb4e02a34")
-			)
-			(table_cell "20v"
-				(exclude_from_sim no)
-				(at 52.705 98.425 0)
-				(size 12.065 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "4c89a3bb-7eaa-4c2b-a5b4-15f012f32565")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 64.77 98.425 0)
-				(size 12.065 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "d6a9104d-e20f-4868-a957-a1d6fd475050")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 76.835 98.425 0)
-				(size 12.065 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "62b4215c-73ab-4ca9-889a-2a63c70a626b")
 			)
 		)
 	)
@@ -6683,6 +6641,48 @@
 					(justify left top)
 				)
 				(uuid "ece98313-32e2-4290-bb15-57c3eebc86c8")
+			)
+		)
+	)
+	(table
+		(column_count 1)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 8.89)
+		(row_heights 2.54)
+		(cells
+			(table_cell "OVP"
+				(exclude_from_sim no)
+				(at 43.815 100.965 0)
+				(size 8.89 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "0de38192-e5cf-4d6d-a4f2-3865e910e5f9")
 			)
 		)
 	)

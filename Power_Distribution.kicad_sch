@@ -2773,16 +2773,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 52.07) (xy 73.66 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f4f9891-c250-4d73-a36a-b0efee1a5328")
-	)
-	(wire
-		(pts
 			(xy 48.26 127) (xy 48.26 143.51)
 		)
 		(stroke
@@ -2930,16 +2920,6 @@
 			(type default)
 		)
 		(uuid "5b746002-c9fd-49f8-b87b-e4f0b7470485")
-	)
-	(wire
-		(pts
-			(xy 73.66 52.07) (xy 73.66 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5deca306-8335-4a1d-a009-269f818eee6f")
 	)
 	(wire
 		(pts
@@ -3150,6 +3130,16 @@
 			(type default)
 		)
 		(uuid "9f094876-b57f-40ae-8eef-30ca6a72c9bc")
+	)
+	(wire
+		(pts
+			(xy 74.93 52.07) (xy 76.2 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0925dd4-9a62-4f49-b85e-a5ea8400cb95")
 	)
 	(wire
 		(pts
@@ -8522,7 +8512,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 73.66 50.8 0)
+		(at 74.93 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8530,7 +8520,7 @@
 		(dnp no)
 		(uuid "29edb493-08f3-45af-ae29-64bfd6c1cb7c")
 		(property "Reference" "#PWR053"
-			(at 73.66 54.61 0)
+			(at 74.93 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8539,7 +8529,7 @@
 			)
 		)
 		(property "Value" "+5V_BUCK"
-			(at 67.564 48.514 0)
+			(at 74.93 48.514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8547,7 +8537,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 50.8 0)
+			(at 74.93 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8556,7 +8546,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 50.8 0)
+			(at 74.93 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8565,7 +8555,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 73.66 50.8 0)
+			(at 74.93 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
