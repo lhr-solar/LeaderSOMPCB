@@ -9849,16 +9849,6 @@
 		)
 		(uuid "1825f0fb-b06c-46ef-b9b0-a2aa26fbdca7")
 	)
-	(label "SWCLK"
-		(at 138.43 185.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "19f9b01a-c2c6-46b3-8c35-a3b679c67956")
-	)
 	(label "ADC1_IN7{slash}TIM1_CH2{slash}COMP3_INP"
 		(at 18.415 57.15 0)
 		(effects
@@ -10129,6 +10119,16 @@
 		)
 		(uuid "66768d12-bda3-4ddf-bf9d-5a1bd020c81b")
 	)
+	(label "SWDIO"
+		(at 138.43 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "691ffe50-354e-44c0-bda6-d54c59017593")
+	)
 	(label "SPI3_MOSI{slash}TIM3_CH2{slash}TIM17_CH1"
 		(at 127.635 87.63 180)
 		(effects
@@ -10318,16 +10318,6 @@
 			(justify right bottom)
 		)
 		(uuid "9336f31a-4738-40df-bea6-6bf8711302b3")
-	)
-	(label "SWDIO"
-		(at 138.43 180.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "93eeb294-1535-4e62-a57e-be0068c08969")
 	)
 	(label "UART5_TX{slash}TIM5_CH2"
 		(at 18.415 85.09 0)
@@ -10738,6 +10728,16 @@
 			(justify right bottom)
 		)
 		(uuid "f30cf7b6-2efd-4699-b3d3-b0a0897895af")
+	)
+	(label "SWCLK"
+		(at 138.43 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f66cab18-9119-4354-b7b8-785e4beb0230")
 	)
 	(label "SPI1_SCK"
 		(at 118.11 44.45 180)
