@@ -3178,7 +3178,7 @@
 		)
 		(uuid "2bc943c5-f49e-4599-a8f7-70581fe98b81")
 	)
-	(label "FDCAN2_RX"
+	(label "FDCAN1_RX"
 		(at 70.485 40.64 0)
 		(effects
 			(font
@@ -3578,7 +3578,7 @@
 		)
 		(uuid "a096209f-9198-4186-ab4f-cf93cf2db5f3")
 	)
-	(label "FDCAN2_TX"
+	(label "FDCAN1_TX"
 		(at 70.485 43.815 0)
 		(effects
 			(font
@@ -3608,7 +3608,7 @@
 		)
 		(uuid "aa3684fc-1bca-443c-bb88-a347f646a057")
 	)
-	(label "FDCAN2_RX"
+	(label "FDCAN1_RX"
 		(at 61.976 47.371 180)
 		(effects
 			(font
@@ -3698,7 +3698,7 @@
 		)
 		(uuid "bf9d34d9-0333-469a-9cc9-4a1fe627a924")
 	)
-	(label "FDCAN2_TX"
+	(label "FDCAN1_TX"
 		(at 61.976 44.196 180)
 		(effects
 			(font
