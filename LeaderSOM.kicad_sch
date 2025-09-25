@@ -5447,7 +5447,7 @@
 			)
 		)
 		(pin "CHIP_TX" output
-			(at 48.895 72.39 0)
+			(at 48.26 72.39 0)
 			(uuid "ac0e176e-c96c-46b2-82cd-a6cafc422036")
 			(effects
 				(font
@@ -5457,7 +5457,7 @@
 			)
 		)
 		(pin "CHIP_RX" input
-			(at 48.895 68.58 0)
+			(at 48.26 68.58 0)
 			(uuid "39a04d93-22f6-41c3-9c69-3ee9b80b3dc8")
 			(effects
 				(font
