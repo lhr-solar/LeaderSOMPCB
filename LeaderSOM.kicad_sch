@@ -1678,7 +1678,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 111.76) (xy 218.44 111.76)
+			(xy 182.88 111.76) (xy 218.44 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1688,7 +1688,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 99.06) (xy 218.44 99.06)
+			(xy 182.88 99.06) (xy 218.44 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1698,7 +1698,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 109.22) (xy 218.44 109.22)
+			(xy 182.88 109.22) (xy 218.44 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1768,7 +1768,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 96.52) (xy 218.44 96.52)
+			(xy 182.88 96.52) (xy 218.44 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2138,7 +2138,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 93.98) (xy 218.44 93.98)
+			(xy 182.88 93.98) (xy 218.44 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2328,7 +2328,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 104.14) (xy 218.44 104.14)
+			(xy 182.88 104.14) (xy 218.44 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2668,7 +2668,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 106.68) (xy 218.44 106.68)
+			(xy 182.88 106.68) (xy 218.44 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2998,7 +2998,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 101.6) (xy 218.44 101.6)
+			(xy 182.88 101.6) (xy 218.44 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3036,15 +3036,15 @@
 		)
 		(uuid "01922445-8962-483c-93a2-be068786f80a")
 	)
-	(label "ADC1_IN3{slash}TIM2_CH3{slash}COMP2_INM"
-		(at 184.15 147.32 0)
+	(label "ADC1_IN7{slash}TIM1_CH2{slash}COMP3_INP"
+		(at 275.59 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "02eccbcd-93e0-4674-9535-a08307ff6ac8")
+		(uuid "0ab1ad47-5009-4e85-939d-5deb63aeb8cd")
 	)
 	(label "ADC1_IN1{slash}TIM2_CH1{slash}COMP1_OUT"
 		(at 162.306 70.612 180)
@@ -3076,8 +3076,18 @@
 		)
 		(uuid "0cf2e425-d350-44d0-8965-c3a99c58bc01")
 	)
+	(label "UART1_TX"
+		(at 182.88 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d7fc72b-1353-4caf-bc7f-52ef504f049a")
+	)
 	(label "I2C4_SDA{slash}TIM3_CH2"
-		(at 185.42 111.76 0)
+		(at 182.88 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3086,8 +3096,18 @@
 		)
 		(uuid "128c3542-76d1-431a-b2e8-f432526f40b4")
 	)
+	(label "ADC1_IN8{slash}TIM1_CH3{slash}COMP3_OUT"
+		(at 184.15 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "139b679f-179e-4bd0-87b2-6f8b7e028133")
+	)
 	(label "I2C3_SCL{slash}TIM3_CH3"
-		(at 185.42 104.14 0)
+		(at 182.88 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3095,6 +3115,16 @@
 			(justify left bottom)
 		)
 		(uuid "17bf266d-2aa9-4dfe-a976-074bad3c7193")
+	)
+	(label "UART4_TX{slash}TIM8_CH1N"
+		(at 275.59 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "18c21d1e-acc5-4b61-aa8d-4e4e846807a7")
 	)
 	(label "SPI2_MISO{slash}ADC1_IN5{slash}TIM1_CH2N"
 		(at 163.576 100.584 180)
@@ -3136,6 +3166,16 @@
 		)
 		(uuid "1d27d81c-b2d8-40fc-8975-29e61505ede8")
 	)
+	(label "UART1_RX"
+		(at 182.88 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1dc3200a-6fd5-4c5c-9d5b-437c90694bc6")
+	)
 	(label "ADC1_IN7{slash}TIM1_CH2{slash}COMP3_INP"
 		(at 162.052 58.166 180)
 		(effects
@@ -3145,6 +3185,16 @@
 			(justify right bottom)
 		)
 		(uuid "228d8629-a620-4ec2-8865-040556b7084f")
+	)
+	(label "ADC1_IN6{slash}TIM1_CH1{slash}COMP3_INM"
+		(at 184.15 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25600ad5-8dbe-4d57-8546-4f2009f8600d")
 	)
 	(label "SPI2_NSS{slash}TIM4_CH4{slash}COMP2_OUT"
 		(at 163.83 105.664 180)
@@ -3176,6 +3226,16 @@
 		)
 		(uuid "290cbab1-725f-4ad8-9549-e096df46ad55")
 	)
+	(label "USART3_TX{slash}OPAMP3_VINM{slash}TIM2_CH3"
+		(at 182.88 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a4cfc86-4637-45b8-a988-67ce1ca501ff")
+	)
 	(label "SPI3_SCK{slash}TIM2_CH2{slash}USART2_TX"
 		(at 275.59 129.54 180)
 		(effects
@@ -3185,16 +3245,6 @@
 			(justify right bottom)
 		)
 		(uuid "2a6500d6-2d30-45b9-9b21-8ae60c3d94c4")
-	)
-	(label "ADC1_IN2{slash}TIM2_CH2{slash}COMP1_INP"
-		(at 184.15 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2b982bb7-9d2d-4391-906a-a20b3c0950f5")
 	)
 	(label "CarCAN_L"
 		(at 61.976 56.261 180)
@@ -3216,16 +3266,6 @@
 		)
 		(uuid "2c1cd150-0017-4d55-8098-0a6ac2196bde")
 	)
-	(label "ADC2_IN12{slash}TIM5_CH1{slash}COMP4_INM"
-		(at 184.15 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2cc55c05-b468-4d87-b899-f69bf44bf19e")
-	)
 	(label "UART1_TX"
 		(at 163.83 119.38 180)
 		(effects
@@ -3235,16 +3275,6 @@
 			(justify right bottom)
 		)
 		(uuid "3665c897-65f6-440b-beb2-6d5c039d9846")
-	)
-	(label "ADC1_IN15{slash}TIM1_CH2N{slash}COMP4_INP"
-		(at 184.15 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "38a78950-473a-4f8f-9c95-5c2617feb6e9")
 	)
 	(label "IMON"
 		(at 74.93 110.49 0)
@@ -3256,15 +3286,15 @@
 		)
 		(uuid "39b308da-679a-4ace-95f7-a1af7d7f2cd4")
 	)
-	(label "ADC1_IN6{slash}TIM1_CH1{slash}COMP3_INM"
-		(at 275.59 104.14 180)
+	(label "ADC2_IN12{slash}TIM5_CH1{slash}COMP4_INM"
+		(at 275.59 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "3ae5fd82-f4bb-4da6-9526-43b019ffbdb0")
+		(uuid "3ad03128-9741-4d8c-a3f5-065dbc150374")
 	)
 	(label "FDCAN3_RX"
 		(at 61.976 23.876 180)
@@ -3276,6 +3306,16 @@
 		)
 		(uuid "3b6e880f-4325-4e7b-bfa9-2d4fba02a71e")
 	)
+	(label "ADC1_IN3{slash}TIM2_CH3{slash}COMP2_INM"
+		(at 184.15 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d359942-4c69-4cec-bd15-d9d92e1cf66c")
+	)
 	(label "FDCAN3_RX"
 		(at 71.12 48.26 0)
 		(effects
@@ -3286,15 +3326,15 @@
 		)
 		(uuid "4408d517-9da1-4a75-a65d-4455593453e9")
 	)
-	(label "USART3_RX{slash}ADC1_IN14{slash}TIM2_CH4"
-		(at 275.59 147.32 180)
+	(label "ADC1_IN15{slash}TIM1_CH2N{slash}COMP4_INP"
+		(at 184.15 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "45ce07d1-80f4-4a9d-a294-daacf9de947a")
+		(uuid "451ff817-b84e-4464-82a6-0d2f99c4bc93")
 	)
 	(label "IntCAN_L"
 		(at 275.59 152.4 180)
@@ -3316,6 +3356,16 @@
 		)
 		(uuid "4d42549c-2fa8-4860-badc-f1409a4e1d44")
 	)
+	(label "OPAMP5_VINM{slash}ADC1_IN4{slash}TIM2_CH4"
+		(at 184.15 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e70f4d7-4599-4a60-a2a4-a9770d282813")
+	)
 	(label "SPI1_NSS"
 		(at 62.357 85.471 180)
 		(effects
@@ -3335,6 +3385,16 @@
 			(justify right bottom)
 		)
 		(uuid "53f413ce-f832-4871-987c-1b8e645220c5")
+	)
+	(label "ADC1_IN2{slash}TIM2_CH2{slash}COMP1_INP"
+		(at 184.15 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "55f3d624-3b29-44e9-aaab-7a2331983fbf")
 	)
 	(label "IMON"
 		(at 62.357 127.254 180)
@@ -3426,15 +3486,15 @@
 		)
 		(uuid "70b04375-a0ca-412c-802d-36ed452ed0ae")
 	)
-	(label "ADC1_IN11{slash}COMP7_INM{slash}FDCAN2_RX"
-		(at 275.59 139.7 180)
+	(label "UART4_RX{slash}TIM8_CH2N"
+		(at 275.59 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "72160256-1899-4342-a1fc-31e6673af8f3")
+		(uuid "71b00837-5d76-4efb-925b-b48880660c93")
 	)
 	(label "24V_Ext"
 		(at 209.55 88.9 0)
@@ -3456,16 +3516,6 @@
 		)
 		(uuid "754942a7-ee88-458d-a95c-77b01780bf72")
 	)
-	(label "ADC1_IN12{slash}TIM1_CH3N{slash}COMP1_INP"
-		(at 184.15 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7609916a-137a-4f90-ab7c-ed3e9f8b6eb3")
-	)
 	(label "24V_Ext"
 		(at 248.92 88.9 180)
 		(effects
@@ -3475,16 +3525,6 @@
 			(justify right bottom)
 		)
 		(uuid "776384f7-7a83-48b5-9089-56a698da9abf")
-	)
-	(label "ADC1_IN8{slash}TIM1_CH3{slash}COMP3_OUT"
-		(at 184.15 137.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7a9fca22-5db5-4226-b792-41326d09fec2")
 	)
 	(label "ADC2_IN12{slash}TIM5_CH1{slash}COMP4_INM"
 		(at 162.56 73.152 180)
@@ -3536,16 +3576,6 @@
 		)
 		(uuid "85504deb-90b9-408e-b522-da9707c67304")
 	)
-	(label "OPAMP5_VINM{slash}ADC1_IN4{slash}TIM2_CH4"
-		(at 184.15 149.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "864e2dd6-d1cb-48a1-b843-04561d44607f")
-	)
 	(label "ADC1_IN11{slash}COMP7_INM{slash}FDCAN2_RX"
 		(at 162.814 81.28 180)
 		(effects
@@ -3555,16 +3585,6 @@
 			(justify right bottom)
 		)
 		(uuid "884bb015-5aa4-4ad6-8a54-4f56ccff6eb1")
-	)
-	(label "ADC1_IN7{slash}TIM1_CH2{slash}COMP3_INP"
-		(at 275.59 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "891a10be-4750-422d-a9cf-6cf0bb760d18")
 	)
 	(label "SPI2_MISO{slash}ADC1_IN5{slash}TIM1_CH2N"
 		(at 275.59 101.6 180)
@@ -3576,15 +3596,15 @@
 		)
 		(uuid "89c5fedd-f05a-491c-bf87-5ad3315a0502")
 	)
-	(label "UART4_RX{slash}TIM8_CH2N"
-		(at 185.42 99.06 0)
+	(label "USART3_RX{slash}ADC1_IN14{slash}TIM2_CH4"
+		(at 182.88 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "8a8e6782-6413-43cc-8212-b0ea5e0d647f")
+		(uuid "8a580c26-e925-4f1d-afcd-0c277487b91e")
 	)
 	(label "UART1_RX"
 		(at 163.83 116.84 180)
@@ -3597,7 +3617,7 @@
 		(uuid "8f85431f-760c-4904-976e-df049547ab38")
 	)
 	(label "I2C4_SCL{slash}TIM3_CH1"
-		(at 185.42 109.22 0)
+		(at 182.88 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3605,16 +3625,6 @@
 			(justify left bottom)
 		)
 		(uuid "941267b3-59dc-459a-8bb9-f72203323db0")
-	)
-	(label "UART1_RX"
-		(at 185.42 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "96dfc33a-8c5e-48b7-a20b-0aaafb8f4550")
 	)
 	(label "SPI3_NSS{slash}TIM1_CH3{slash}COMP6_OUT"
 		(at 275.59 134.62 180)
@@ -3657,7 +3667,7 @@
 		(uuid "ab334b3b-7dad-4f0f-9640-39412fb89e4f")
 	)
 	(label "I2C3_SDA{slash}TIM3_CH4"
-		(at 185.42 106.68 0)
+		(at 182.88 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3676,15 +3686,15 @@
 		)
 		(uuid "af06404b-37c3-4f81-8930-cb4222e60832")
 	)
-	(label "ADC1_IN1{slash}TIM2_CH1{slash}COMP1_OUT"
-		(at 184.15 139.7 0)
+	(label "ADC1_IN12{slash}TIM1_CH3N{slash}COMP1_INP"
+		(at 184.15 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "af56d63a-598d-4cfa-894e-507000772fae")
+		(uuid "b422edb4-80dd-456f-8887-af5e1e98a184")
 	)
 	(label "CarCAN_H"
 		(at 61.976 53.086 180)
@@ -3766,16 +3776,6 @@
 		)
 		(uuid "d2c4a886-6d5c-4c4c-8d02-96cd993ad76a")
 	)
-	(label "USART3_TX{slash}OPAMP3_VINM{slash}TIM2_CH3"
-		(at 275.59 144.78 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d924620f-12a1-4107-b039-6b40c9c3c66a")
-	)
 	(label "USART3_RX{slash}ADC1_IN14{slash}TIM2_CH4"
 		(at 165.1 121.92 180)
 		(effects
@@ -3795,6 +3795,16 @@
 			(justify right bottom)
 		)
 		(uuid "dcc5ae9d-fe3d-404a-81ce-36e3599035b5")
+	)
+	(label "ADC1_IN1{slash}TIM2_CH1{slash}COMP1_OUT"
+		(at 184.15 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "de6e86b5-02aa-4004-b656-89eb2592ef78")
 	)
 	(label "SPI2_MOSI{slash}ADC2_IN15{slash}TIM1_CH3N"
 		(at 163.576 98.044 180)
@@ -3856,16 +3866,6 @@
 		)
 		(uuid "f5e94a03-0a85-4425-b4a0-f79b9a84e83a")
 	)
-	(label "UART4_TX{slash}TIM8_CH1N"
-		(at 185.42 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f89bbd9e-ff4f-456f-8cec-524f621311c9")
-	)
 	(label "FDCAN3_TX"
 		(at 71.12 52.07 0)
 		(effects
@@ -3875,16 +3875,6 @@
 			(justify left bottom)
 		)
 		(uuid "f95bd033-1794-4ea1-8448-84fd5170e62e")
-	)
-	(label "UART1_TX"
-		(at 185.42 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "faa9ea44-6aea-442c-abe2-878f5c2e37c5")
 	)
 	(label "I2C3_SDA{slash}TIM3_CH4"
 		(at 147.066 47.498 180)
@@ -3905,6 +3895,16 @@
 			(justify right bottom)
 		)
 		(uuid "fe3647bf-2f6c-43b6-bfde-be353d4bc3b4")
+	)
+	(label "ADC1_IN11{slash}COMP7_INM{slash}FDCAN2_RX"
+		(at 275.59 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ff40a6b8-dbc7-4dc0-a8fb-441f4dd57cb8")
 	)
 	(symbol
 		(lib_id "UTSVT-Connectors:52465-2470")
