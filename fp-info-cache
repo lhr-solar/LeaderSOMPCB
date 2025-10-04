@@ -1,4 +1,4 @@
-25743962468258828
+25745722076083568
 7-segment
 SMT_1S12800_WRE
 
@@ -102661,6 +102661,13 @@ Zener Diode
 0
 2
 2
+UTSVT_Passive
+WS2812B-2020
+2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf
+LED RGB NeoPixel Nano PLCC-4 2020
+0
+4
+4
 UTSVT_Power
 1769205241
 1769205241-2
