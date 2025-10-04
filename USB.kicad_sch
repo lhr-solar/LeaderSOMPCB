@@ -418,156 +418,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:Jumper_2_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim yes)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Open"
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_2_Open_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_0_1"
-				(arc
-					(start -1.524 1.27)
-					(mid 0 1.778)
-					(end 1.524 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "UTSVT-Connectors:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
@@ -2901,16 +2751,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.215 77.47) (xy 196.215 79.375)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02147474-a714-409a-a65a-98058e4ca7c5")
-	)
-	(wire
-		(pts
 			(xy 160.02 42.545) (xy 161.925 42.545)
 		)
 		(stroke
@@ -2918,16 +2758,6 @@
 			(type default)
 		)
 		(uuid "02ac179e-06c0-440f-956e-ba95bb11da7a")
-	)
-	(wire
-		(pts
-			(xy 196.215 89.535) (xy 196.215 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08e7e61a-c4fd-40d1-a429-400aafd1593c")
 	)
 	(wire
 		(pts
@@ -3201,16 +3031,6 @@
 	)
 	(wire
 		(pts
-			(xy 192.405 91.44) (xy 196.215 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82cae87a-c746-4213-acb8-bf9d87f3ca6b")
-	)
-	(wire
-		(pts
 			(xy 131.445 57.785) (xy 134.62 57.785)
 		)
 		(stroke
@@ -3298,16 +3118,6 @@
 			(type default)
 		)
 		(uuid "bd12d2c3-318f-482e-8e26-eaec3200c79e")
-	)
-	(wire
-		(pts
-			(xy 192.405 77.47) (xy 196.215 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdbd1575-4de9-402a-a307-eec10e5baec6")
 	)
 	(wire
 		(pts
@@ -3559,17 +3369,6 @@
 		)
 		(uuid "da95704d-1f1b-4c89-abdc-da144cafc23f")
 	)
-	(hierarchical_label "CHIP_TX"
-		(shape output)
-		(at 192.405 77.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a1827f31-a160-46bd-b346-3ddc1d0caff5")
-	)
 	(hierarchical_label "CHIP_RX"
 		(shape input)
 		(at 161.925 40.005 0)
@@ -3580,17 +3379,6 @@
 			(justify left)
 		)
 		(uuid "b3ed08cc-339d-480b-937b-dae10f0ed066")
-	)
-	(hierarchical_label "CHIP_RX"
-		(shape input)
-		(at 192.405 91.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bf928ee4-61fb-44fe-a208-5da6ab94af5c")
 	)
 	(hierarchical_label "CHIP_TX"
 		(shape output)
@@ -3630,7 +3418,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 184.4802 39.37 0)
 			(effects
 				(font
@@ -4037,7 +3825,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 184.4802 62.23 0)
 			(effects
 				(font
@@ -5691,91 +5479,6 @@
 			(project "LeaderSOM"
 				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/5bc03b31-fe77-4b0c-be7c-10fb7ad1c047"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 196.215 84.455 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d0133385-83ce-4a9c-9c64-e07f3e332a52")
-		(property "Reference" "JP1"
-			(at 198.247 84.582 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CC_TX_RX"
-			(at 200.787 84.582 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 196.215 84.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 196.215 84.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 196.215 84.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 196.215 84.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
-			(at 196.215 84.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "26f9b3bb-2b09-44d4-a088-5ad3c1b93d26")
-		)
-		(pin "1"
-			(uuid "8fbd8ab3-ef50-4a5c-8e3e-25fc9ea54a41")
-		)
-		(instances
-			(project "LeaderSOM"
-				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/5bc03b31-fe77-4b0c-be7c-10fb7ad1c047"
-					(reference "JP1")
 					(unit 1)
 				)
 			)

@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -60,47 +60,31 @@
       ],
       "drc_exclusions": [
         [
-          "hole_clearance|141955000|88550000|97d1b3ba-6dfa-4105-989e-86eed2361a55|6f76015f-b13a-472b-a293-9f776da7c62d",
+          "hole_clearance|141239000|88575000|97d1b3ba-6dfa-4105-989e-86eed2361a55|6f76015f-b13a-472b-a293-9f776da7c62d",
           ""
         ],
         [
-          "hole_clearance|141955000|88550000|97d1b3ba-6dfa-4105-989e-86eed2361a55|fa715a77-7d82-45c9-8713-b154e33208c9",
-          "just footprint issue"
-        ],
-        [
-          "hole_clearance|141955000|94650000|43a98de5-f90c-4ac2-9517-8d5ac625939a|6ff31e88-b66f-40a6-b5b4-0742c5b9a193",
+          "hole_clearance|141239000|88575000|97d1b3ba-6dfa-4105-989e-86eed2361a55|fa715a77-7d82-45c9-8713-b154e33208c9",
           ""
         ],
         [
-          "hole_clearance|141955000|94650000|43a98de5-f90c-4ac2-9517-8d5ac625939a|a723d07d-6d40-4547-89d1-de77fe0f037a",
+          "hole_clearance|141239000|94675000|43a98de5-f90c-4ac2-9517-8d5ac625939a|6ff31e88-b66f-40a6-b5b4-0742c5b9a193",
           ""
         ],
         [
-          "hole_clearance|177350000|117155000|791996bd-83ab-47fb-a071-d345607e35a5|be0f8f6c-5c43-4c37-83e2-d9adb92dde29",
+          "hole_clearance|141239000|94675000|43a98de5-f90c-4ac2-9517-8d5ac625939a|a723d07d-6d40-4547-89d1-de77fe0f037a",
           ""
         ],
         [
-          "hole_clearance|179850000|117155000|791996bd-83ab-47fb-a071-d345607e35a5|21e3a710-6a93-4549-bc54-8752a5260440",
+          "hole_clearance|177375000|117200000|be0f8f6c-5c43-4c37-83e2-d9adb92dde29|791996bd-83ab-47fb-a071-d345607e35a5",
           ""
         ],
         [
-          "silk_over_copper|184180000|117434984|6e59a5a4-f3dc-4d2b-b462-bd02c2e1d742|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|184480000|117405000|e085ef77-d281-4af8-af0f-4e518730cf4d|00000000-0000-0000-0000-000000000000",
+          "hole_clearance|179875000|117200000|21e3a710-6a93-4549-bc54-8752a5260440|791996bd-83ab-47fb-a071-d345607e35a5",
           ""
         ],
         [
           "starved_thermal|145340000|98280000|c78af57e-0957-4e25-9a48-315b959792f8|47b9562c-971d-4b86-9893-c7dfd70ac2fb|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|159667500|86870000|c78af57e-0957-4e25-9a48-315b959792f8|6cae6a67-c3a6-473e-ac9f-b7361e35ec41|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|172180000|94810000|c78af57e-0957-4e25-9a48-315b959792f8|8869af16-b58a-4ad2-84f2-a436f03a4823|F.Cu",
           ""
         ],
         [
