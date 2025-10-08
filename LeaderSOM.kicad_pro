@@ -76,19 +76,15 @@
           ""
         ],
         [
-          "hole_clearance|177375000|117200000|be0f8f6c-5c43-4c37-83e2-d9adb92dde29|791996bd-83ab-47fb-a071-d345607e35a5",
+          "hole_clearance|177375000|117200000|791996bd-83ab-47fb-a071-d345607e35a5|be0f8f6c-5c43-4c37-83e2-d9adb92dde29",
           ""
         ],
         [
-          "hole_clearance|179875000|117200000|21e3a710-6a93-4549-bc54-8752a5260440|791996bd-83ab-47fb-a071-d345607e35a5",
+          "hole_clearance|179875000|117200000|791996bd-83ab-47fb-a071-d345607e35a5|21e3a710-6a93-4549-bc54-8752a5260440",
           ""
         ],
         [
           "starved_thermal|174882500|109180000|c78af57e-0957-4e25-9a48-315b959792f8|56257faf-fc82-4adb-bd1d-4cf1b0e60d00|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|191805000|106790000|c78af57e-0957-4e25-9a48-315b959792f8|4e4bade9-9b31-4dc8-a2eb-709ff7a6ff1f|F.Cu",
           ""
         ]
       ],
@@ -122,7 +118,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
