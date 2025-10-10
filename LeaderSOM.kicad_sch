@@ -1234,7 +1234,7 @@
 		)
 		(uuid 060b3c6e-bf37-4692-8dd8-9486f44a6f9c)
 	)
-	(text "Changelog:\n- Changed MCU to STM32G473RET6\n- Changed most SOM connector pins slightly\n	- Replaced redunant GND/GNDA pins with more data pins\n	- Added extra functionality to some pins\n- Change pp values to be 24V\n- Swap out power stuff to match PSOM\n	- 24v - 5v buck\n	- 5v power mux\n	- overvoltage/current values\n	- 5v - 3v LDO\n	- Connect IMON to MCU\n- Changed a couple circuits to look better\n- Replaced seven segment with addressable leds (easier, less space)\n- Working on updating ICs to KiCad-Sharepoint from UTSVIT-Kicadlibaries\n- Removed extra general purpose button\n- Bootloader switch and OR gate\n\n\nTODO: \nmake mounting holes plated\nadd spi2 by swapping can1"
+	(text "Changelog:\n- Changed MCU to STM32G473RET6\n- Changed most SOM connector pins slightly\n	- Replaced redunant GND/GNDA pins with more data pins\n	- Added extra functionality to some pins\n	- Added extra SPI, I2C, UART\n	- Removed I2C pullups\n- Change pp values to be 24V\n- Swap out power stuff to match PSOM\n	- 24v - 5v buck\n	- 5v power mux\n	- overvoltage/current values\n	- 5v - 3v LDO\n	- Connect IMON to MCU\n	- Recalculated math\n- Changed a couple circuits to look better\n- Replaced seven segment with addressable leds (easier, less space)\n- Updated ICs to KiCad-Sharepoint from UTSVIT-Kicadlibaries\n- Fixed/added symbols and footprints for several components\n- Removed extra general purpose button\n- Bootloader switch and OR gate\n"
 		(exclude_from_sim no)
 		(at 15.24 149.225 0)
 		(effects
@@ -3087,7 +3087,7 @@
 		)
 		(uuid "0cf2e425-d350-44d0-8965-c3a99c58bc01")
 	)
-	(label "UART1_TX"
+	(label "USART1_TX"
 		(at 182.88 96.52 0)
 		(effects
 			(font
@@ -3167,7 +3167,7 @@
 		)
 		(uuid "1d27d81c-b2d8-40fc-8975-29e61505ede8")
 	)
-	(label "UART1_RX"
+	(label "USART1_RX"
 		(at 182.88 93.98 0)
 		(effects
 			(font
@@ -3277,7 +3277,7 @@
 		)
 		(uuid "2c1cd150-0017-4d55-8098-0a6ac2196bde")
 	)
-	(label "UART1_TX"
+	(label "USART1_TX"
 		(at 163.83 119.38 180)
 		(effects
 			(font
@@ -3587,7 +3587,7 @@
 		)
 		(uuid "89c5fedd-f05a-491c-bf87-5ad3315a0502")
 	)
-	(label "UART1_RX"
+	(label "USART1_RX"
 		(at 163.83 116.84 180)
 		(effects
 			(font
