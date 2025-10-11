@@ -559,7 +559,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../../Downloads/LeaderSOM.step",
+      "step": "../../../Downloads/LeaderSOM.step",
       "svg": "",
       "vrml": ""
     },
