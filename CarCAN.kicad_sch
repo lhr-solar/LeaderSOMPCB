@@ -2097,6 +2097,14 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "CDSOT23-T24CAN"
+			(at 136.525 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d51c7e3c-d1e1-4150-88c2-e95ef2bfd805")
 		)
@@ -2120,9 +2128,9 @@
 		(at 134.62 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6be30668-70b8-4cbd-a860-2017eee760b6")
 		(property "Reference" "CC_Term2"
 			(at 134.493 116.332 0)
@@ -2349,7 +2357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW080559R0FKEA"
+		(property "Mouser Part Number" "CRCW0603120RFKEC "
 			(at 124.46 114.3 0)
 			(effects
 				(font
@@ -2509,6 +2517,14 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "CRCW060310K0FKEI "
+			(at 68.58 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "97cd9163-e6d1-4fcc-8ec6-bded49652fa4")
 		)
@@ -2600,7 +2616,7 @@
 		(fields_autoplaced yes)
 		(uuid "cfa1ffcf-4d15-48a0-8a53-1b36da19cf75")
 		(property "Reference" "C8"
-			(at 177.8 77.47 0)
+			(at 177.8 76.8349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2608,8 +2624,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 177.8 80.01 0)
+		(property "Value" "0.1uF"
+			(at 177.8 79.3749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2644,7 +2660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "80-C0805C104M5R"
+		(property "Mouser Part Number" "MLASH168SB7104KTNA01"
 			(at 173.99 78.105 0)
 			(effects
 				(font
@@ -2793,7 +2809,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 189.23 79.3749 0)
 			(effects
 				(font
@@ -2829,7 +2845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "80-C0805C104M5R"
+		(property "Mouser Part Number" "MLASU168SB5105KTNA01"
 			(at 186.055 78.105 0)
 			(effects
 				(font
@@ -3128,7 +3144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "Inventory"
+		(property "Mouser Part Number" "CRCW06032K10FKEA "
 			(at 158.115 68.58 0)
 			(effects
 				(font

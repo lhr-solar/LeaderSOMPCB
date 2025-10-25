@@ -3445,7 +3445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "81-GRM219R6YA475KA3D"
+		(property "Mouser Part Number" "08055D475KAT4A"
 			(at 183.515 35.56 0)
 			(effects
 				(font
@@ -3647,7 +3647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "80-C0805C104M5R"
+		(property "Mouser Part Number" "MLASH168SB7104KTNA01"
 			(at 196.215 35.56 0)
 			(effects
 				(font
@@ -3879,6 +3879,14 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "CRCW06035K10FKEC "
+			(at 64.135 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e7575714-0d88-464e-b15b-8233486a4e63")
 		)
@@ -3948,7 +3956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "81-GRM219R6YA475KA3D"
+		(property "Mouser Part Number" "08055D475KAT4A"
 			(at 183.515 58.42 0)
 			(effects
 				(font
@@ -4120,6 +4128,14 @@
 			)
 		)
 		(property "Vf" ""
+			(at 147.32 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "CP2102N-A02-GQFN24"
 			(at 147.32 62.865 0)
 			(effects
 				(font
@@ -4398,7 +4414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW08051K00FKEAC"
+		(property "Mouser Part Number" "CRCW06031K00FKEI "
 			(at 130.81 36.195 0)
 			(effects
 				(font
@@ -4998,7 +5014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "581-22201C106KAT2A"
+		(property "Mouser Part Number" "GRM21BR61H106KE43K"
 			(at 71.12 41.275 0)
 			(effects
 				(font
@@ -5124,7 +5140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0805-22.1K-E3"
+		(property "Mouser Part Number" "CRCW060322K1FKEBC "
 			(at 120.65 52.705 0)
 			(effects
 				(font
@@ -5261,7 +5277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "80-C0805C104M5R"
+		(property "Mouser Part Number" "MLASH168SB7104KTNA01"
 			(at 196.215 58.42 0)
 			(effects
 				(font
@@ -5594,7 +5610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0805-47.5K-E3"
+		(property "Mouser Part Number" "CRCW060347K5FKEAHP "
 			(at 129.54 62.865 0)
 			(effects
 				(font
@@ -5853,6 +5869,14 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "1N5819HW-7-F"
+			(at 67.31 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e6e14111-8441-473e-a845-8bd6083ae3fb")
 		)
@@ -5945,6 +5969,14 @@
 			)
 		)
 		(property "Vf" ""
+			(at 72.39 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "CRCW06035K10FKEC "
 			(at 72.39 76.2 0)
 			(effects
 				(font
@@ -6241,6 +6273,14 @@
 			)
 		)
 		(property "Vf" ""
+			(at 40.64 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "640-USB4105-GF-A"
 			(at 40.64 50.8 0)
 			(effects
 				(font
