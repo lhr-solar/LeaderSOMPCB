@@ -5261,7 +5261,7 @@
 	)
 	(text "Reset Button"
 		(exclude_from_sim no)
-		(at 180.975 107.315 0)
+		(at 185.928 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5391,6 +5391,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54816965-2b8a-4fa0-9006-a2ef790d7f22")
+	)
+	(junction
+		(at 181.61 109.855)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "639afb26-918f-4f7a-b804-f74d66652cf6")
 	)
 	(junction
 		(at 34.925 179.07)
@@ -6174,6 +6180,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 109.855) (xy 181.61 112.395)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34908dd7-aae5-41b6-a523-d91813d04793")
+	)
+	(wire
+		(pts
 			(xy 56.515 147.32) (xy 58.42 147.32)
 		)
 		(stroke
@@ -6661,16 +6677,6 @@
 			(type default)
 		)
 		(uuid "736875d0-a2e7-4bec-92ca-c089c655a807")
-	)
-	(wire
-		(pts
-			(xy 181.61 109.855) (xy 181.61 112.395)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "740906f2-5c21-4287-9844-5513fe606d4e")
 	)
 	(wire
 		(pts
@@ -7911,6 +7917,16 @@
 			(type default)
 		)
 		(uuid "fb7834e2-9d72-4cea-970d-eb4e298c6c90")
+	)
+	(wire
+		(pts
+			(xy 181.61 109.22) (xy 181.61 109.855)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd1f93b-4203-4bdd-8d69-e4e5392eb747")
 	)
 	(image
 		(at -59.055 80.01)
@@ -12997,6 +13013,116 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 181.61 105.41 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19e1e812-f194-42ec-935a-18332a0de50b")
+		(property "Reference" "R33"
+			(at 183.515 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 183.515 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 180.594 105.156 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 181.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
+			(at 181.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "If" ""
+			(at 181.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg" ""
+			(at 181.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vf" ""
+			(at 181.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "CRCW060310K0FKEI "
+			(at 181.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "966c97db-192b-48a9-8f38-29945ac12be0")
+		)
+		(pin "2"
+			(uuid "a185133a-535c-4a08-8561-a37be58a9c98")
+		)
+		(instances
+			(project "LeaderSOM"
+				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/97cc3b6d-03de-444a-9e7b-201a12c14f47"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_ST_STM32G4:STM32G473RETx")
 		(at 73.66 72.39 0)
 		(unit 1)
@@ -15730,7 +15856,7 @@
 		(fields_autoplaced yes)
 		(uuid "9eebe095-f8db-4081-b0c8-ff3077e2f688")
 		(property "Reference" "C32"
-			(at 33.02 182.245 0)
+			(at 33.02 181.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15738,8 +15864,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 33.02 184.785 0)
+		(property "Value" "0.1uF"
+			(at 33.02 184.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16194,6 +16320,71 @@
 			(project "LeaderSOM"
 				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/97cc3b6d-03de-444a-9e7b-201a12c14f47"
 					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 181.61 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bfcf4a19-cfa8-4f90-b523-24d19c068f0c")
+		(property "Reference" "#PWR0119"
+			(at 181.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 181.991 97.2058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 181.61 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe6703b5-0616-4592-97bb-b4cd82ffc339")
+		)
+		(instances
+			(project "LeaderSOM"
+				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/97cc3b6d-03de-444a-9e7b-201a12c14f47"
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
