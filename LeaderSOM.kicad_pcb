@@ -59394,16 +59394,6 @@
 		)
 	)
 	(gr_line
-		(start 187.95 95.15)
-		(end 191.9 95.15)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "5c0807ba-9e26-46a1-8662-e272c31d0ad9")
-	)
-	(gr_line
 		(start 157 92)
 		(end 158 92)
 		(stroke
