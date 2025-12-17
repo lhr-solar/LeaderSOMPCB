@@ -2555,6 +2555,14 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "RT0603BRE0750RL"
+			(at 168.91 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "780de58f-9812-4f11-83ca-8bb24738e093")
 		)
@@ -3044,6 +3052,14 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "DM3AT-SF-PEJM5"
+			(at 201.295 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ebc243cb-86b8-4009-8cf1-4fe05e66f163")
 		)
@@ -3180,6 +3196,14 @@
 			)
 		)
 		(property "Vf" ""
+			(at 167.64 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "CRCW060310K0FKEI "
 			(at 167.64 114.935 0)
 			(effects
 				(font

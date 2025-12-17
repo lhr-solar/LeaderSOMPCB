@@ -1061,6 +1061,313 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -5261,7 +5568,7 @@
 	)
 	(text "Reset Button"
 		(exclude_from_sim no)
-		(at 180.975 107.315 0)
+		(at 185.928 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5391,6 +5698,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54816965-2b8a-4fa0-9006-a2ef790d7f22")
+	)
+	(junction
+		(at 181.61 109.855)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "639afb26-918f-4f7a-b804-f74d66652cf6")
 	)
 	(junction
 		(at 34.925 179.07)
@@ -6124,16 +6437,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.925 62.23) (xy 55.88 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ff34362-4f68-42e0-90f2-61d8b19e8e90")
-	)
-	(wire
-		(pts
 			(xy 55.88 36.83) (xy 47.625 36.83)
 		)
 		(stroke
@@ -6171,6 +6474,16 @@
 			(type default)
 		)
 		(uuid "34221591-979c-4905-9cac-e1aabbc3ad58")
+	)
+	(wire
+		(pts
+			(xy 181.61 109.855) (xy 181.61 112.395)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34908dd7-aae5-41b6-a523-d91813d04793")
 	)
 	(wire
 		(pts
@@ -6661,16 +6974,6 @@
 			(type default)
 		)
 		(uuid "736875d0-a2e7-4bec-92ca-c089c655a807")
-	)
-	(wire
-		(pts
-			(xy 181.61 109.855) (xy 181.61 112.395)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "740906f2-5c21-4287-9844-5513fe606d4e")
 	)
 	(wire
 		(pts
@@ -7274,16 +7577,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.925 61.595) (xy 34.925 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be9e9f58-4056-40b5-a423-ad0cb74c213e")
-	)
-	(wire
-		(pts
 			(xy 138.43 185.42) (xy 144.78 185.42)
 		)
 		(stroke
@@ -7614,7 +7907,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 61.595) (xy 34.925 61.595)
+			(xy 27.94 62.23) (xy 55.88 62.23)
 		)
 		(stroke
 			(width 0)
@@ -7911,6 +8204,16 @@
 			(type default)
 		)
 		(uuid "fb7834e2-9d72-4cea-970d-eb4e298c6c90")
+	)
+	(wire
+		(pts
+			(xy 181.61 109.22) (xy 181.61 109.855)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd1f93b-4203-4bdd-8d69-e4e5392eb747")
 	)
 	(image
 		(at -59.055 80.01)
@@ -9230,6 +9533,96 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAB//8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlOSYvLABAAAcDAAA/////4AC"
 			"urywAQAAAQAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASo3igJCTi9BDFTKAmBw70E"
+			"pmMnCU5GvgRqUyYJ1jK+BC+mJQmBw70EtxolCQk4vQS1GiUJBzi9BG6JIwlZULwE3ckhCWzYuwSD"
+			"+h8JbNi7BPI6HglZULwE8DoeCVlQvATwOh4JWlC8BKupHAkHOL0EqKkcCQk4vQQJYhsJqH++BAdi"
+			"Gwmrf74EgJsaCYfXvwRZehoJ8hDABGwCGgmD0MEEKzzmCIPQwQRpD+cIRf3ABBf35wj+a78EBG/o"
+			"CG2svQQEb+gIE927BBf35wiCHboEaQ/nCDuMuATFx+UIl0S3BH425AjpXLYE7XbiCPzktQSTp+AI"
+			"/OS1BALo3gjpXLYEAOjeCOlctgQA6N4I6ly2BLtW3QiXRLcEuFbdCJlEtwQZD9wIOIy4BBcP3Ag7"
+			"jLgEkD7bCGn1uQRpJ9sIgh26BHyv2ggT3bsEd9IiCBPduwTmHyQIpI+6BO1AJAiJcboEInIkCK1I"
+			"ugQiciQIrEi6BM1mKAjE/7YEdIooCNfktgQ8pCoIc3S1BLxE8QhzdLUEvETxCM1DtwSpvPEIXgO5"
+			"BFek8gillLoE++vzCEncuwRCffUI98O8BNM89wjkO70E1jz3COQ7vQQqDPkI5Du9BC0M+QjkO70E"
+			"vsv6CPfDvAQFXfwISdy7BKmk/QillLoEV4z+CF4DuQREBP8IzUO3BEQE/whzdLUEV4z+COK0swSp"
+			"pP0ImyOyBAVd/Aj327AEvsv6CEn0rwQtDPkIXHyvBNM89whcfK8EQn31CEn0rwRAffUISfSvBEB9"
+			"9QhK9K8E++vzCPfbsAT46/MI+duwBFmk8giYI7IEV6TyCJsjsgR/9PEILVSzBKm88QjitLMEvETx"
+			"CHN0tQQ8pCoIc3S1BDj9LAjE2LMENiMtCD7BswQc2TEIkCGxBP0AMgi1DbEEvu82CCbgrgRNGTcI"
+			"C9CuBCk2PAhcGa0EDGE8CCkNrQS0oEEIItGrBJjMQQjuyKsEqiNHCDsKqwQkUEcIGwarBCm+TAjY"
+			"xaoEiNRMCFTFqgQ7g00IVMWqBMwABglUxaoEAAAAAAAAAABgGixI+gEAAAAAAAAAAAAAFgAAFs7D"
+			"CQDAHtpn+gEAAOCu+Xr6AQAAvgwDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABws/56+gEA"
+			"AAAAAAAAAAAAAAAAAAAAAAA4AAAAQQEAAMgMAwAAAAAAyAwDAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAACwv/56+gEAAAAAAAAAAAAAAAAAAAAAAAA4AAAAQQEAAMIMAwAAAAAAwgwDAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALGlJ+gEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
@@ -11335,7 +11728,97 @@
 			"RjJvWXQxYkJkRi9yMzAyUjhPaDRNUHQyTS9wQkNyUmNsdW0xNkVZeDlnam1wbkx0ODB2Um9oSkto"
 			"ZHkzZFR0N3Q4dExPS2tMZTVoYXA3aFI2WEZkd25XZEszS1FxNVFxbFVDb1ZDQndjSEp5ZW5uSndj"
 			"cFZKSkNDRzMzbGVqS0tJbVJFMFJQb2R3T0VScmg2WW1KRmRKS1Y0cGE1eWpSQStreVFsSitmbjU5"
-			"S01oUlNLUm82T2pTQ1JTcTlYMENleDNCU21LVUlTb0tjTGhFQzRoM0EvMmowcA=="
+			"S01oUlNLUm82T2pTQ1JTcTlYMENleDNCU21LVUlTb0tjTGhFQzRoM0EvMmowcAB0AFMAZgBTADQA"
+			"MwBXAHgAZAA5AE8AQwBWADUAWgA0AFYAaABxAEMASABnAFEAOQBTAE8AMABTADQAaAA2AGsAQgBq"
+			"AGwAawB1AEsAWQBmAFYAbgBlAC8AUgBEAFEAZwBVAEsAeQBVADIAdQAxADIAcwA5AGwAcwBzAFYA"
+			"aABJAGsAaABTAEwAeABSAEsASgBoAEsASQBvAHUAOAAxAEcATwBSAHcAMABUAFEATwBhAHAAbQBt"
+			"AGEAbwBpAGkASAB3ADAARgBSAEYASwBCAHAAQgBEADEAdABnADUANABPAEUAMwBmAFUAeAAwAHYA"
+			"UQB3ADYAagByAG8AMAArAFgAZwBoADUAdwA5ADAATgBoADYAUQBkAEIAVAA2AGQARABEADkAcQA2"
+			"AHMATgBzAEwAYwBRADkAUwBJADkARQBpAFQAQgB3AG8AVAB4AGoAUQByAC8ALwA5AGcANABWAEMA"
+			"bwBWAFEAbQB3AHoAQgBNAEoAQgBKAEoASgBCAEkAYwB4AHgAMABPAHkAbQBxAHoAVwBhAHcAVwBt"
+			"ADkAVgBxAHMAOQBuAHMATgBwAHYARABiAG4AZABRAFQAQQB5AG8AbgBuAHMAUQA5AEgAQgBlADQA"
+			"dwBaADYATgBxADcAOQB2AHcANgBlAHYAZABpAEEAUABsADYARgBIAGsAWgBkAEUAMwAxAG8AbQBs"
+			"ADcAMABhAG0AbwA3AG8AYwBkADMASwA3AG4AdQAwAG8AOQA3AEsAdwBRADkAQwBIAHEAUQB2AEMA"
+			"RABFAFAAVQBpAE4ASgBEAEcAUQA4AFQAVwBCAFEANgBWAHgARQBXAFAAaQBJAFkAUQBEAEIAdwAr"
+			"AE4ANwB0AGwATAA1AFIAOABRAEgAQgB4AHMATgBKAGsAbABNAGoAbABCAEUARABhAHIAMQBXAEkA"
+			"eABXADYAMQBXAHUAOQAzAHUAbwBCAHoAMQBrAFIANABFAFAAYQA1AGQAdQA0AC8AMABkAE4AZwAy"
+			"ADgAQQB4AGQATQBmADkAdQBlAFcAdQB0AEwANgBDAEgAMABaAEsAdQBoAHoANgBOAHAAbgBWADMA"
+			"agBVAGkAUABzADEANQBhAC8AQQBxAEMAbgBrADYASABIAHEAUQAvAGkAUgBEADMASQBEAFUASQBv"
+			"ADIAQgBrAGsAZgBnACsATABOAEwATwBvADcAUABJAHcAcgBLAHkAcwBpAEgARABSAGkAUQA5AE0A"
+			"QwBFAHkAcAB0AGYAZwB3AFkATwB0AEQAaQBxAGsAUgA1AGgASQBMAEsAYQBiAGkASQBuADMAQQBF"
+			"AEEANQBEAFgAVgB4AEMARQBHAFAAYQA0ADgAZABJACsAYwBuAGEAawBFAEkAMwAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADhGL0Z4L1FjUGRY"
+			"QjA3RDlrS0NHa2FmTVdkaUxSZ09DaDBZOGVHRkd0c2JqRzd5bWhtWVhTMzFOQ0NTSC81RWJLMVBL"
+			"MXlVZmFTQnBZdkJyakJabjkxakZla05scUtwV3ErREdQdGgwN3FWVEdQUGFHRUJMeHp6azM5Nkwz"
+			"WlZTdldTc2ozWmc4eld3MXhnc09jK3QwdU5aM2IvejJqNjNRL2FMMHZnTlgzUG5wbkwwWi94U29q"
+			"WG55RzdQVnpGRVEyQWtweEVZeCs5U3l3MkhoM3k0SUtmNjhrSFBoTjR3Ym5rcWxzaE9KQ0NGQ29a"
+			"QVF3dWZ6Q1NFQ2dUQlBLaldpbW9ERGw2bmxoQkI2LzZXa1ZJUVFPYVYwNWtrc1hvM3hnc3grNnhn"
+			"dnlQandtRlduWHYyN3Q0ciswdDY3ZTd0YWpab1dyOFo0d1gwMUZuQUlwK0dqY1QxaUYvd3Y5Ymh4"
+			"UXpKVE5YTVVCSGJDZFNIQUFNYWZGd0pnRVdNblR2bittem5aMmRsTm12bDdlRmJNenM2NmVlM3Ev"
+			"MjM5Mzl6RjMxdThHdU1GUnp4Zk9kaTF3OE9HMjY1SkgvK2RkZFc0SVptcG1qa0tBanNoaFFBREdI"
+			"OWVDUG53d2VHbWZIQUpqV3ArVHVjMEc2b3hYcERaYngzakJjMVh6WFIxR3pSYytkdTZ2YnUyNzlx"
+			"eU1UY254OW5GMWErWi8vSmYxOWJ5cldQeGFvd1gzSmNSdmk4alhNSVY5WFJ1T2NpMXZWU2QvMCtk"
+			"bjdla25nak51cXlnU24xTWxObHE1aWdJN0lRVVlyc1lmR29aNDg4TFlmWkRNWmg5d2dmanp3dGh0"
+			"aURqbnlmQ2JFRTJWNk5WcjFtTGZrb2VDNnVabzJDZXV1Q3Z6RXQvWlY0U2NZVkJUZ0dEWFR2OFVH"
+			"VzA3OE12MkZETkhBV0JiWkJDYk5UdEszdWFONnZQVkxXczdOenJGM2RwdDJRa2hqTlZIQURLUUlG"
+			"YThYZlcxYit6cmdxWmVDQUhzOVhNVVJCWUFsZW4ycWpCdytlMWJQLzV6dDFIOC9QbGJLdEdDSG4r"
+			"TEc3R3hMSDl1d2JPK21yOHl4Y3ZUS3pXV0Z6amFyMjF1YzJPWHFxN3VyN0l5STlUTVZNMXhnc3kr"
+			"NjFqdkNDYnE5bmE4RXI2eFRQdWZBZXoxY3hSRU5nSktjUkd4VC8rZStYU0tlY3YzS3pkcVAvTXVh"
+			"dGpuaWF3cHhvaFpPMnFGVjI3OXpwdzdIU3JUOXBwbmhScHRDM1ZadTVPUDFjeGFzaUo3QnRicTMz"
+			"TnFtcU1GMlQyVzhkNFFUWlhzN1hoMmRSMkFheUZGR0tqT0J6T3A1MWE3dDM1d0RKWXU0Tzl2V2hp"
+			"eUtBM2lTbjBTNW1zSU9MU25mVy96UTJQdUNXVEZaaHphSWdnK2xhTUNGS0tib2dnaUNDc2lpQmFi"
+			"Ui9kQXhOQ0J2YnJ2R2Y3MHVDUjg0dFgwak1MekFRcGhHR0QrbmUrZWowcU15dUhFSktkSTQyNGRP"
+			"ZXpJVUhhSGVSeXhkWWRZUXZuanFWZm5qaDl1VTJyeHBXOVBGcTNiSHp5ekJXempRc1JSTitLRVVG"
+			"SzBRMFJCQkdFclJHRUdMQUhwZzNzMTFtcFZPbW9wbmNXbUFOU0NNT0VRc0d3NE83MFJSNzdEcHdP"
+			"SHRSVkxMYWpaOUhuSFVXdW44eGI5THRRK081ekJBK0hoZmZ0M1pFUTBxOVB4OE5oLzVoblVJZ2cr"
+			"bGFNQ0ZLS2JvZ2dpQ0NzaWlERjZOa0RBenNoaFRCdi9KZ0IvL2ZIY1VMSXp0MUhKNDRicEdtbnp6"
+			"dktzNjRkUDdMbTU5LzJFRUlLQ2hRblRsK2VPSFVGeHo1ZzByU1ZKMDVmTGloUU1EMGNSQkI5SzBZ"
+			"RUtVVTNSQkJFRUZaRmtCSytQeVh0Z1lHZCtKWWVnQldxWGN2SHlVa1NldlNDbzZPa2JwMXFSZVlL"
+			"aFlKT0hRSnlwWG1Fa0RQbnI3VnEwZWo4aVkzMHJFN2RKNXo5NTNyZlhoMllHMHNwSWtoS3l0c25U"
+			"eDYvVFhvamw4dnRSS0tLbnBXcTE2eGR0V3AxUkpBUGhvY0lnZ2lpcXljaUNFc2lDUG5ZSHBnV2V2"
+			"U0NRS0Q3N1UvUExEQUhmSy9OWXNMWVFST21yTmk0VnNjbFRuSzVZdjMvRHJiL3BCa2g1RkRvUHlH"
+			"aisydG1qZnV5LzZIUTg0eW1FRUlNZXpON2NQL2U0OGYzMjNmc1BIam9jTEZZbko5ZjhDVDYwZVZM"
+			"RjU3RnhyUnUyMTRzRWhkYm90aWtqc0tJSURwV2lBaUNDS0tuWXJHZWlDQ0c3a2EwNmRrREUwTENq"
+			"a1dNSExQNHdKNlZwWm9GWm9JVVloYjkrd1N1V0xXalgrK08ybzMwWXorY25DUnRXdnI5YjkwM0Nv"
+			"WHkybzM3MnpmOWQ4dnVvUDZmTGw2NlNhRlFDb1VDazRkZzJIc2VSUWdoc2JGUDR1TmpwODJhNytI"
+			"aFNUYzdPamw3VnF6WXBtMzdzTU1IenA4NTJTV29wOWhPL09HU1JQK09CeEZFNXdvUlFSQkI5RlFz"
+			"MWhNUlJIL3BFZ2V2Wnc5TUNCRUkrQWYyckJ6UXQ1TWhzOERja0VMTWdzL24zYjIyVjd0RjV6TS80"
+			"aDZHYWI4VWlZVHhqNC9xWDhRd3BZZ2crVEpaNUoxYjR5Wk8wVVFRRFlGQU1PUwAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
 		)
 	)
 	(label "ADC1_IN7{slash}TIM1_CH2{slash}COMP3_INP"
@@ -11628,16 +12111,6 @@
 		)
 		(uuid "4be5ccbf-c615-41b2-a166-de5e763c054f")
 	)
-	(label "ADC1_IN2{slash}USART2_TX"
-		(at 141.605 195.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4d9457c0-9fd3-4d58-aefd-a46663686afb")
-	)
 	(label "OPAMP5_VINM{slash}ADC1_IN4{slash}TIM2_CH4"
 		(at 58.42 142.24 0)
 		(effects
@@ -11647,6 +12120,16 @@
 			(justify left bottom)
 		)
 		(uuid "4fd7df24-d933-4a7a-a005-0dac996755b0")
+	)
+	(label "Onboard_LED"
+		(at 260.985 109.855 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c688b97-944a-4619-b5e7-c2c14a767024")
 	)
 	(label "I2C3_SDA{slash}TIM3_CH4"
 		(at 150.495 161.29 0)
@@ -11827,6 +12310,16 @@
 			(justify right bottom)
 		)
 		(uuid "84fa37a1-6ee2-443a-9768-20b7d7b55cfc")
+	)
+	(label "Onboard_LED"
+		(at 27.94 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85e4e50a-1626-4332-827f-16c9448b5cbc")
 	)
 	(label "USART3_TX{slash}OPAMP3_VINM{slash}TIM2_CH3"
 		(at 127 100.33 180)
@@ -12359,17 +12852,6 @@
 		)
 		(uuid "15d06231-9248-45cb-ae56-971a9a01673a")
 	)
-	(hierarchical_label "IMON"
-		(shape input)
-		(at 34.29 61.595 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4da1808e-0fbb-4b0f-bbf3-56e8acefda6a")
-	)
 	(hierarchical_label "{UART}"
 		(shape bidirectional)
 		(at 144.78 130.81 180)
@@ -12513,6 +12995,14 @@
 			)
 		)
 		(property "Vf" ""
+			(at 228.6 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "SN74AHC1G32TDBVRQ1 "
 			(at 228.6 95.885 0)
 			(effects
 				(font
@@ -12689,6 +13179,14 @@
 			)
 		)
 		(property "Vf" ""
+			(at 213.36 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "CRCW060310K0FKEI "
 			(at 213.36 102.235 0)
 			(effects
 				(font
@@ -12909,6 +13407,116 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 181.61 105.41 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19e1e812-f194-42ec-935a-18332a0de50b")
+		(property "Reference" "R33"
+			(at 183.515 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 183.515 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 180.594 105.156 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 181.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
+			(at 181.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "If" ""
+			(at 181.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg" ""
+			(at 181.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vf" ""
+			(at 181.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "CRCW060310K0FKEI "
+			(at 181.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "966c97db-192b-48a9-8f38-29945ac12be0")
+		)
+		(pin "2"
+			(uuid "a185133a-535c-4a08-8561-a37be58a9c98")
+		)
+		(instances
+			(project "LeaderSOM"
+				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/97cc3b6d-03de-444a-9e7b-201a12c14f47"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_ST_STM32G4:STM32G473RETx")
 		(at 73.66 72.39 0)
 		(unit 1)
@@ -12989,6 +13597,14 @@
 			)
 		)
 		(property "Vf" ""
+			(at 73.66 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "STM32G473RET6 "
 			(at 73.66 72.39 0)
 			(effects
 				(font
@@ -13284,6 +13900,14 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "771-PESD15VL1BA-T/R"
+			(at 250.825 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6c6aa6fc-a121-424c-b860-21740d7609e9")
 		)
@@ -13517,6 +14141,14 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "0603N270F500CT "
+			(at 36.83 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2a226365-f624-4adb-aa7a-4c0c54dc92c8")
 		)
@@ -13527,6 +14159,254 @@
 			(project "LeaderSOM"
 				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/97cc3b6d-03de-444a-9e7b-201a12c14f47"
 					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 260.985 113.665 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "343fb38a-5c0e-4d68-aef6-4618b5e44610")
+		(property "Reference" "R35"
+			(at 262.763 112.4966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "120"
+			(at 262.763 114.808 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 259.207 113.665 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.985 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 260.985 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW0603120RFKEC "
+			(at 260.985 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
+			(at 260.985 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "If" ""
+			(at 260.985 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg" ""
+			(at 260.985 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vf" ""
+			(at 260.985 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "CRCW0603120RFKEC "
+			(at 260.985 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22b9253b-77d9-4287-9040-83b7ccd1f07e")
+		)
+		(pin "2"
+			(uuid "c5e65573-f03e-47fb-8a92-ab4ea5af8ded")
+		)
+		(instances
+			(project "LeaderSOM"
+				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/97cc3b6d-03de-444a-9e7b-201a12c14f47"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 260.985 121.285 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ae23988-1595-4953-8dfd-919cda00ba49")
+		(property "Reference" "D21"
+			(at 264.795 121.6024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3V3"
+			(at 264.795 124.1424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 260.985 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.985 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 260.985 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 260.985 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "XL-1608UBC-06A"
+			(at 260.985 121.285 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
+			(at 260.985 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "If" ""
+			(at 260.985 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg" ""
+			(at 260.985 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vf" ""
+			(at 260.985 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "XL-1608UBC-06A"
+			(at 260.985 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2ff351ef-a927-4ce2-ace9-5991e50dccfe")
+		)
+		(pin "1"
+			(uuid "28b1b0a9-b96b-497d-bbba-069258c3ea7a")
+		)
+		(instances
+			(project "LeaderSOM"
+				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/97cc3b6d-03de-444a-9e7b-201a12c14f47"
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -13878,6 +14758,14 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "CRCW060310K0FKEI "
+			(at 246.38 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cf5fc1e8-4579-434f-89ff-679f552d3fbe")
 		)
@@ -14051,6 +14939,14 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "ABM3-8.000MHZ-D2Y-T"
+			(at 31.75 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fa5ea8f7-971f-4430-b9c7-8b00b6c2d9db")
 		)
@@ -14077,7 +14973,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b4d225e-4424-48ee-af92-ec4ead20e265")
 		(property "Reference" "C39"
-			(at 120.015 182.245 0)
+			(at 120.65 181.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14085,8 +14981,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 120.015 184.785 0)
+		(property "Value" "0.1uF"
+			(at 120.65 184.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14121,7 +15017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "80-C0805C104M5R"
+		(property "Mouser Part Number" "MLASH168SB7104KTNA01"
 			(at 116.84 182.88 0)
 			(effects
 				(font
@@ -14263,7 +15159,7 @@
 		(fields_autoplaced yes)
 		(uuid "64d97e6c-2d98-4a7b-935b-29c10d71b8c2")
 		(property "Reference" "C35"
-			(at 67.31 182.245 0)
+			(at 67.31 181.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14271,8 +15167,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 67.31 184.785 0)
+		(property "Value" "0.1uF"
+			(at 67.31 184.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14307,7 +15203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "80-C0805C104M5R"
+		(property "Mouser Part Number" "MLASH168SB7104KTNA01"
 			(at 63.5 182.88 0)
 			(effects
 				(font
@@ -14451,6 +15347,14 @@
 			)
 		)
 		(property "Vf" ""
+			(at 26.67 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "0603N270F500CT "
 			(at 26.67 33.02 0)
 			(effects
 				(font
@@ -14799,7 +15703,7 @@
 		(fields_autoplaced yes)
 		(uuid "7899c3e5-f5ad-47fa-8582-95ee58a8470d")
 		(property "Reference" "C38"
-			(at 104.775 182.245 0)
+			(at 105.41 181.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14807,8 +15711,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 104.775 184.785 0)
+		(property "Value" "0.1uF"
+			(at 105.41 184.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14843,7 +15747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "80-C0805C104M5R"
+		(property "Mouser Part Number" "MLASH168SB7104KTNA01"
 			(at 101.6 182.88 0)
 			(effects
 				(font
@@ -14987,6 +15891,14 @@
 			)
 		)
 		(property "Vf" ""
+			(at 196.85 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "CJS-1200TA"
 			(at 196.85 93.345 0)
 			(effects
 				(font
@@ -15154,7 +16066,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e3da36b-41e4-4842-91fa-ca12ab47a35a")
 		(property "Reference" "C37"
-			(at 91.44 182.245 0)
+			(at 91.44 181.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15162,8 +16074,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 91.44 184.785 0)
+		(property "Value" "0.1uF"
+			(at 91.44 184.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15198,7 +16110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "80-C0805C104M5R"
+		(property "Mouser Part Number" "MLASH168SB7104KTNA01"
 			(at 87.63 182.88 0)
 			(effects
 				(font
@@ -15343,6 +16255,14 @@
 			)
 		)
 		(property "Vf" ""
+			(at 149.86 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "105309-1104"
 			(at 149.86 180.34 0)
 			(effects
 				(font
@@ -15578,7 +16498,7 @@
 		(fields_autoplaced yes)
 		(uuid "9eebe095-f8db-4081-b0c8-ff3077e2f688")
 		(property "Reference" "C32"
-			(at 33.02 182.245 0)
+			(at 33.02 181.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15586,8 +16506,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 33.02 184.785 0)
+		(property "Value" "0.1uF"
+			(at 33.02 184.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15622,7 +16542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "80-C0805C104M5R"
+		(property "Mouser Part Number" "MLASH168SB7104KTNA01"
 			(at 29.845 182.88 0)
 			(effects
 				(font
@@ -15706,7 +16626,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1uF"
 			(at 270.51 94.6149 0)
 			(effects
 				(font
@@ -15767,6 +16687,14 @@
 			)
 		)
 		(property "Vf" ""
+			(at 267.335 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "MLASH168SB7104KTNA01"
 			(at 267.335 93.345 0)
 			(effects
 				(font
@@ -15844,7 +16772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "81-GRM219R6YA475KA3D"
+		(property "Mouser Part Number" "08055D475KAT4A"
 			(at 52.07 182.88 0)
 			(effects
 				(font
@@ -16034,6 +16962,137 @@
 			(project "LeaderSOM"
 				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/97cc3b6d-03de-444a-9e7b-201a12c14f47"
 					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 181.61 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bfcf4a19-cfa8-4f90-b523-24d19c068f0c")
+		(property "Reference" "#PWR0119"
+			(at 181.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 181.991 97.2058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 181.61 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe6703b5-0616-4592-97bb-b4cd82ffc339")
+		)
+		(instances
+			(project "LeaderSOM"
+				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/97cc3b6d-03de-444a-9e7b-201a12c14f47"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 260.985 125.095 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c29ddf2b-33ad-4836-8b4c-2aa12a654af6")
+		(property "Reference" "#PWR0123"
+			(at 260.985 131.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 260.985 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.985 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.985 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 260.985 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfd31f61-1655-4052-bcda-d129d8602db1")
+		)
+		(instances
+			(project "LeaderSOM"
+				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/97cc3b6d-03de-444a-9e7b-201a12c14f47"
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -16375,7 +17434,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "B3SL-1002P"
+		(property "P/N" "TL3365AF180QG"
 			(at 193.04 116.205 90)
 			(effects
 				(font
@@ -16384,7 +17443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "653-B3SL-1002P"
+		(property "Mouser Part Number" "612-TL3365AF180QG"
 			(at 193.04 116.205 0)
 			(effects
 				(font
@@ -16458,7 +17517,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 184.531 117.348 0)
 			(effects
 				(font
@@ -16494,7 +17553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "80-C0805C104M5R"
+		(property "Mouser Part Number" "MLASH168SB7104KTNA01"
 			(at 181.61 116.205 0)
 			(effects
 				(font
@@ -16884,7 +17943,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6442878-775b-4ba9-9aa6-5710e922e20c")
 		(property "Reference" "C36"
-			(at 78.74 182.245 0)
+			(at 78.74 181.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16892,8 +17951,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 78.74 184.785 0)
+		(property "Value" "0.1uF"
+			(at 78.74 184.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16928,7 +17987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "80-C0805C104M5R"
+		(property "Mouser Part Number" "MLASH168SB7104KTNA01"
 			(at 74.93 182.88 0)
 			(effects
 				(font

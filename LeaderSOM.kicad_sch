@@ -1234,9 +1234,9 @@
 		)
 		(uuid 060b3c6e-bf37-4692-8dd8-9486f44a6f9c)
 	)
-	(text "Changelog:\n- Changed MCU to STM32G473RET6\n- Changed most SOM connector pins slightly\n	- Replaced redunant GND/GNDA pins with more data pins\n	- Added extra functionality to some pins\n	- Added extra SPI, I2C, UART\n	- Removed I2C pullups\n- Change pp values to be 24V\n- Swap out power stuff to match PSOM\n	- 24v - 5v buck\n	- 5v power mux\n	- overvoltage/current values\n	- 5v - 3v LDO\n	- Connect IMON to MCU\n	- Recalculated math\n- Changed a couple circuits to look better\n- Replaced seven segment with addressable leds (easier, less space)\n- Updated ICs to KiCad-Sharepoint from UTSVIT-Kicadlibaries\n- Fixed/added symbols and footprints for several components\n- Removed extra general purpose button\n- Bootloader switch and OR gate\n"
+	(text "Changelog:\nRevA: \n- Changed MCU to STM32G473RET6\n- Changed most SOM connector pins slightly\n	- Replaced redunant GND/GNDA pins with more data pins\n	- Added extra functionality to some pins\n	- Added extra SPI, I2C, UART\n	- Removed I2C pullups\n- Change pp values to be 24V\n- Swap out power stuff to match PSOM\n	- 24v - 5v buck\n	- 5v power mux\n	- overvoltage/current values\n	- 5v - 3v LDO\n	- Connect IMON to MCU\n	- Recalculated math\n- Changed a couple circuits to look better\n- Replaced seven segment with addressable leds (easier, less space)\n- Updated ICs to KiCad-Sharepoint from UTSVIT-Kicadlibaries\n- Fixed/added symbols and footprints for several components\n- Removed extra general purpose button\n- Bootloader switch and OR gate\n\nRevB: \n- Added pullup to reset switch\n- Fixed Reset Buttom footprint\n- Added 5v usb and buck leds\n- Replaced RPP current monitoring with debug led\n- Some schematic and layout adjustments to make things better\n"
 		(exclude_from_sim no)
-		(at 15.24 149.225 0)
+		(at 14.605 113.665 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1609,7 +1609,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.022 91.821) (xy 62.357 91.821)
+			(xy 212.852 56.261) (xy 226.187 56.261)
 		)
 		(stroke
 			(width 0)
@@ -1759,7 +1759,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.022 88.646) (xy 62.357 88.646)
+			(xy 212.852 53.086) (xy 226.187 53.086)
 		)
 		(stroke
 			(width 0)
@@ -1869,7 +1869,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.022 127.254) (xy 62.357 127.254)
+			(xy 212.217 35.814) (xy 225.552 35.814)
 		)
 		(stroke
 			(width 0)
@@ -1919,7 +1919,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.022 94.996) (xy 62.357 94.996)
+			(xy 212.852 59.436) (xy 226.187 59.436)
 		)
 		(stroke
 			(width 0)
@@ -2179,7 +2179,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.022 124.079) (xy 62.357 124.079)
+			(xy 212.217 32.639) (xy 225.552 32.639)
 		)
 		(stroke
 			(width 0)
@@ -2199,7 +2199,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.022 98.806) (xy 62.357 98.806)
+			(xy 212.852 63.246) (xy 226.187 63.246)
 		)
 		(stroke
 			(width 0)
@@ -2369,7 +2369,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.022 112.141) (xy 64.897 112.141)
+			(xy 212.217 20.701) (xy 228.092 20.701)
 		)
 		(stroke
 			(width 0)
@@ -2949,7 +2949,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.022 85.471) (xy 62.357 85.471)
+			(xy 212.852 49.911) (xy 226.187 49.911)
 		)
 		(stroke
 			(width 0)
@@ -3148,7 +3148,7 @@
 		(uuid "1a2492bb-dfc3-448b-b0bb-439ffc16c735")
 	)
 	(label "SDC_DET"
-		(at 62.357 98.806 180)
+		(at 226.187 63.246 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3378,7 +3378,7 @@
 		(uuid "4e70f4d7-4599-4a60-a2a4-a9770d282813")
 	)
 	(label "SPI1_NSS"
-		(at 62.357 85.471 180)
+		(at 226.187 49.911 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3408,7 +3408,7 @@
 		(uuid "55f3d624-3b29-44e9-aaab-7a2331983fbf")
 	)
 	(label "IMON"
-		(at 62.357 127.254 180)
+		(at 225.552 35.814 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3458,7 +3458,7 @@
 		(uuid "688aa157-8c7a-4bda-a0c5-00206a7217d0")
 	)
 	(label "24V_Ext"
-		(at 62.357 124.079 180)
+		(at 225.552 32.639 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3538,7 +3538,7 @@
 		(uuid "7d433e59-eb1d-46c0-98ae-dc9ded872e65")
 	)
 	(label "SPI1_SCK"
-		(at 62.357 91.821 180)
+		(at 226.187 56.261 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3658,7 +3658,7 @@
 		(uuid "a85bacf5-b65c-4e57-98bb-09fb34b299d0")
 	)
 	(label "SPI1_MISO"
-		(at 62.357 88.646 180)
+		(at 226.187 53.086 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3778,7 +3778,7 @@
 		(uuid "d0da044b-0592-4f04-91b2-7b6142dd57f7")
 	)
 	(label "AddressableLED"
-		(at 64.897 112.141 180)
+		(at 228.092 20.701 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3828,7 +3828,7 @@
 		(uuid "dffcb5f4-9209-4772-a5f6-763a70094ca1")
 	)
 	(label "SPI1_MOSI"
-		(at 62.357 94.996 180)
+		(at 226.187 59.436 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4344,9 +4344,9 @@
 		(at 235.585 175.895 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6ec09e2f-dabe-4680-a463-b767f57182b1")
 		(property "Reference" "H2"
@@ -4440,9 +4440,9 @@
 		(at 180.975 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7dc16a77-1e85-4265-9265-35ec72a672f5")
 		(property "Reference" "LOGO1"
@@ -4554,9 +4554,9 @@
 		(at 247.015 175.895 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8a580796-6412-4bfc-84e2-8404ba90ad66")
 		(property "Reference" "H4"
@@ -4650,9 +4650,9 @@
 		(at 247.015 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ac401553-f9d4-4dcc-837b-d00dca7689e5")
 		(property "Reference" "H3"
@@ -5029,9 +5029,9 @@
 		(at 235.585 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ca5556ca-9dac-4172-bcc4-1c2b3743d188")
 		(property "Reference" "H1"
@@ -5191,9 +5191,9 @@
 		(at 200.66 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ee750f13-4df8-4850-b023-650474054cd5")
 		(property "Reference" "LOGO2"
@@ -5366,7 +5366,7 @@
 		)
 	)
 	(sheet
-		(at 15.367 122.174)
+		(at 178.562 30.734)
 		(size 33.655 7.9166)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5382,7 +5382,7 @@
 		)
 		(uuid "07cef2e6-f2f4-4f04-bcaf-7b98b53ab0fe")
 		(property "Sheetname" "Power_Distribution"
-			(at 15.367 121.4624 0)
+			(at 178.562 30.0224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5391,7 +5391,7 @@
 			)
 		)
 		(property "Sheetfile" "Power_Distribution.kicad_sch"
-			(at 15.367 130.6752 0)
+			(at 178.562 39.2352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5400,7 +5400,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 28.448 135.763 0)
+			(at 191.643 44.323 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5409,7 +5409,7 @@
 			)
 		)
 		(pin "IMON_OUT" output
-			(at 49.022 127.254 0)
+			(at 212.217 35.814 0)
 			(uuid "3812b8ed-d245-41b7-b6fa-9b7179e9b1a2")
 			(effects
 				(font
@@ -5419,7 +5419,7 @@
 			)
 		)
 		(pin "24V_In" input
-			(at 49.022 124.079 0)
+			(at 212.217 32.639 0)
 			(uuid "30dbf676-8d3a-49bd-9af2-5ce2d127977a")
 			(effects
 				(font
@@ -5528,7 +5528,7 @@
 		)
 	)
 	(sheet
-		(at 15.367 109.601)
+		(at 178.562 18.161)
 		(size 33.655 5.207)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5544,7 +5544,7 @@
 		)
 		(uuid "4a7189ca-6f29-418f-88ee-cfefc930b205")
 		(property "Sheetname" "LEDS & Buttons"
-			(at 15.367 108.8894 0)
+			(at 178.562 17.4494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5553,7 +5553,7 @@
 			)
 		)
 		(property "Sheetfile" "MISC.kicad_sch"
-			(at 15.367 115.3926 0)
+			(at 178.562 23.9526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5562,7 +5562,7 @@
 			)
 		)
 		(pin "AddressableLED" input
-			(at 49.022 112.141 0)
+			(at 212.217 20.701 0)
 			(uuid "344ef5c2-d218-47c5-bc69-b29dc0366707")
 			(effects
 				(font
@@ -5580,7 +5580,7 @@
 		)
 	)
 	(sheet
-		(at 15.367 82.931)
+		(at 179.197 47.371)
 		(size 33.655 18.415)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5596,7 +5596,7 @@
 		)
 		(uuid "54eecd34-7b2b-4895-a003-33708e7ad7e6")
 		(property "Sheetname" "SDCard"
-			(at 15.367 82.2194 0)
+			(at 179.197 46.6594 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5605,7 +5605,7 @@
 			)
 		)
 		(property "Sheetfile" "SDCard.kicad_sch"
-			(at 15.367 101.9306 0)
+			(at 179.197 66.3706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5614,7 +5614,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 23.622 115.316 0)
+			(at 187.452 79.756 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5623,7 +5623,7 @@
 			)
 		)
 		(pin "SPI_CS" input
-			(at 49.022 85.471 0)
+			(at 212.852 49.911 0)
 			(uuid "9e2fded6-f6f6-4585-a018-b0a4ee1c4bf0")
 			(effects
 				(font
@@ -5633,7 +5633,7 @@
 			)
 		)
 		(pin "SPI_MISO" output
-			(at 49.022 88.646 0)
+			(at 212.852 53.086 0)
 			(uuid "77ef9f16-f734-4b45-adca-a7edb0bd2495")
 			(effects
 				(font
@@ -5643,7 +5643,7 @@
 			)
 		)
 		(pin "SPI_MOSI" input
-			(at 49.022 94.996 0)
+			(at 212.852 59.436 0)
 			(uuid "e0b3c022-19bb-43e0-9e5c-7de0496c6b27")
 			(effects
 				(font
@@ -5653,7 +5653,7 @@
 			)
 		)
 		(pin "SPI_CLK" input
-			(at 49.022 91.821 0)
+			(at 212.852 56.261 0)
 			(uuid "cecdfc71-fc9d-4f13-9e0b-a0a7e47a9f38")
 			(effects
 				(font
@@ -5663,7 +5663,7 @@
 			)
 		)
 		(pin "DET" output
-			(at 49.022 98.806 0)
+			(at 212.852 63.246 0)
 			(uuid "0efa05cf-b89f-40d9-bab9-10e9aff8d368")
 			(effects
 				(font

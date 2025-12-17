@@ -1193,6 +1193,14 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "WS2812-2020"
+			(at 102.235 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "2a798976-2df4-4580-99d5-8415292aeac8")
 		)
@@ -1290,7 +1298,7 @@
 		(fields_autoplaced yes)
 		(uuid "23be439d-2e27-4f4f-9617-03427367aa48")
 		(property "Reference" "C28"
-			(at 151.765 24.765 0)
+			(at 152.4 22.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1298,8 +1306,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 151.765 27.305 0)
+		(property "Value" "0.1uF"
+			(at 152.4 25.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1421,6 +1429,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser Part Number" "MLASH168SB7104KTNA01"
+			(at 152.4 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -1703,6 +1720,14 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "WS2812-2020"
+			(at 121.285 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "8c9cc037-3bbc-45c2-b0b3-f1740aab5774")
 		)
@@ -1858,6 +1883,14 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "WS2812-2020"
+			(at 179.07 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "e654194c-e81d-46fe-8eab-854e8e0d9d4c")
 		)
@@ -2006,6 +2039,14 @@
 			)
 		)
 		(property "Vf" ""
+			(at 44.45 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "WS2812-2020"
 			(at 44.45 39.37 0)
 			(effects
 				(font
@@ -2233,6 +2274,14 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "WS2812-2020"
+			(at 82.55 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "ac84e594-76ab-49cc-bfe8-5dc3b796707b")
 		)
@@ -2388,6 +2437,14 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "WS2812-2020"
+			(at 140.335 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "e1f5a5d9-e5ca-45d3-86b6-3ce0249b2a16")
 		)
@@ -2420,7 +2477,7 @@
 		(fields_autoplaced yes)
 		(uuid "7738bafe-0ff3-415e-9654-bea6e40f758c")
 		(property "Reference" "C26"
-			(at 113.665 25.4 0)
+			(at 114.3 23.4949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2428,8 +2485,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 113.665 27.94 0)
+		(property "Value" "0.1uF"
+			(at 114.3 26.0349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2551,6 +2608,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser Part Number" "MLASH168SB7104KTNA01"
+			(at 114.3 28.5749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -2776,7 +2842,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b41c9ff-9bc4-4603-9df3-83c10a9fd479")
 		(property "Reference" "C25"
-			(at 93.98 24.765 0)
+			(at 93.98 22.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2784,8 +2850,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 93.98 27.305 0)
+		(property "Value" "0.1uF"
+			(at 93.98 25.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2907,6 +2973,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser Part Number" "MLASH168SB7104KTNA01"
+			(at 93.98 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -3067,7 +3142,7 @@
 		(fields_autoplaced yes)
 		(uuid "abe86e6e-b3f2-4f72-b500-89d634f3e965")
 		(property "Reference" "C29"
-			(at 170.815 24.765 0)
+			(at 171.45 22.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3075,8 +3150,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 170.815 27.305 0)
+		(property "Value" "0.1uF"
+			(at 171.45 25.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3198,6 +3273,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser Part Number" "MLASH168SB7104KTNA01"
+			(at 171.45 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -3349,6 +3433,14 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "WS2812-2020"
+			(at 63.5 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "c51effa9-3706-4243-ac64-9deb35286201")
 		)
@@ -3447,7 +3539,7 @@
 		(fields_autoplaced yes)
 		(uuid "c66a9bbf-cdbe-4cf7-a752-546503ac48ab")
 		(property "Reference" "C27"
-			(at 132.715 24.765 0)
+			(at 133.35 22.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3455,8 +3547,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 132.715 27.305 0)
+		(property "Value" "0.1uF"
+			(at 133.35 25.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3580,6 +3672,15 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "MLASH168SB7104KTNA01"
+			(at 133.35 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(pin "1"
 			(uuid "ddf15bc8-cadf-490e-a533-8505c9360796")
 		)
@@ -3606,7 +3707,7 @@
 		(fields_autoplaced yes)
 		(uuid "c70d5668-3e3b-441a-a748-da9c8a0050ca")
 		(property "Reference" "C30"
-			(at 190.5 25.4 0)
+			(at 190.5 23.4949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3614,8 +3715,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 190.5 27.94 0)
+		(property "Value" "0.1uF"
+			(at 190.5 26.0349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3737,6 +3838,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser Part Number" "MLASH168SB7104KTNA01"
+			(at 190.5 28.5749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -3962,7 +4072,7 @@
 		(fields_autoplaced yes)
 		(uuid "df8e3015-4444-47d8-9d1e-cc03995a7f5f")
 		(property "Reference" "C24"
-			(at 74.93 24.765 0)
+			(at 74.93 22.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3970,8 +4080,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 74.93 27.305 0)
+		(property "Value" "0.1uF"
+			(at 74.93 25.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4093,6 +4203,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser Part Number" "MLASH168SB7104KTNA01"
+			(at 74.93 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -4244,6 +4363,14 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "WS2812-2020"
+			(at 159.385 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "24a5da9c-c660-48b0-b92b-067d4aaeb1ac")
 		)
@@ -4276,7 +4403,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3b32cdd-bf9a-4696-8588-7e5f806ff587")
 		(property "Reference" "C23"
-			(at 55.88 24.765 0)
+			(at 55.88 22.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4284,8 +4411,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 55.88 27.305 0)
+		(property "Value" "0.1uF"
+			(at 55.88 25.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4407,6 +4534,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser Part Number" "MLASH168SB7104KTNA01"
+			(at 55.88 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
