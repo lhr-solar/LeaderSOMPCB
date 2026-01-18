@@ -1220,7 +1220,7 @@
 		)
 	)
 	(bus_alias "USB"
-		(members "USART3_RX/ADC1_IN14/TIM2_CH4" "USART3_TX/OPAMP3_VINM/TIM2_CH3")
+		(members "USART3_TX/TIM8_CH1N" "USART3_RX/TIM8_CH2N")
 	)
 	(rectangle
 		(start 177.165 78.105)
@@ -1234,7 +1234,7 @@
 		)
 		(uuid 060b3c6e-bf37-4692-8dd8-9486f44a6f9c)
 	)
-	(text "Changelog:\nRevA: \n- Changed MCU to STM32G473RET6\n- Changed most SOM connector pins slightly\n	- Replaced redunant GND/GNDA pins with more data pins\n	- Added extra functionality to some pins\n	- Added extra SPI, I2C, UART\n	- Removed I2C pullups\n- Change pp values to be 24V\n- Swap out power stuff to match PSOM\n	- 24v - 5v buck\n	- 5v power mux\n	- overvoltage/current values\n	- 5v - 3v LDO\n	- Connect IMON to MCU\n	- Recalculated math\n- Changed a couple circuits to look better\n- Replaced seven segment with addressable leds (easier, less space)\n- Updated ICs to KiCad-Sharepoint from UTSVIT-Kicadlibaries\n- Fixed/added symbols and footprints for several components\n- Removed extra general purpose button\n- Bootloader switch and OR gate\n\nRevB: \n- Added pullup to reset switch\n- Fixed Reset Buttom footprint\n- Added 5v usb and buck leds\n- Replaced RPP current monitoring with debug led\n- Some schematic and layout adjustments to make things better\n"
+	(text "Changelog:\nRevA: \n- Changed MCU to STM32G473RET6\n- Changed most SOM connector pins slightly\n	- Replaced redunant GND/GNDA pins with more data pins\n	- Added extra functionality to some pins\n	- Added extra SPI, I2C, UART\n	- Removed I2C pullups\n- Change pp values to be 24V\n- Swap out power stuff to match PSOM\n	- 24v - 5v buck\n	- 5v power mux\n	- overvoltage/current values\n	- 5v - 3v LDO\n	- Connect IMON to MCU\n	- Recalculated math\n- Changed a couple circuits to look better\n- Replaced seven segment with addressable leds (easier, less space)\n- Updated ICs to KiCad-Sharepoint from UTSVIT-Kicadlibaries\n- Fixed/added symbols and footprints for several components\n- Removed extra general purpose button\n- Bootloader switch and OR gate\n\nRevB: \n- Added pullup to reset switch\n- Fixed Reset Buttom footprint\n- Added 5v usb and buck leds\n- Replaced RPP current monitoring with debug led\n- Some schematic and layout adjustments to make things better\n\nRevB.1:\n- Fixed bootloader USART3 pins from PB10/11 to PC10/11\n- removed IMON in schematic\n- Validated identification box"
 		(exclude_from_sim no)
 		(at 14.605 113.665 0)
 		(effects
@@ -1383,15 +1383,6 @@
 		(uuid "5ae392c2-dbc7-442a-ad39-6c3c663b0e6e")
 	)
 	(bus_entry
-		(at 114.3 114.935)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b254a0b-af70-46a2-948d-c42ce110679f")
-	)
-	(bus_entry
 		(at 125.222 100.584)
 		(size 2.54 2.54)
 		(stroke
@@ -1462,6 +1453,15 @@
 			(type default)
 		)
 		(uuid "7a55e821-70c5-4926-9fcc-ce52ded587ce")
+	)
+	(bus_entry
+		(at 109.22 114.935)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fb897d1-dd0b-4ce7-8196-28d62c35ef9b")
 	)
 	(bus_entry
 		(at 125.222 73.152)
@@ -1554,15 +1554,6 @@
 		(uuid "c7318aac-7d4d-4e65-8a82-bb3326255f9b")
 	)
 	(bus_entry
-		(at 109.22 114.935)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c81cf016-685f-4786-986d-d0e3eee1da84")
-	)
-	(bus_entry
 		(at 125.222 92.964)
 		(size 2.54 2.54)
 		(stroke
@@ -1597,6 +1588,15 @@
 			(type default)
 		)
 		(uuid "f03cc6b6-fe70-43d4-a9f8-ef49cec7c610")
+	)
+	(bus_entry
+		(at 113.03 114.935)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3a7a085-13a7-4457-bd47-ca25825d8a97")
 	)
 	(bus_entry
 		(at 125.222 98.044)
@@ -1707,16 +1707,6 @@
 		)
 		(uuid "0cff2aa9-a7e5-48a4-9b69-8c618647aeb0")
 	)
-	(wire
-		(pts
-			(xy 48.26 71.755) (xy 48.26 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1219c5be-aa3a-4525-88d2-a255dc6546c4")
-	)
 	(bus
 		(pts
 			(xy 125.222 55.626) (xy 125.222 58.166)
@@ -1776,16 +1766,6 @@
 			(type default)
 		)
 		(uuid "1dc1a002-baaf-41a4-8bef-de48ac303457")
-	)
-	(wire
-		(pts
-			(xy 116.84 117.475) (xy 116.84 153.035)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e340509-b06e-48e8-b28f-b45dc3da3a98")
 	)
 	(wire
 		(pts
@@ -1869,16 +1849,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.217 35.814) (xy 225.552 35.814)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38682cff-2736-48d9-8fe6-0a1575613f31")
-	)
-	(wire
-		(pts
 			(xy 48.641 28.956) (xy 61.976 28.956)
 		)
 		(stroke
@@ -1907,16 +1877,6 @@
 		)
 		(uuid "40b33299-e5ce-4080-8e8e-1f76e0a0c47c")
 	)
-	(bus
-		(pts
-			(xy 114.3 114.935) (xy 116.84 114.935)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "412da06b-2373-4cb9-a6fc-89e76affa50e")
-	)
 	(wire
 		(pts
 			(xy 212.852 59.436) (xy 226.187 59.436)
@@ -1936,6 +1896,16 @@
 			(type default)
 		)
 		(uuid "4814be2a-b520-4380-93e9-dc4ea98815b5")
+	)
+	(wire
+		(pts
+			(xy 115.57 117.475) (xy 115.57 140.335)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "491955c4-6dfe-4594-9ff7-bb1f72a2abee")
 	)
 	(wire
 		(pts
@@ -2279,7 +2249,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 68.58) (xy 48.895 68.58)
+			(xy 48.26 68.58) (xy 71.12 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2386,6 +2356,16 @@
 			(type default)
 		)
 		(uuid "874623d0-1341-44c8-91db-fb305f3089d7")
+	)
+	(bus
+		(pts
+			(xy 109.22 114.935) (xy 113.03 114.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89e8da10-d643-43ef-bf73-bcbafd760276")
 	)
 	(bus
 		(pts
@@ -2517,16 +2497,6 @@
 		)
 		(uuid "9bc69ec4-bd2c-430d-b695-8c8e942fd5a0")
 	)
-	(wire
-		(pts
-			(xy 111.76 117.475) (xy 111.76 153.035)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d1a22b9-4ee2-431b-8761-2b89f0bec3f0")
-	)
 	(bus
 		(pts
 			(xy 125.222 100.584) (xy 125.222 103.124)
@@ -2566,16 +2536,6 @@
 			(type default)
 		)
 		(uuid "a0915024-80bf-414d-9062-18f677f6443a")
-	)
-	(wire
-		(pts
-			(xy 86.36 110.49) (xy 74.93 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa26d1de-642f-472c-8f0d-cd36e5db4dd9")
 	)
 	(wire
 		(pts
@@ -2739,6 +2699,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 117.475) (xy 111.76 140.335)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b85c66a9-4599-48d3-889d-6830980c3e1e")
+	)
+	(wire
+		(pts
 			(xy 127.762 40.386) (xy 147.066 40.386)
 		)
 		(stroke
@@ -2849,7 +2819,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 71.755) (xy 48.895 71.755)
+			(xy 48.26 72.39) (xy 71.12 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2876,16 +2846,6 @@
 			(type default)
 		)
 		(uuid "d663a3e1-16f9-4eb7-a313-a7ec677b7f40")
-	)
-	(bus
-		(pts
-			(xy 109.22 114.935) (xy 114.3 114.935)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6f89777-7ea3-4eb3-913a-179f09ebf0b0")
 	)
 	(bus
 		(pts
@@ -3047,6 +3007,16 @@
 		)
 		(uuid "00807e2a-1df7-47e3-ac10-6b5ce0c02b9a")
 	)
+	(label "USART3_TX{slash}TIM8_CH1N"
+		(at 71.12 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "06843de5-0ad6-4b34-9705-d9075f94a9b9")
+	)
 	(label "ADC1_IN7{slash}TIM1_CH2{slash}COMP3_INP"
 		(at 275.59 139.7 180)
 		(effects
@@ -3076,6 +3046,16 @@
 			(justify right bottom)
 		)
 		(uuid "0b30bcaa-215b-4819-b2f8-e75647981e22")
+	)
+	(label "LPUART1_RX{slash}TIM2_CH3{slash}OPAMP3_VINM"
+		(at 163.83 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0c17ac7a-47b7-4517-8fd7-e5eda1b75322")
 	)
 	(label "SPI2_MOSI{slash}ADC2_IN15{slash}TIM1_CH3N"
 		(at 275.59 96.52 180)
@@ -3117,6 +3097,16 @@
 		)
 		(uuid "139b679f-179e-4bd0-87b2-6f8b7e028133")
 	)
+	(label "USART3_RX{slash}TIM8_CH2N"
+		(at 115.57 140.335 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1504f22c-def3-4b4f-aaad-e82f39666387")
+	)
 	(label "I2C3_SCL{slash}TIM3_CH3"
 		(at 182.88 104.14 0)
 		(effects
@@ -3126,16 +3116,6 @@
 			(justify left bottom)
 		)
 		(uuid "17bf266d-2aa9-4dfe-a976-074bad3c7193")
-	)
-	(label "UART4_TX{slash}TIM8_CH1N"
-		(at 275.59 147.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "18c21d1e-acc5-4b61-aa8d-4e4e846807a7")
 	)
 	(label "SPI2_MISO{slash}ADC1_IN5{slash}TIM1_CH2N"
 		(at 163.576 100.584 180)
@@ -3176,6 +3156,16 @@
 			(justify left bottom)
 		)
 		(uuid "1dc3200a-6fd5-4c5c-9d5b-437c90694bc6")
+	)
+	(label "USART3_TX{slash}TIM8_CH1N"
+		(at 111.76 140.335 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e244684-8530-404a-aa46-0b06a0fefc66")
 	)
 	(label "UART5_RX"
 		(at 163.83 124.46 180)
@@ -3247,16 +3237,6 @@
 		)
 		(uuid "2a6500d6-2d30-45b9-9b21-8ae60c3d94c4")
 	)
-	(label "USART3_RX{slash}ADC1_IN14{slash}TIM2_CH4"
-		(at 48.895 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2b342af6-eb9b-4eed-8265-9634a5cdc630")
-	)
 	(label "CarCAN_L"
 		(at 61.976 56.261 180)
 		(effects
@@ -3286,16 +3266,6 @@
 			(justify right bottom)
 		)
 		(uuid "3665c897-65f6-440b-beb2-6d5c039d9846")
-	)
-	(label "IMON"
-		(at 74.93 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "39b308da-679a-4ace-95f7-a1af7d7f2cd4")
 	)
 	(label "ADC2_IN12{slash}TIM5_CH1{slash}COMP4_INM"
 		(at 275.59 106.68 180)
@@ -3357,6 +3327,16 @@
 		)
 		(uuid "45e870f2-084e-413b-b4f2-dd2187767aa6")
 	)
+	(label "USART3_RX{slash}TIM8_CH2N"
+		(at 71.12 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "48d4b7b0-659a-4b46-9e32-1bfa0358739b")
+	)
 	(label "ADC1_IN3{slash}TIM2_CH3{slash}COMP2_INM"
 		(at 162.306 65.532 180)
 		(effects
@@ -3407,15 +3387,15 @@
 		)
 		(uuid "55f3d624-3b29-44e9-aaab-7a2331983fbf")
 	)
-	(label "IMON"
-		(at 225.552 35.814 180)
+	(label "LPUART1_TX{slash}ADC1_IN14{slash}TIM2_CH4"
+		(at 163.83 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "58896c7c-b787-4e08-8050-167defe152a8")
+		(uuid "563fbf8c-1bb0-468e-a938-7706f0eb44ff")
 	)
 	(label "SPI3_SCK{slash}TIM2_CH2{slash}USART2_TX"
 		(at 163.576 95.504 180)
@@ -3497,16 +3477,6 @@
 		)
 		(uuid "70b04375-a0ca-412c-802d-36ed452ed0ae")
 	)
-	(label "UART4_RX{slash}TIM8_CH2N"
-		(at 275.59 144.78 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "71b00837-5d76-4efb-925b-b48880660c93")
-	)
 	(label "24V_Ext"
 		(at 209.55 88.9 0)
 		(effects
@@ -3526,6 +3496,16 @@
 			(justify right bottom)
 		)
 		(uuid "776384f7-7a83-48b5-9089-56a698da9abf")
+	)
+	(label "LPUART1_RX{slash}TIM2_CH3{slash}OPAMP3_VINM"
+		(at 275.59 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7cfa11bc-9d37-41fb-8ab4-f08984d5aa5a")
 	)
 	(label "ADC2_IN12{slash}TIM5_CH1{slash}COMP4_INM"
 		(at 162.56 73.152 180)
@@ -3647,16 +3627,6 @@
 		)
 		(uuid "a7749887-3b65-4979-aadb-25a04f322c56")
 	)
-	(label "USART3_TX{slash}OPAMP3_VINM{slash}TIM2_CH3"
-		(at 48.895 71.755 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a85bacf5-b65c-4e57-98bb-09fb34b299d0")
-	)
 	(label "SPI1_MISO"
 		(at 226.187 53.086 180)
 		(effects
@@ -3687,16 +3657,6 @@
 		)
 		(uuid "acc272da-c317-4f69-9c0a-6957a0522fc3")
 	)
-	(label "UART4_TX{slash}TIM8_CH1N"
-		(at 163.83 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "af06404b-37c3-4f81-8930-cb4222e60832")
-	)
 	(label "ADC1_IN12{slash}TIM1_CH3N{slash}COMP1_INP"
 		(at 184.15 149.86 0)
 		(effects
@@ -3716,16 +3676,6 @@
 			(justify right bottom)
 		)
 		(uuid "be56d6c4-cea5-489b-aa2e-f417fcfedafa")
-	)
-	(label "UART4_RX{slash}TIM8_CH2N"
-		(at 163.83 114.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bf9d34d9-0333-469a-9cc9-4a1fe627a924")
 	)
 	(label "FDCAN1_TX"
 		(at 61.976 44.196 180)
@@ -3756,16 +3706,6 @@
 			(justify right bottom)
 		)
 		(uuid "cba1179b-c8b4-4f13-ba00-f22f14241c6c")
-	)
-	(label "USART3_TX{slash}OPAMP3_VINM{slash}TIM2_CH3"
-		(at 116.84 153.035 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d08d6344-35f3-49b4-877c-24062524f63e")
 	)
 	(label "SPI3_MOSI{slash}TIM3_CH2{slash}TIM17_CH1"
 		(at 275.59 132.08 180)
@@ -3837,6 +3777,16 @@
 		)
 		(uuid "e1ffeece-be0d-4262-a88b-e7a5820da578")
 	)
+	(label "LPUART1_TX{slash}ADC1_IN14{slash}TIM2_CH4"
+		(at 275.59 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e4aeec72-cd8f-45ff-95dc-3cca2dfa0c3a")
+	)
 	(label "SPI3_MOSI{slash}TIM3_CH2{slash}TIM17_CH1"
 		(at 163.576 90.424 180)
 		(effects
@@ -3876,16 +3826,6 @@
 			(justify right bottom)
 		)
 		(uuid "f291e1ba-974f-4c9c-9041-1676d2a4d2a4")
-	)
-	(label "USART3_RX{slash}ADC1_IN14{slash}TIM2_CH4"
-		(at 111.76 153.035 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f7fcd866-842e-4e4d-81d7-e23a53597d08")
 	)
 	(label "FDCAN3_TX"
 		(at 71.12 52.07 0)
@@ -5408,16 +5348,6 @@
 				(hide yes)
 			)
 		)
-		(pin "IMON_OUT" output
-			(at 212.217 35.814 0)
-			(uuid "3812b8ed-d245-41b7-b6fa-9b7179e9b1a2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "24V_In" input
 			(at 212.217 32.639 0)
 			(uuid "30dbf676-8d3a-49bd-9af2-5ce2d127977a")
@@ -5879,16 +5809,6 @@
 		(pin "AddressableLED" output
 			(at 86.36 107.188 180)
 			(uuid "692cf69a-2c82-4a9f-bc2b-0e7d73c547c5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "IMON" input
-			(at 86.36 110.49 180)
-			(uuid "2fa43015-8caa-4923-ae56-ac9d1a32b28b")
 			(effects
 				(font
 					(size 1.27 1.27)

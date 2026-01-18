@@ -3553,16 +3553,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.788 103.632) (xy 211.582 103.632)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb16ff1e-5f08-475f-8b65-bb606cebaa5f")
-	)
-	(wire
-		(pts
 			(xy 116.84 52.07) (xy 127 52.07)
 		)
 		(stroke
@@ -10818,17 +10808,6 @@
 		)
 		(uuid "c0ca07b7-b9a9-4603-b515-ad3d227c9b86")
 	)
-	(hierarchical_label "IMON_OUT"
-		(shape output)
-		(at 208.788 103.632 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0e0afe74-f03b-441e-adb6-8f29c36068ea")
-	)
 	(hierarchical_label "24V_In"
 		(shape input)
 		(at 208.28 88.138 180)
@@ -17428,16 +17407,6 @@
 		(pin "FAULT" output
 			(at 211.582 95.758 180)
 			(uuid "fcbbcecc-bead-4f50-97dd-930ac900272f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "IMON_OUT" output
-			(at 211.582 103.632 180)
-			(uuid "b0299f3b-d8a7-4319-986e-026b97089294")
 			(effects
 				(font
 					(size 1.27 1.27)
