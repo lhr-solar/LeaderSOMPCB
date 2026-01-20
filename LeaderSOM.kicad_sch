@@ -5,6 +5,113 @@
 	(uuid "192d0c36-944e-4927-949b-263b8c85a7ca")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -1234,7 +1341,7 @@
 		)
 		(uuid 060b3c6e-bf37-4692-8dd8-9486f44a6f9c)
 	)
-	(text "Changelog:\nRevA: \n- Changed MCU to STM32G473RET6\n- Changed most SOM connector pins slightly\n	- Replaced redunant GND/GNDA pins with more data pins\n	- Added extra functionality to some pins\n	- Added extra SPI, I2C, UART\n	- Removed I2C pullups\n- Change pp values to be 24V\n- Swap out power stuff to match PSOM\n	- 24v - 5v buck\n	- 5v power mux\n	- overvoltage/current values\n	- 5v - 3v LDO\n	- Connect IMON to MCU\n	- Recalculated math\n- Changed a couple circuits to look better\n- Replaced seven segment with addressable leds (easier, less space)\n- Updated ICs to KiCad-Sharepoint from UTSVIT-Kicadlibaries\n- Fixed/added symbols and footprints for several components\n- Removed extra general purpose button\n- Bootloader switch and OR gate\n\nRevB: \n- Added pullup to reset switch\n- Fixed Reset Buttom footprint\n- Added 5v usb and buck leds\n- Replaced RPP current monitoring with debug led\n- Some schematic and layout adjustments to make things better\n\nRevB.1:\n- Fixed bootloader USART3 pins from PB10/11 to PC10/11\n- removed IMON in schematic\n- Validated identification box"
+	(text "Changelog:\nRevA: \n- Changed MCU to STM32G473RET6\n- Changed most SOM connector pins slightly\n	- Replaced redunant GND/GNDA pins with more data pins\n	- Added extra functionality to some pins\n	- Added extra SPI, I2C, UART\n	- Removed I2C pullups\n- Change pp values to be 24V\n- Swap out power stuff to match PSOM\n	- 24v - 5v buck\n	- 5v power mux\n	- overvoltage/current values\n	- 5v - 3v LDO\n	- Connect IMON to MCU\n	- Recalculated math\n- Changed a couple circuits to look better\n- Replaced seven segment with addressable leds (easier, less space)\n- Updated ICs to KiCad-Sharepoint from UTSVIT-Kicadlibaries\n- Fixed/added symbols and footprints for several components\n- Removed extra general purpose button\n- Bootloader switch and OR gate\n\nRevB: \n- Added pullup to reset switch\n- Fixed Reset Buttom footprint\n- Added 5v usb and buck leds\n- Replaced RPP current monitoring with debug led\n- Some schematic and layout adjustments to make things better\n\nRevB.1:\n- Fixed bootloader USART3 pins from PB10/11 to PC10/11\n- removed IMON in schematic\n- Validated identification box\n- AddressableLED testpoint\n- Boot switch silkscreen"
 		(exclude_from_sim no)
 		(at 14.605 113.665 0)
 		(effects
@@ -2119,7 +2226,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.374 107.188) (xy 86.36 107.188)
+			(xy 71.12 107.315) (xy 86.36 107.315)
 		)
 		(stroke
 			(width 0)
@@ -3418,7 +3525,7 @@
 		(uuid "64defd98-4d58-4d9e-bac0-42305d9a02ab")
 	)
 	(label "AddressableLED"
-		(at 71.374 107.188 0)
+		(at 71.12 107.315 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5061,6 +5168,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 71.12 107.315 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d086b112-c82f-4990-84e3-5dfd734a511f")
+		(property "Reference" "TP1"
+			(at 73.66 109.3469 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TP_AddressableLED"
+			(at 73.66 111.8869 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 66.04 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 71.12 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c00ecfb-107a-48e5-bd2c-f252792e65d0")
+		)
+		(instances
+			(project ""
+				(path "/192d0c36-944e-4927-949b-263b8c85a7ca"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDA")
 		(at 279.4 142.24 0)
 		(mirror y)
@@ -5807,7 +5981,7 @@
 			)
 		)
 		(pin "AddressableLED" output
-			(at 86.36 107.188 180)
+			(at 86.36 107.315 180)
 			(uuid "692cf69a-2c82-4a9f-bc2b-0e7d73c547c5")
 			(effects
 				(font
