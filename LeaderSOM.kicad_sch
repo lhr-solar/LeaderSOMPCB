@@ -1327,7 +1327,7 @@
 		)
 	)
 	(bus_alias "USB"
-		(members "USART3_TX/TIM8_CH1N" "USART3_RX/TIM8_CH2N")
+		(members "USB_D+" "USB_D-")
 	)
 	(rectangle
 		(start 177.165 78.105)
@@ -1341,9 +1341,9 @@
 		)
 		(uuid 060b3c6e-bf37-4692-8dd8-9486f44a6f9c)
 	)
-	(text "Changelog:\nRevA: \n- Changed MCU to STM32G473RET6\n- Changed most SOM connector pins slightly\n	- Replaced redunant GND/GNDA pins with more data pins\n	- Added extra functionality to some pins\n	- Added extra SPI, I2C, UART\n	- Removed I2C pullups\n- Change pp values to be 24V\n- Swap out power stuff to match PSOM\n	- 24v - 5v buck\n	- 5v power mux\n	- overvoltage/current values\n	- 5v - 3v LDO\n	- Connect IMON to MCU\n	- Recalculated math\n- Changed a couple circuits to look better\n- Replaced seven segment with addressable leds (easier, less space)\n- Updated ICs to KiCad-Sharepoint from UTSVIT-Kicadlibaries\n- Fixed/added symbols and footprints for several components\n- Removed extra general purpose button\n- Bootloader switch and OR gate\n\nRevB: \n- Added pullup to reset switch\n- Fixed Reset Buttom footprint\n- Added 5v usb and buck leds\n- Replaced RPP current monitoring with debug led\n- Some schematic and layout adjustments to make things better\n\nRevB.1:\n- Fixed bootloader USART3 pins from PB10/11 to PC10/11\n- removed IMON in schematic\n- Validated identification box\n- AddressableLED testpoint\n- Boot switch silkscreen"
+	(text "Changelog:\nRevA: \n- Changed MCU to STM32G473RET6\n- Changed most SOM connector pins slightly\n	- Replaced redunant GND/GNDA pins with more data pins\n	- Added extra functionality to some pins\n	- Added extra SPI, I2C, UART\n	- Removed I2C pullups\n- Change pp values to be 24V\n- Swap out power stuff to match PSOM\n	- 24v - 5v buck\n	- 5v power mux\n	- overvoltage/current values\n	- 5v - 3v LDO\n	- Connect IMON to MCU\n	- Recalculated math\n- Changed a couple circuits to look better\n- Replaced seven segment with addressable leds (easier, less space)\n- Updated ICs to KiCad-Sharepoint from UTSVIT-Kicadlibaries\n- Fixed/added symbols and footprints for several components\n- Removed extra general purpose button\n- Bootloader switch and OR gate\n\nRevB: \n- Added pullup to reset switch\n- Fixed Reset Buttom footprint\n- Added 5v usb and buck leds\n- Replaced RPP current monitoring with debug led\n- Some schematic and layout adjustments to make things better\n\nRevB.1:\n- Fixed bootloader USART3 pins from PB10/11 to PC10/11\n- removed IMON in schematic\n- Validated identification box\n- AddressableLED testpoint\n- Boot switch silkscreen\n\nRevC:\n- Switched to stm32 usb peripheral \n- Changed board stackup to sig+power/gnd/gnd/sig+pwr\n- Moved USB connector and SD card to better position\n- Rerouted power distribution "
 		(exclude_from_sim no)
-		(at 14.605 113.665 0)
+		(at 13.97 109.474 0)
 		(effects
 			(font
 				(size 1.27 1.27)
