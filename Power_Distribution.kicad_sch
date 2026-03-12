@@ -2224,7 +2224,7 @@
 	)
 	(rectangle
 		(start 14.605 157.48)
-		(end 69.85 188.595)
+		(end 93.345 188.595)
 		(stroke
 			(width 0)
 			(type default)
@@ -2470,12 +2470,6 @@
 		(uuid "5d41d0d4-b143-4971-8902-4624b35625c9")
 	)
 	(junction
-		(at 59.69 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f6f4129-dbd5-4c26-91cf-4b6def2ca959")
-	)
-	(junction
 		(at 148.59 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2486,6 +2480,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "724e2092-7e85-41a6-8028-ace2ffd2cf4a")
+	)
+	(junction
+		(at 71.12 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87a98de1-80ca-4d81-80b1-20153af5b4ab")
 	)
 	(junction
 		(at 148.59 57.15)
@@ -2506,10 +2506,16 @@
 		(uuid "a1f12b2b-29e5-484e-841f-b2f973fa0e3c")
 	)
 	(junction
-		(at 54.61 170.18)
+		(at 59.69 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "aaf683f8-2ed2-4436-a04c-ace132bb45e7")
+		(uuid "a59691b8-5d03-4053-bab9-f48eb570e6b1")
+	)
+	(junction
+		(at 67.31 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb682559-1516-4fbd-adca-d5ed283950d0")
 	)
 	(junction
 		(at 171.45 57.15)
@@ -3153,6 +3159,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 170.18) (xy 71.12 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dde38fd-3bde-4718-b6fd-bdc2ec035a04")
+	)
+	(wire
+		(pts
 			(xy 220.98 46.99) (xy 220.98 52.07)
 		)
 		(stroke
@@ -3190,16 +3206,6 @@
 			(type default)
 		)
 		(uuid "a45f325e-1fbf-4e49-be50-f8a62fc5d5e8")
-	)
-	(wire
-		(pts
-			(xy 54.61 170.18) (xy 59.69 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a55e71e4-4268-48a0-82e3-057f1cc1af43")
 	)
 	(wire
 		(pts
@@ -3303,7 +3309,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 170.18) (xy 49.53 170.18)
+			(xy 49.53 170.18) (xy 59.69 170.18)
 		)
 		(stroke
 			(width 0)
@@ -11017,7 +11023,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 59.69 170.18 270)
+		(at 71.12 170.18 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11025,7 +11031,7 @@
 		(dnp no)
 		(uuid "0951af4b-a0b9-4db4-8567-5513f4eb523b")
 		(property "Reference" "#FLG02"
-			(at 61.595 170.18 0)
+			(at 73.025 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11034,7 +11040,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 62.865 170.18 0)
+			(at 74.295 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11043,7 +11049,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 170.18 0)
+			(at 71.12 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11052,7 +11058,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 170.18 0)
+			(at 71.12 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11061,7 +11067,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 59.69 170.18 0)
+			(at 71.12 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13402,7 +13408,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 54.61 170.18 0)
+		(at 67.31 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -13410,7 +13416,7 @@
 		(dnp no)
 		(uuid "5f10b56c-7496-424f-a7ed-4cbbd3fc3660")
 		(property "Reference" "3.3V1"
-			(at 56.134 161.036 90)
+			(at 68.834 161.036 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13418,7 +13424,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 53.594 161.036 90)
+			(at 66.294 161.036 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13426,7 +13432,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 59.69 170.18 0)
+			(at 72.39 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13435,7 +13441,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 170.18 0)
+			(at 72.39 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13444,7 +13450,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 54.61 170.18 0)
+			(at 67.31 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13453,7 +13459,7 @@
 			)
 		)
 		(property "Color" ""
-			(at 54.61 170.18 0)
+			(at 67.31 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13461,7 +13467,7 @@
 			)
 		)
 		(property "If" ""
-			(at 54.61 170.18 0)
+			(at 67.31 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13469,7 +13475,7 @@
 			)
 		)
 		(property "Mfg" ""
-			(at 54.61 170.18 0)
+			(at 67.31 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13477,7 +13483,7 @@
 			)
 		)
 		(property "Vf" ""
-			(at 54.61 170.18 0)
+			(at 67.31 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14289,6 +14295,141 @@
 			(project "LeaderSOM"
 				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/07cef2e6-f2f4-4f04-bcaf-7b98b53ab0fe"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 63.5 170.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72e8ccca-2883-4d5f-a377-cd6104880f61")
+		(property "Reference" "D18"
+			(at 60.96 164.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 60.96 167.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 63.5 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 63.5 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "BAT760-7"
+			(at 63.5 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 63.5 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inventory" ""
+			(at 63.5 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
+			(at 63.5 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "If" ""
+			(at 63.5 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg" ""
+			(at 63.5 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vf" ""
+			(at 63.5 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "1N5819HW-7-F"
+			(at 63.5 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "34a5534e-5252-4482-bcfb-55247c28341c")
+		)
+		(pin "1"
+			(uuid "be80c5bc-5503-411b-a792-365ab5be7f9b")
+		)
+		(instances
+			(project "LeaderSOM"
+				(path "/192d0c36-944e-4927-949b-263b8c85a7ca/07cef2e6-f2f4-4f04-bcaf-7b98b53ab0fe"
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -16196,7 +16337,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 59.69 170.18 0)
+		(at 71.12 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16204,7 +16345,7 @@
 		(dnp no)
 		(uuid "cdf3752b-09ef-4aa6-a53f-f12412b1b757")
 		(property "Reference" "#PWR052"
-			(at 59.69 173.99 0)
+			(at 71.12 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16213,7 +16354,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 60.071 165.7858 0)
+			(at 71.501 165.7858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16221,7 +16362,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 170.18 0)
+			(at 71.12 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16230,7 +16371,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 170.18 0)
+			(at 71.12 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16239,7 +16380,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 59.69 170.18 0)
+			(at 71.12 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16490,6 +16631,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17104,6 +17246,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
